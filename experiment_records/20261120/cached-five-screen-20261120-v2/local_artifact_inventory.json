@@ -1,0 +1,577 @@
+[
+  {
+    "path": "cached_inventory.json",
+    "bytes": 5287,
+    "sha256": "17b3cd02e5fa6af891852c65408fa71a422951df483f615cdbc869b25289f3a1"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/environment.py",
+    "bytes": 4860,
+    "sha256": "48326927c97ab2024b8aa97073fbb12fd4e75949132a245828146816b4cb1224"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/grader.py",
+    "bytes": 3587,
+    "sha256": "7c1476c18bd1e53b1f56c631e63b1e6c74e2e4e6445be3c6560791d4e389c719"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/run.py",
+    "bytes": 29104,
+    "sha256": "357195c3c46cb7b0ad47cef94f97ad4e2117a0178c99d3ad4a3ba294d96b5029"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/__init__.py",
+    "bytes": 79,
+    "sha256": "bb41a5fa53d4b41b8b1ee7d60d3ddc524a83cab4cf1eeb869aaa08306a0246f5"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/agent.py",
+    "bytes": 5081,
+    "sha256": "ca46dbcf580abd7d9e136bb24f24d55d6f7fa1248be311467e465482675691b1"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/model.py",
+    "bytes": 5383,
+    "sha256": "ea18ea64209a79d4ab3e8e3c431c8d80efc35dc112615b80ae8a3feaa181bc77"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/protocol.py",
+    "bytes": 501,
+    "sha256": "6d07b4fed51d75d2f954ca61cb5d3595a5ff2a4975b80a8e1d816ae40178ab65"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/reporter.py",
+    "bytes": 3852,
+    "sha256": "7b491f961c3512a929953ec3fa8e6a8a5f9d2ac4b3b1a699f4cafa572feafc8c"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/run.py",
+    "bytes": 13529,
+    "sha256": "a2573ad276e82616b5ac6dfee863eb1919f773633f10acf0ce8ea53c359be58a"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/runtime.py",
+    "bytes": 5018,
+    "sha256": "1e0e1d5968b1b0187e8adc5cdff612cde9b453d4b64bd082ffcc889244941266"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/answer_check.py",
+    "bytes": 14898,
+    "sha256": "7d74d8f6fd5d3e9c82a2dfd4e37c6ff15a61981d62e792a682803a415a7ddb8a"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/clarification_evidence.py",
+    "bytes": 937,
+    "sha256": "d12e434e996cd0fc6f958050ea059e1db1d67232bc0b826e1fa258dec3121e40"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/controlled_proxy.py",
+    "bytes": 12049,
+    "sha256": "001a3fec4e728ad0398703eef5b04b74092c77911c4de3df2113aa4d748d370c"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/reference_history.py",
+    "bytes": 6915,
+    "sha256": "37aea6a17ae1788a7f10ad22ca5bdbbd36e1ceeaee1cd59080a14c12b4b4bdf5"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/simple_clarification.py",
+    "bytes": 6799,
+    "sha256": "6ea01eb9c442e56840aa68db501cb13caff842c2a1c96c0455fa37dce2fc0865"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/simple_followup.py",
+    "bytes": 20338,
+    "sha256": "2cfbc47b14ce070fe1f8d6f3e35d1059f715756f0d03b746bc6c0a43b0522617"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/source_grounded_proxy.py",
+    "bytes": 8691,
+    "sha256": "8621eb503d623b5fbe1c98ff620db95a1dc5c2d07e8ee2e256b4e0c59642601b"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/__init__.py",
+    "bytes": 2371,
+    "sha256": "0a708308b1b62cc020b60799c3d54f665845f795b3f0c4fdac787c96a38d12c7"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/__main__.py",
+    "bytes": 194,
+    "sha256": "148c803a2c3ef9cdc5436836e3414e33515d2f4964fcfc52a62c6ed2943b585a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/__init__.py",
+    "bytes": 980,
+    "sha256": "f95a9f4d1dcc08a05ba6263c5da562b3a7e9e3ae07734f2b9f0d83153c8d0cab"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/default.py",
+    "bytes": 8043,
+    "sha256": "e8ef8aa365942d739c2ec5cb0879f60f377d2dc2de8ec670aaedf3bafb45a4c2"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/interactive.py",
+    "bytes": 10352,
+    "sha256": "d68236832ce2a8c65340fdfd4cdb6df2a24818691112f83bc229197203521cce"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/utils/prompt_user.py",
+    "bytes": 752,
+    "sha256": "4fc4ca772db13067ebad7fdce8b3ec0ab229e1b3e764f3abd4412522b73cab3e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/config/__init__.py",
+    "bytes": 2002,
+    "sha256": "ec19d21c65d1d720e80847e85a4d2752b6f5be30b1bfc9f0f1f97d342f20ba94"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/config/benchmarks/__init__.py",
+    "bytes": 52,
+    "sha256": "7b53280250e7ff073d1e75cda2771fd4ff81e0343e8917fa9fb43fb718d91912"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/__init__.py",
+    "bytes": 1434,
+    "sha256": "7a02c4576d3e95ca21f243919e5bc5b94d183df35b24d778c0b35b776c3a426b"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/docker.py",
+    "bytes": 6427,
+    "sha256": "21d389122b008e7b743d1e640207fda0b08d9010cf6323ddd02f0742b33b96a6"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/bubblewrap.py",
+    "bytes": 5235,
+    "sha256": "9aceddac6efdce92926f0de8b13f974c66c58544bc87facba7d61878df4a44c0"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/contree.py",
+    "bytes": 5786,
+    "sha256": "88ddea919f18c2e0ea85dd8a3b2483836098afd668b6bdd7fe518675bcfb6ff7"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/swerex_docker.py",
+    "bytes": 3198,
+    "sha256": "2f200454247aaf299d851d6db02869fee88e1254c0b4f1e79f2c2a899b659fd8"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/swerex_modal.py",
+    "bytes": 5037,
+    "sha256": "34155d79bb72648eaf765116d03255e697fc9546164f69d842bc5e759878a3de"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/local.py",
+    "bytes": 3617,
+    "sha256": "01dd33ae6be897458611911cc0eee1389092ea9fc6788c7eb24773e7c6342b1c"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/singularity.py",
+    "bytes": 5545,
+    "sha256": "5d75c3977c4ebe728778f25bc231f5876d857c837c30fd42845a64b48e10ac68"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/exceptions.py",
+    "bytes": 729,
+    "sha256": "0590393c56bee873c79a691dcb4f15cb39c85f1658598b84bfb295bfde56921d"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/__init__.py",
+    "bytes": 4466,
+    "sha256": "eb141eae346d51af407b4faf868ad7e869fa4fff275415381fa8ef845616f351"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/extra/roulette.py",
+    "bytes": 2147,
+    "sha256": "74aa8c1b4389097031944382b7461457875902eb98c8aa761060a07d8fb2e09f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_model.py",
+    "bytes": 7661,
+    "sha256": "6df4483bcdc9620b2f9d7f8bb1027a7fb9729b739976cbcf1a9d18fb58c48227"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_response_model.py",
+    "bytes": 4100,
+    "sha256": "968de298d508b0de58f52548472e47135efff3891ddda157a9740e7571a6e8c8"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_textbased_model.py",
+    "bytes": 2114,
+    "sha256": "395bc9bc4a06c18577e73b21c5465f9d22a6d0cc45b006f3d7c9fdaae399e732"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_model.py",
+    "bytes": 7802,
+    "sha256": "6f217e91d04da906ea8e8a156f710e19ddbcf5ab6397b329a2abb66a95a80313"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_response_model.py",
+    "bytes": 5300,
+    "sha256": "19284d9f6ba6ec95b60cc0e91f06be3ff6e1976e204633f533076db0c1e499dd"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_textbased_model.py",
+    "bytes": 3218,
+    "sha256": "61944531db221e4d668b245d1ccfec022110906fd732397a49f9d3b01e510573"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/portkey_model.py",
+    "bytes": 10227,
+    "sha256": "d5e2bb009791e0d00745d95cb142d090531f28bda6e3782b8ba94d2ac1b2f528"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/portkey_response_model.py",
+    "bytes": 7460,
+    "sha256": "b491e7dd2db134667e2733be944b0b2edfcd928b02edb53db9ee1c4922e64b89"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/requesty_model.py",
+    "bytes": 7208,
+    "sha256": "b8b52e125b0cc75ec144b40e3ca4d996f469aca5acedaa3ed41446dede171063"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/test_models.py",
+    "bytes": 10728,
+    "sha256": "44330685739f47e554b90fa73ccf019bc2e2b80e4c287c025f63ea4f5263b23e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_text.py",
+    "bytes": 2629,
+    "sha256": "e5997bba3ae3d541ff418317cc8dd9e9e17657de806679ef38ab1ad74e294047"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_toolcall.py",
+    "bytes": 4134,
+    "sha256": "47b666412e4f838508b50009cf34c7f63fe15e9e40affc257a17c0829896526f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_toolcall_response.py",
+    "bytes": 5568,
+    "sha256": "36244c4383dde6059742eb1f99fe96b2a91f214f558ece463f81baef96018bcf"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/anthropic_utils.py",
+    "bytes": 1189,
+    "sha256": "1355c546d7d217502f4aeb5ba87513f55720f8d4d2c1247b8fc5d793078d170e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/cache_control.py",
+    "bytes": 2365,
+    "sha256": "edbb8952195d1d9dbef45ed7cad910a50b1cdec08175de74dbffc9414f3da5ba"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/content_string.py",
+    "bytes": 3567,
+    "sha256": "17ea19b28a2298abaeb51d70f2dcc94e62098a758ecb2dcb98f27f546cd87fc3"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/openai_multimodal.py",
+    "bytes": 1865,
+    "sha256": "c498ec2e97c0bf45c212a10de9f5d1b2d24d4de46a05fd0eaea975c1abe3f81f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/retry.py",
+    "bytes": 860,
+    "sha256": "fb9dd9d9ca0253a2b2ac86907fea4c34fe75c55af6d443781e1ab02229a1ac18"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/__init__.py",
+    "bytes": 38,
+    "sha256": "588a18807565ee2645d989dcadf57722db6ea46e8fe4aa20ae82872840a46b70"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/__init__.py",
+    "bytes": 66,
+    "sha256": "c7b08a7fc761427203f3bacfdffd4a7ee0d19e62c8d869cdab71744962ef90ac"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/programbench.py",
+    "bytes": 8704,
+    "sha256": "25c67a662a665781d60193a2cb441f13ec5a25d6530a4fd087b4e6f68b9be374"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/swebench.py",
+    "bytes": 12167,
+    "sha256": "4bc6cfc0a388ba14b8c9cd7278f15efaef654f7f79b3b252208f8fdb11a0fc99"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/swebench_single.py",
+    "bytes": 4680,
+    "sha256": "52bac3804b388aee49dc8b29c03c16a92a2d2fce321fa55622ff3bd993936296"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/batch_progress.py",
+    "bytes": 6808,
+    "sha256": "b1928297576b6d9f4f75b38397e29a0d93851e9c66ebf267a03ce4d2051a5287"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/common.py",
+    "bytes": 739,
+    "sha256": "618776d688f11018827ea8eb48ab20839d2d0ec182b4bd844a08af48937df398"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/hello_world.py",
+    "bytes": 1157,
+    "sha256": "e1d2b259e5716167e3066ce406d91e51d67b432dd49d47342e1306d25f5cf2f6"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/mini.py",
+    "bytes": 4895,
+    "sha256": "ae9c82013afbc8e0320dc1e55600eed9d9ee6dec5acbc59763ff984a0594f9a9"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/__init__.py",
+    "bytes": 79,
+    "sha256": "4fb745f3835e4282a02703d444dcb7178082af189c8beec0c068b257466c0e5a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/config.py",
+    "bytes": 4248,
+    "sha256": "c9a6955ca3f6de180ddc4bc5a54d7c7d49e96d996c9b80e2d146630230aaf954"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/inspector.py",
+    "bytes": 11617,
+    "sha256": "5a9deb60c7462ade44c6b364af0aca4fd4b9b394f117247592c70dde7b706a1a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/mini_extra.py",
+    "bytes": 1700,
+    "sha256": "52ac1ef811c1fb23a0ee0e3cf0a093c99ca8cbe2c31345e18c8762451508da59"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/log.py",
+    "bytes": 996,
+    "sha256": "aee0cc34a32b542f4d3ef09e1f03b7418cf98ec54d506401d9d4401003c05a9f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/serialize.py",
+    "bytes": 938,
+    "sha256": "3035b27cfeffdf91117c72bc8131340bd9c5f67a3010baeb4ecd6b0c7406f462"
+  },
+  {
+    "path": "grader_preflight.json",
+    "bytes": 1842,
+    "sha256": "618960c5e99103f71487c82548c9f52b04ef58fe64914cc8d32d7a6aecb1ccbc"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/ideal.task.txt",
+    "bytes": 2485,
+    "sha256": "9909de5fb446a3cdc7061e77d54f56b0c6d85677f96608c017926e8cf3e02c02"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/original_issue.txt",
+    "bytes": 1246,
+    "sha256": "c01334ec1b21a089c650cf2e7b96ab974469076bf1260d23885799e1f0a7551f"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/partial.task.txt",
+    "bytes": 1604,
+    "sha256": "606cf60883833ad63cbd6bca95a7facf365b7101d1e241c486267ea236b8307b"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/spreadsheet_original_raw.txt",
+    "bytes": 1474,
+    "sha256": "be0f7e008314b3967a6477113060df0723bf270ca54e19b633605681234065a8"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/summary.txt",
+    "bytes": 443,
+    "sha256": "14e168a132df06ecd0c9484a81fd8c75476f00f95e59a887c23eadd4f8bf26bf"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/ideal.task.txt",
+    "bytes": 3900,
+    "sha256": "a1f84f78a82a43580906391d32c580787f450a42b7dfe08f7c700be59a0bb806"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/original_issue.txt",
+    "bytes": 2790,
+    "sha256": "a295c83e68ff62290947b0796b75659b94621b7f2340d6f0055512d04be3f1d1"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/partial.task.txt",
+    "bytes": 1182,
+    "sha256": "6be45b81fe65356027067823c09d3661e7f4395818dec1ef3d4c56ba5f4efe53"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/spreadsheet_original_raw.txt",
+    "bytes": 3204,
+    "sha256": "bc90b7bf5b01a1482fd78a63e408fa06b7f0d8d0e6ede54950008e4128f00631"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/summary.txt",
+    "bytes": 232,
+    "sha256": "f534b551adf32c0cd70d5bdc66d8c550380e4025796d70a5389bc8866e29f0da"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/ideal.task.txt",
+    "bytes": 3199,
+    "sha256": "e8a766d5047519cb4741058e3b162d78042fd4b0d5ab51167b45468b97c54de2"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/original_issue.txt",
+    "bytes": 2057,
+    "sha256": "1f01b57c4e17057a2427b8ed897618f91782d22e98804b706826ba936a3d5ec4"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/partial.task.txt",
+    "bytes": 1418,
+    "sha256": "cf86aa46e5f944f47be228bf75f139aeb634ec0afa9d88a5d121e490256a4d8b"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/spreadsheet_original_raw.txt",
+    "bytes": 2273,
+    "sha256": "c4f8f632e37d403e08449fc041bf08ed2e50c3fde3112f4c4bad9efd16722687"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/summary.txt",
+    "bytes": 350,
+    "sha256": "71575cccaf675c24bcc74605519e792f52cc1091571fe3b8d66b121a9f192ba5"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/ideal.task.txt",
+    "bytes": 6845,
+    "sha256": "959c773a6fbc8f8b5d45c539e12140c24743e13290f3981ca527362292414744"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/original_issue.txt",
+    "bytes": 5323,
+    "sha256": "c26c8dc258dc5cb9dd34f30bdbaaed3f19a8ada137e0f19d81d7f57dc5f11bba"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/partial.task.txt",
+    "bytes": 1974,
+    "sha256": "cb0f6dfe9ff9324662a93b44d77475b7b4edfeeb2c8d1378610aada210916976"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/spreadsheet_original_raw.txt",
+    "bytes": 5845,
+    "sha256": "5024fd1c556a3408e96076770a18f3599a48436490ac51f55096bee9f4cbbd68"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/summary.txt",
+    "bytes": 628,
+    "sha256": "1735b293f3cd111babff614f3a3f6c999a70be9096350302e424e0e6fcc3bcca"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/ideal.task.txt",
+    "bytes": 6275,
+    "sha256": "0ace0f9547c2cec6c2ebf03e5da2a009a36fccb8dd6bb959253ec19e433495ce"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/original_issue.txt",
+    "bytes": 4822,
+    "sha256": "70a48b6e4c77b5abc12b1e750bbb70110b7215d19c9ea3550f2b7261be84021d"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/partial.task.txt",
+    "bytes": 1692,
+    "sha256": "2a832f7e9c0ca2496aeeb1c8d0de206be7f76533e2595627dcad830fa413d968"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/spreadsheet_original_raw.txt",
+    "bytes": 5524,
+    "sha256": "d81fd47ea4bd3f75b67ff8dce3673964d3eb6021b33bc29a6017edb14b7a84f5"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/summary.txt",
+    "bytes": 487,
+    "sha256": "8495a2544f5fbffd36f0d382abfa2fa56065681a08d79c7386e52adaa2fceb22"
+  },
+  {
+    "path": "plan.json",
+    "bytes": 172850,
+    "sha256": "f49d8b5fb59d9e7ad463d60bdc7b3b813f9272e96d768c8f08fb4acfa4312e21"
+  },
+  {
+    "path": "preflight/astropy__astropy-12907/audit.json",
+    "bytes": 1438,
+    "sha256": "c7c7a2dcdb4eefa2b52bd6f0ac1a7669981545b59cdecdb4fd55662dc058d638"
+  },
+  {
+    "path": "preflight/astropy__astropy-12907/dependencies.txt",
+    "bytes": 577,
+    "sha256": "869873bf7eb377482d58e7fa4a352bed00c631a866127e718abc5ed5de05173c"
+  },
+  {
+    "path": "preflight/astropy__astropy-13033/audit.json",
+    "bytes": 1459,
+    "sha256": "f769e7645b25f0cb3e3bf532158f56621fb120e53056be146bc867ddb8ce581f"
+  },
+  {
+    "path": "preflight/astropy__astropy-13033/dependencies.txt",
+    "bytes": 577,
+    "sha256": "0d598bc2ed336f3591bd0f049a70a25ccc3832c8e5f8228cd2a98de0c49e4b7f"
+  },
+  {
+    "path": "preflight/astropy__astropy-13236/audit.json",
+    "bytes": 1447,
+    "sha256": "f6f9c459aebbd97f1170110adf814cb8ce55b70c5724c5987f2adbfd6c19cf74"
+  },
+  {
+    "path": "preflight/astropy__astropy-13236/dependencies.txt",
+    "bytes": 576,
+    "sha256": "54652940e79abe44a3dabac2329dea3cdaf7f968fe4149de79f8ebd0d8e8332c"
+  },
+  {
+    "path": "preflight/astropy__astropy-13398/audit.json",
+    "bytes": 1436,
+    "sha256": "94289ba343d45458b0ea5ed4726e1cdec256dfb88c0dcbdd729d9bb0e34c7e34"
+  },
+  {
+    "path": "preflight/astropy__astropy-13398/dependencies.txt",
+    "bytes": 577,
+    "sha256": "c702e183439384977f8bd41eaa2c1bbddeb0ea913245e43132b97556264fffe2"
+  },
+  {
+    "path": "preflight/astropy__astropy-13579/audit.json",
+    "bytes": 1429,
+    "sha256": "77e1508bed072595288dab6cea8dea6a5415d858ef587b6f2ea637f4ef0343b1"
+  },
+  {
+    "path": "preflight/astropy__astropy-13579/dependencies.txt",
+    "bytes": 577,
+    "sha256": "abe879fd7e24972a77de7a095e362a218d8a4f08b9cb7251bd777d69f2619931"
+  }
+]

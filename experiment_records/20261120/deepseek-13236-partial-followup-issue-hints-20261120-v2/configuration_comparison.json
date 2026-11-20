@@ -1,0 +1,13 @@
+{
+  "model_settings": true,
+  "mini_version": true,
+  "mini_commit": true,
+  "max_model_calls": true,
+  "max_tool_calls": true,
+  "command_timeout": true,
+  "protocol_revision": true,
+  "host_package_versions": true,
+  "initial_partial_byte_equal": true,
+  "hints_byte_equal_full": true,
+  "image_and_baseline_equal": true
+}

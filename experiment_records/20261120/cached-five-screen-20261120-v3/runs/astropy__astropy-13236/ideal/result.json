@@ -1,0 +1,77 @@
+{
+  "instance_id": "astropy__astropy-13236",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 20,
+  "agent_query_count": 20,
+  "clarification_model_calls": 0,
+  "all_model_calls": 20,
+  "tool_calls": 20,
+  "patch_bytes": 659,
+  "solver_elapsed_seconds": 109.19478389299184,
+  "total_elapsed_seconds": 113.56998498699977,
+  "first_production_change": {
+    "tool_call": 14,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\npath = Path('astropy/table/table.py')\ntext = path.read_text()\nold = '''        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n'''\nnew = '''        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            warnings.warn(\n                'Structured array will be added as a Column in a future '\n                'version. To silence this warning, wrap the data in a Column.',\n                FutureWarning,\n                stacklevel=2,\n            )\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n'''\nassert old in text\npath.write_text(text.replace(old, new))\nPY\npython - <<'PY'\nimport warnings\nimport numpy as np\nfrom astropy.table import Table, NdarrayMixin\n\narr = np.array([(1, 'a'), (2, 'b')], dtype=[('a', 'i4'), ('b', 'U1')])\nwith warnings.catch_warnings(record=True) as warns:\n    warnings.simplefilter('always')\n    t = Table([arr], names=['arr'])\nprint([(w.category.__name__, str(w.message), w.filename, w.lineno) for w in warns])\nassert len(warns) == 1\nassert warns[0].category is FutureWarning\nassert 'Structured array will be added as a Column' in str(warns[0].message)\nassert isinstance(t['arr'], NdarrayMixin)\nprint('warning and behavior verified')\nPY\npython -m pytest astropy/table/tests/test_mixin.py -k ndarray_mixin -q -W ignore::FutureWarning",
+    "elapsed_start_seconds": 48.44613689198741,
+    "result": {
+      "output": "[('FutureWarning', 'Structured array will be added as a Column in a future version. To silence this warning, wrap the data in a Column.', '/testbed/astropy/table/table.py', 1173)]\nwarning and behavior verified\nInternet access disabled\n.                                                                        [100%]\n1 passed, 192 deselected in 0.13s\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 1.2599747729982482,
+    "tracked_changes": [
+      "astropy/table/table.py"
+    ]
+  },
+  "finished_at": "2026-11-20T06:59:07.458894+00:00",
+  "solver_wire": {
+    "http_requests": 20,
+    "http_responses": 20,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 279607,
+      "completion_tokens": 11808,
+      "total_tokens": 291415,
+      "reasoning_tokens": 8657
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

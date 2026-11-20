@@ -1,0 +1,142 @@
+{
+  "model_settings": {
+    "model": "openai/deepseek-flash",
+    "base_url": "https://api.deepseek.com/v1",
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_input_tokens": 1000000,
+    "max_output_tokens": 16384,
+    "native_tool_calling": false,
+    "disable_vision": true,
+    "num_retries": 2,
+    "timeout": 180
+  },
+  "mini_version": "2.4.6",
+  "protocol": "native-v3-standard-stop-text-final",
+  "full_input_exact_existing_builder": true,
+  "model_feedback_from_grading": false,
+  "cases": [
+    {
+      "instance_id": "astropy__astropy-12907",
+      "full_resolved": true,
+      "previous_resolved": {
+        "partial": true,
+        "ideal": true
+      },
+      "tests": {
+        "FAIL_TO_PASS": {
+          "passed": 2,
+          "failed": 0
+        },
+        "PASS_TO_PASS": {
+          "passed": 13,
+          "failed": 0
+        }
+      },
+      "model_calls": 8,
+      "tool_calls": 8,
+      "tokens": 58404,
+      "solver_seconds": 29.47320153801411,
+      "patch_bytes": 500
+    },
+    {
+      "instance_id": "astropy__astropy-13033",
+      "full_resolved": false,
+      "previous_resolved": {
+        "partial": false,
+        "ideal": false
+      },
+      "tests": {
+        "FAIL_TO_PASS": {
+          "passed": 0,
+          "failed": 1
+        },
+        "PASS_TO_PASS": {
+          "passed": 19,
+          "failed": 1
+        }
+      },
+      "model_calls": 16,
+      "tool_calls": 16,
+      "tokens": 247566,
+      "solver_seconds": 71.28419021899754,
+      "patch_bytes": 1529
+    },
+    {
+      "instance_id": "astropy__astropy-13236",
+      "full_resolved": true,
+      "previous_resolved": {
+        "partial": false,
+        "ideal": false
+      },
+      "tests": {
+        "FAIL_TO_PASS": {
+          "passed": 2,
+          "failed": 0
+        },
+        "PASS_TO_PASS": {
+          "passed": 644,
+          "failed": 0
+        }
+      },
+      "model_calls": 19,
+      "tool_calls": 19,
+      "tokens": 333564,
+      "solver_seconds": 71.50036662099592,
+      "patch_bytes": 815
+    },
+    {
+      "instance_id": "astropy__astropy-13398",
+      "full_resolved": false,
+      "previous_resolved": {
+        "partial": false,
+        "ideal": false
+      },
+      "tests": {
+        "FAIL_TO_PASS": {
+          "passed": 0,
+          "failed": 4
+        },
+        "PASS_TO_PASS": {
+          "passed": 63,
+          "failed": 5
+        }
+      },
+      "model_calls": 79,
+      "tool_calls": 84,
+      "tokens": 5921285,
+      "solver_seconds": 565.8322525559925,
+      "patch_bytes": 8212
+    },
+    {
+      "instance_id": "astropy__astropy-13579",
+      "full_resolved": true,
+      "previous_resolved": {
+        "partial": true,
+        "ideal": true
+      },
+      "tests": {
+        "FAIL_TO_PASS": {
+          "passed": 1,
+          "failed": 0
+        },
+        "PASS_TO_PASS": {
+          "passed": 40,
+          "failed": 0
+        }
+      },
+      "model_calls": 19,
+      "tool_calls": 19,
+      "tokens": 463381,
+      "solver_seconds": 100.83438668900635,
+      "patch_bytes": 1474
+    }
+  ],
+  "resolved": 3,
+  "total_model_calls": 141,
+  "total_tool_calls": 146,
+  "total_tokens": 7024200,
+  "wall_seconds_including_grading": 935.830738,
+  "execution_faults": 0,
+  "comparison_caveat": "Full includes issue+hints and uses direct original builder; prior ideal had no hints and used QA wrapper/older protocol. Single run per condition."
+}

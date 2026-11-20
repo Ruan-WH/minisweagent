@@ -1,0 +1,73 @@
+{
+  "instance_id": "astropy__astropy-13033",
+  "condition": "full",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 16,
+  "agent_query_count": 16,
+  "clarification_model_calls": 0,
+  "all_model_calls": 16,
+  "tool_calls": 16,
+  "patch_bytes": 1529,
+  "solver_elapsed_seconds": 71.28419021899754,
+  "total_elapsed_seconds": 75.23180575299193,
+  "first_production_change": {
+    "tool_call": 9,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/timeseries/core.py')\ntext = p.read_text()\nold = '''            if not self._required_columns_relax and len(self.colnames) == 0:\n\n                raise ValueError(\"{} object is invalid - expected '{}' \"\n                                 \"as the first column{} but time series has no columns\"\n                                 .format(self.__class__.__name__, required_columns[0], plural))\n\n            elif self.colnames[:len(required_columns)] != required_columns:\n\n                raise ValueError(\"{} object is invalid - expected '{}' \"\n                                 \"as the first column{} but found '{}'\"\n                                 .format(self.__class__.__name__, required_columns[0], plural, self.colnames[0]))\n'''\nnew = '''            if not self._required_columns_relax and len(self.colnames) == 0:\n\n                raise ValueError(\"{} object is invalid - required {} \"\n                                 \"as the first column{} but time series has no columns\"\n                                 .format(self.__class__.__name__, required_columns, plural))\n\n            elif self.colnames[:len(required_columns)] != required_columns:\n\n                raise ValueError(\"{} object is invalid - required {} \"\n                                 \"as the first column{} but found {}\"\n                                 .format(self.__class__.__name__, required_columns, plural,\n                                         self.colnames[:len(required_columns)]))\n'''\nif old not in text:\n    raise SystemExit('target text not found')\np.write_text(text.replace(old, new))\nPY\npython - <<'PY'\nimport numpy as np\nfrom astropy.time import Time\nfrom astropy.timeseries import TimeSeries\n\ntime = Time(np.arange(100000, 100003), format='jd')\nts = TimeSeries(time=time, data={\"flux\": [99.9, 99.8, 99.7]})\nts._required_columns = [\"time\", \"flux\"]\ntry:\n    ts.remove_column(\"flux\")\nexcept Exception as exc:\n    print(type(exc).__name__ + ':', exc)\nPY",
+    "elapsed_start_seconds": 42.943573267999454,
+    "result": {
+      "output": "ValueError: TimeSeries object is invalid - required ['time', 'flux'] as the first columns but found ['time']\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.5665012360113906,
+    "tracked_changes": [
+      "astropy/timeseries/core.py"
+    ]
+  },
+  "finished_at": "2026-11-20T10:54:20.954677+00:00",
+  "solver_wire": {
+    "http_requests": 16,
+    "http_responses": 16,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 238333,
+      "completion_tokens": 9233,
+      "total_tokens": 247566,
+      "reasoning_tokens": 5854
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

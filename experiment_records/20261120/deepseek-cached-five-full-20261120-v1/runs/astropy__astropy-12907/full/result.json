@@ -1,0 +1,65 @@
+{
+  "instance_id": "astropy__astropy-12907",
+  "condition": "full",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 8,
+  "agent_query_count": 8,
+  "clarification_model_calls": 0,
+  "all_model_calls": 8,
+  "tool_calls": 8,
+  "patch_bytes": 500,
+  "solver_elapsed_seconds": 29.47320153801411,
+  "total_elapsed_seconds": 33.91774119899492,
+  "first_production_change": {
+    "tool_call": 5,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/modeling/separable.py')\ns = p.read_text()\nold = \"\"\"    else:\\n        cright = np.zeros((noutp, right.shape[1]))\\n        cright[-right.shape[0]:, -right.shape[1]:] = 1\\n\"\"\"\nnew = \"\"\"    else:\\n        cright = np.zeros((noutp, right.shape[1]))\\n        cright[-right.shape[0]:, -right.shape[1]:] = right\\n\"\"\"\nassert old in s\np.write_text(s.replace(old, new))\nPY\npython - <<'PY'\nfrom astropy.modeling import models as m\nfrom astropy.modeling.separable import separability_matrix\nimport numpy as np\ncm = m.Linear1D(10) & m.Linear1D(5)\nfor x, expected in [\n    (cm, [[True, False], [False, True]]),\n    (m.Pix2Sky_TAN() & m.Linear1D(10) & m.Linear1D(5),\n     [[True, True, False, False], [True, True, False, False],\n      [False, False, True, False], [False, False, False, True]]),\n    (m.Pix2Sky_TAN() & cm,\n     [[True, True, False, False], [True, True, False, False],\n      [False, False, True, False], [False, False, False, True]]),\n]:\n    got = separability_matrix(x)\n    print(got)\n    np.testing.assert_array_equal(got, expected)\nPY\npython -m pytest astropy/modeling/tests/test_separable.py astropy/modeling/tests/test_core.py -q",
+    "elapsed_start_seconds": 10.447451871004887,
+    "result": {
+      "output": "[[ True False]\n [False  True]]\n[[ True  True False False]\n [ True  True False False]\n [False False  True False]\n [False False False  True]]\n[[ True  True False False]\n [ True  True False False]\n [False False  True False]\n [False False False  True]]\n<frozen importlib._bootstrap>:228: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 80 from C header, got 96 from PyObject\nInternet access disabled\n..............................s...............s.......................   [100%]\n68 passed, 2 skipped in 0.59s\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 1.682222872012062,
+    "tracked_changes": [
+      "astropy/modeling/separable.py"
+    ]
+  },
+  "finished_at": "2026-11-20T10:53:39.624356+00:00",
+  "solver_wire": {
+    "http_requests": 8,
+    "http_responses": 8,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 56195,
+      "completion_tokens": 2209,
+      "total_tokens": 58404,
+      "reasoning_tokens": 1154
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

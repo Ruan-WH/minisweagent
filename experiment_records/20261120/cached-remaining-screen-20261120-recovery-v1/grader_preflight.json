@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "version": "2.0.13",
+  "cases": [
+    {
+      "instance_id": "astropy__astropy-13453",
+      "instance_image": "mini-screen-cache/astropy__astropy-13453:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 9,
+      "eval_script_sha256": "ed538f496c5f122d4c068a268302ec06351a0c35c67f3715953e9ed3286d27d1"
+    },
+    {
+      "instance_id": "astropy__astropy-13977",
+      "instance_image": "mini-screen-cache/astropy__astropy-13977:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 20,
+      "regression_tests": 322,
+      "eval_script_sha256": "7baed607e2246643e2e0c3db33175a62de7debfb1ab053d1aa904d36dd9cef81"
+    },
+    {
+      "instance_id": "astropy__astropy-14182",
+      "instance_image": "mini-screen-cache/astropy__astropy-14182:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 9,
+      "eval_script_sha256": "4d6af6211603dde4c7c29748a5e8575c29c37f65c3c8b49c12458c883b9b3db6"
+    },
+    {
+      "instance_id": "astropy__astropy-14365",
+      "instance_image": "mini-screen-cache/astropy__astropy-14365:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 8,
+      "eval_script_sha256": "7aa620f1742644de80cc1d827dfbe9d9cc056854c96c509022e390511b16d0a2"
+    },
+    {
+      "instance_id": "astropy__astropy-8707",
+      "instance_image": "mini-screen-cache/astropy__astropy-8707:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 11,
+      "eval_script_sha256": "2ba4c392c55fba52995235c62e2f0a56715728c2d04d052722e5cd0d770fb0ed"
+    },
+    {
+      "instance_id": "astropy__astropy-8872",
+      "instance_image": "mini-screen-cache/astropy__astropy-8872:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 80,
+      "eval_script_sha256": "8d65cb8effa3a6849daf271400223b49b628db7666ddc4fc69a00a7d33fe5d14"
+    },
+    {
+      "instance_id": "django__django-10097",
+      "instance_image": "mini-screen-cache/django__django-10097:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.56a3bf2c8561bd901139b0:latest",
+      "target_tests": 438,
+      "regression_tests": 1432,
+      "eval_script_sha256": "438ef93e944556f6c1a4759234fdccc094ab0041dedba57e332118e0683473da"
+    },
+    {
+      "instance_id": "django__django-10880",
+      "instance_image": "mini-screen-cache/django__django-10880:2b511e3aa6",
+      "env_image": "sweb.env.x86_64.2baaea72acc974f6c02079:latest",
+      "target_tests": 1,
+      "regression_tests": 55,
+      "eval_script_sha256": "d6eebbfb9c69adbd21ae1748ed481fd571342df6652d5ccfb30d864809cd3ae2"
+    }
+  ]
+}

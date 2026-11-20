@@ -1,0 +1,16 @@
+{
+  "protocol": "cached-screen-fixed-initial-v1",
+  "status": "not_run",
+  "exchanges": [
+    {
+      "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+      "answer": "There is an issue with the `TimeSeries` object where the exception message is unclear when a required column is removed. The error message does not accurately reflect the problem, leading to confusion about missing required columns."
+    }
+  ],
+  "checks": [],
+  "stop_reason": "initial_only_control",
+  "unresolved_information": "",
+  "unavailable_information": [],
+  "error": null,
+  "followups_used": 0
+}

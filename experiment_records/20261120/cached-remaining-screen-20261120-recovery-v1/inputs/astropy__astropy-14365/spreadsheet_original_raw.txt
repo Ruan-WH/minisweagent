@@ -1,0 +1,48 @@
+ascii.qdp Table format assumes QDP commands are upper case
+### Description
+
+ascii.qdp assumes that commands in a QDP file are upper case, for example, for errors they must be "READ SERR 1 2" whereas QDP itself is not case sensitive and case use "read serr 1 2". _x000D_
+_x000D_
+As many QDP files are created by hand, the expectation that all commands be all-caps should be removed.
+
+### Expected behavior
+
+The following qdp file should read into a `Table` with errors, rather than crashing._x000D_
+```_x000D_
+read serr 1 2 _x000D_
+1 0.5 1 0.5_x000D_
+```
+
+### How to Reproduce
+
+Create a QDP file:_x000D_
+```_x000D_
+> cat > test.qdp_x000D_
+read serr 1 2 _x000D_
+1 0.5 1 0.5_x000D_
+<EOF>_x000D_
+_x000D_
+ > python_x000D_
+Python 3.10.9 (main, Dec  7 2022, 02:03:23) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin_x000D_
+Type "help", "copyright", "credits" or "license" for more information._x000D_
+>>> from astropy.table import Table_x000D_
+>>> Table.read('test.qdp',format='ascii.qdp')_x000D_
+WARNING: table_id not specified. Reading the first available table [astropy.io.ascii.qdp]_x000D_
+Traceback (most recent call last):_x000D_
+..._x000D_
+    raise ValueError(f'Unrecognized QDP line: {line}')_x000D_
+ValueError: Unrecognized QDP line: read serr 1 2_x000D_
+```_x000D_
+_x000D_
+Running "qdp test.qdp" works just fine._x000D_
+
+
+### Versions
+
+Python 3.10.9 (main, Dec  7 2022, 02:03:23) [Clang 13.0.0 (clang-1300.0.29.30)]_x000D_
+astropy 5.1_x000D_
+Numpy 1.24.1_x000D_
+pyerfa 2.0.0.1_x000D_
+Scipy 1.10.0_x000D_
+Matplotlib 3.6.3_x000D_
+

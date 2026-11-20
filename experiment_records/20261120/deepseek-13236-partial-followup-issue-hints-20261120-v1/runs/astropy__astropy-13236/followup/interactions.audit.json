@@ -1,0 +1,18 @@
+[
+  {
+    "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+    "answer": "The issue discusses the potential removal of an automatic transformation process that converts structured numpy arrays into a specific mixin class when added to a table. The current behavior is questioned in light of recent updates, and a proposal is made to change this behavior in future versions, with a warning to users about the upcoming change.",
+    "turn": 1,
+    "stage": "fixed_initial",
+    "proxy_policy": "controlled-fixture-v1",
+    "model": null,
+    "usage": null,
+    "fact_ids": []
+  },
+  {
+    "turn": 2,
+    "stage": "followup",
+    "proxy_policy": "requirements-issue-hints-v4",
+    "question": "What are the available reproduction details (such as the code/input used) and the expected behavior when adding a structured numpy array to a table?"
+  }
+]

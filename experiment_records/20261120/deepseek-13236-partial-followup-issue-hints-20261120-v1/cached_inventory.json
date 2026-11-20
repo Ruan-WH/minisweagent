@@ -1,0 +1,168 @@
+[
+  {
+    "instance_id": "astropy__astropy-12907",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-12907:latest",
+        "id": "sha256:418a8b3a463564ad52c6a1d71462cef9db2012127a3954e10b7ba17f80d0f0e6"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-12907:latest",
+        "id": "sha256:52b12f96fac46812aa6094c54d2f68200528995fc03f3aa1ca9ba4472e380a37"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13033",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-13033:latest",
+        "id": "sha256:2a558408d3617190026db1fce413ec77f60066dd838c28bbe6568a51c2e42d9b"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13033:latest",
+        "id": "sha256:1134faba5db063614ad87906a54a759498a255831ae874f88379512c37fbfee1"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13236",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-13236:latest",
+        "id": "sha256:7b67eba1d4b3070980598b4b50cfcf9d0a3853da27c430e0b925c225961c54b4"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13236:latest",
+        "id": "sha256:69ae205bb2721a8c40a552826b5960ec7d5cb3b7b9e69cf28dcfff2fbc9813c7"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13398",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-13398:latest",
+        "id": "sha256:012c5065623782cf0c3a816c25d37e76d74b2013cab801e35aad9da0444e2ad5"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13398:latest",
+        "id": "sha256:d9dea3a9884c12d09d8c06cb095f1ab883850b8d0fee58878e182f2e5889818e"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13453",
+    "images": [
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13453:latest",
+        "id": "sha256:1c38c9e5e14f9865c12297d3b87c636864396f01cb68f4ae15893dbeb26afc5b"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13579",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-13579:latest",
+        "id": "sha256:b8eac8846c03489a62d7d0c42796fa0ddabd79cd3d0266dda429ec17de1284d7"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13579:latest",
+        "id": "sha256:12cf395b4b4909f8e806c87377e3cec2cf2489390a68e9b36e9524fc18a93313"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-13977",
+    "images": [
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-13977:latest",
+        "id": "sha256:22f011c4218acd045e5d3a5cf392c595a5a0d70cc1373da80de227340afbb1cc"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-14182",
+    "images": [
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-14182:latest",
+        "id": "sha256:7823aa3b9cf5713e1510931d606eca503eeccde56b4c167c836db72a571b1c0d"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-14365",
+    "images": [
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-14365:latest",
+        "id": "sha256:4a29bcfd7e523995762903a4613cab7665226ca2e06e7fba62f0594c06dc3ec1"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-8707",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-8707:latest",
+        "id": "sha256:0718a36e34ba6c5897d275bb03c852f709c14f5fb6595e7ac8c7dbd5f50bb114"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-8707:latest",
+        "id": "sha256:6e10fe87ed62a3d964ef37a041db9fef6444e62a126b00e34dd1b273d3798798"
+      }
+    ]
+  },
+  {
+    "instance_id": "astropy__astropy-8872",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.astropy__astropy-8872:latest",
+        "id": "sha256:11c92ed6242f2baf70d3a5702c16ade7620f21797b8cc878db7c31b8518ad80d"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.astropy_s_astropy-8872:latest",
+        "id": "sha256:86fb40dcae39149b2a8302839bed3e20c42a25ac5341b9be3968ba1993b7397c"
+      }
+    ]
+  },
+  {
+    "instance_id": "django__django-10097",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.django__django-10097:latest",
+        "id": "sha256:327a4d568fbc342905c63fe686227290240d1b83bf867525ea8089519e409a55"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.django_s_django-10097:latest",
+        "id": "sha256:17e50f9b87c79890bdbeb4b8f8cc6b36731741836eb04d5b3d829cd1e5fb3d44"
+      }
+    ]
+  },
+  {
+    "instance_id": "django__django-10554",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.django__django-10554:latest",
+        "id": "sha256:761207d9b237f94125ed273252191950aba57b021bb2f8de3f963288bd4f9ce0"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.django_s_django-10554:latest",
+        "id": "sha256:81900a6a50129a2afb000f12cfef8e6ce78e9471c941c4af0e05b158a02aa66d"
+      }
+    ]
+  },
+  {
+    "instance_id": "django__django-10880",
+    "images": [
+      {
+        "name": "sweb.eval.x86_64.django__django-10880:latest",
+        "id": "sha256:352d54a05713b18920b64ec34239d3c34c027afc088af915507db3e2d1c0d16c"
+      },
+      {
+        "name": "xingyaoww/sweb.eval.x86_64.django_s_django-10880:latest",
+        "id": "sha256:bd78c61d782c23c07ad5dab675ae50066313a685a9b0912f41b9955a6714040b"
+      }
+    ]
+  }
+]

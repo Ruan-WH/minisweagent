@@ -1,0 +1,74 @@
+diff --git a/astropy/table/table.py b/astropy/table/table.py
+index 5afe212..adc5eff 100644
+--- a/astropy/table/table.py
++++ b/astropy/table/table.py
+@@ -17,7 +17,8 @@ from astropy import log
+ from astropy.units import Quantity, QuantityInfo
+ from astropy.utils import isiterable, ShapedLikeNDArray
+ from astropy.utils.console import color_print
+-from astropy.utils.exceptions import AstropyUserWarning
++from astropy.utils.exceptions import (AstropyUserWarning,
++                                      AstropyDeprecationWarning)
+ from astropy.utils.masked import Masked
+ from astropy.utils.metadata import MetaData, MetaAttribute
+ from astropy.utils.data_info import BaseColumnInfo, MixinInfo, DataInfo
+@@ -1243,6 +1244,21 @@ class Table:
+         # mixin class
+         if (not isinstance(data, Column) and not data_is_mixin
+                 and isinstance(data, np.ndarray) and len(data.dtype) > 1):
++            warnings.warn(
++                "Structured arrays are currently automatically converted to "
++                "NdarrayMixin. The behavior of automatically converting a "
++                "structured array to NdarrayMixin is deprecated and will be "
++                "removed in a future version. In a future version, a "
++                "structured ndarray will be added as a Column instead of "
++                "NdarrayMixin. Structured arrays will no longer be "
++                "automatically converted to NdarrayMixin, and a structured "
++                "array will instead be added as a Column. To keep the "
++                "current behavior, explicitly use "
++                "astropy.table.NdarrayMixin. To use the future behavior "
++                "now, explicitly use astropy.table.Column. Please use the "
++                "appropriate class explicitly to avoid this warning.",
++                AstropyDeprecationWarning,
++                stacklevel=3)
+             data = data.view(NdarrayMixin)
+             data_is_mixin = True
+ 
+diff --git a/docs/table/access_table.rst b/docs/table/access_table.rst
+index 4f0fcc5..dadaf10 100644
+--- a/docs/table/access_table.rst
++++ b/docs/table/access_table.rst
+@@ -796,7 +796,7 @@ the value, min and max are stored in the in the column as fields named ``val``,
+     ... )
+     >>> t = Table()
+     >>> t['a'] = [1, 2]
+-    >>> t['par'] = pars
++    >>> t['par'] = Column(pars)
+     >>> print(t)
+      a    par [val, min, max]
+     --- ------------------------
+diff --git a/docs/table/construct_table.rst b/docs/table/construct_table.rst
+index e7fa17c..97f4008 100644
+--- a/docs/table/construct_table.rst
++++ b/docs/table/construct_table.rst
+@@ -351,7 +351,7 @@ including the simple structured array defined previously as a column::
+ 
+   >>> table = Table()
+   >>> table['name'] = ['Micah', 'Mazzy']
+-  >>> table['arr'] = arr
++  >>> table['arr'] = Column(arr)
+   >>> print(table)
+    name arr [a, b, c]
+   ----- -------------
+@@ -361,7 +361,10 @@ including the simple structured array defined previously as a column::
+ You can access or print a single field in the structured column as follows::
+ 
+   >>> print(table['arr']['b'])
+-  [2. 5.]
++  arr
++  ---
++  2.0
++  5.0
+ 
+ **New column names**
+ 

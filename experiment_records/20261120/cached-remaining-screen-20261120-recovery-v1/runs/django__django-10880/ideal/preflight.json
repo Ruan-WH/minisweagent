@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "startup": "HEAD is now at 838e432e3e Completed test coverage for utils.text.Truncator.chars().\n/opt/miniconda3/envs/testbed/bin/python\n838e432e3e5519c5383d12018e6c78f8ec7833c1\n",
+  "alignment": {
+    "cwd": "/testbed",
+    "import_path": "/testbed/django/__init__.py",
+    "python": "/opt/miniconda3/envs/testbed/bin/python",
+    "python_version": "3.6.13 |Anaconda, Inc.| (default, Jun  4 2021, 14:25:59) \n[GCC 7.5.0]",
+    "edit_visible": true,
+    "restored_exact_bytes": true
+  },
+  "history": {
+    "baseline": "838e432e3e5519c5383d12018e6c78f8ec7833c1",
+    "refs": "838e432e3e5519c5383d12018e6c78f8ec7833c1 refs/heads/baseline",
+    "reflogs": {
+      ".git/logs/HEAD": "0000000000000000000000000000000000000000 838e432e3e5519c5383d12018e6c78f8ec7833c1 Repair Agent <repair@localhost> 1795161834 +0000\n",
+      ".git/logs/refs/heads/baseline": "0000000000000000000000000000000000000000 838e432e3e5519c5383d12018e6c78f8ec7833c1 Repair Agent <repair@localhost> 1795161834 +0000\n"
+    },
+    "commit_objects": [
+      "838e432e3e5519c5383d12018e6c78f8ec7833c1"
+    ],
+    "objects": 8308,
+    "unreachable_objects": 0,
+    "remotes": [],
+    "remote_access_exit": 128,
+    "external_tcp_blocked": true
+  },
+  "repositories": [
+    "/testbed/.git"
+  ],
+  "mounts": [],
+  "network": "none",
+  "failure_probe": {
+    "output": "intentional failure\n",
+    "returncode": 7,
+    "exception_info": ""
+  }
+}

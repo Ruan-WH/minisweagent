@@ -1,0 +1,14 @@
+{
+  "swebench_version": "2.0.13",
+  "entrypoint": "swebench.harness.run_evaluation.run_instance",
+  "model_has_stopped": true,
+  "feedback_to_model": false,
+  "image_id": "sha256:35616dcb712b956ff20038414c88022333a3738b4fdd9e6c069453f992f1de1f",
+  "eval_script_sha256": "d6eebbfb9c69adbd21ae1748ed481fd571342df6652d5ccfb30d864809cd3ae2",
+  "image_name_override": "mini-screen-cache/django__django-10880:2b511e3aa6",
+  "dependency_source": "Exact cached Git blobs, not a reconstructed pip freeze",
+  "empty_patch_policy": "Run the same official single-instance entrypoint even for an empty diff",
+  "rm_image": false,
+  "force_rebuild": false,
+  "timeout": 1200
+}

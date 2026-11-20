@@ -1,0 +1,22 @@
+[
+  {
+    "path": "cache_preparation/astropy__astropy-13453/Dockerfile",
+    "bytes": 301,
+    "sha256": "706156a4f7a08e9f994774aa8f843608e66b4a4d194a2a60df7ecbabd3cbf224"
+  },
+  {
+    "path": "cache_preparation/astropy__astropy-13453/build.log",
+    "bytes": 1227,
+    "sha256": "3088755a652fa9fb9c0b1e8d9b6835f5476d7b69a46addf526e75c2715b6fbeb"
+  },
+  {
+    "path": "cache_preparation/astropy__astropy-13453/normalize_submodules.py",
+    "bytes": 1405,
+    "sha256": "eaa9ffe82cad4648c98d1c2e7945f299be47cb42edaded85453571ee499f1161"
+  },
+  {
+    "path": "remaining_preparation.json",
+    "bytes": 6485,
+    "sha256": "28c00e2c17614d9fe2781920b2820f0c621861eb9dc86b7f69d3719b9939e4c9"
+  }
+]

@@ -5,7 +5,7 @@ import shlex
 from minisweagent.agents.default import DefaultAgent
 from minisweagent.exceptions import LimitsExceeded, Submitted
 
-from evaluation.benchmarks.swe_bench.mini_swe.protocol import SUBMISSION_MARKER, submission_text
+from evaluation.benchmarks.swe_bench.mini_swe.protocol import SUBMISSION_MARKER, submission_text, native_text_final
 
 
 SYSTEM = """You are a software engineer fixing an issue in /testbed.
@@ -69,6 +69,13 @@ class AmbigAgent(DefaultAgent):
             raise Submitted({"role": "exit", "content": submission,
                              "extra": {"exit_status": "Submitted", "submission": submission,
                                        "completion_source": "explicit_native_final_marker"}})
+        if not actions and getattr(self.model, 'allow_text_final', False):
+            final = native_text_final(message.get('extra', {}).get('response'))
+            if final is not None:
+                raise Submitted({'role': 'exit', 'content': final,
+                                 'extra': {'exit_status': 'FinalResponse', 'submission': final,
+                                           'completion_source': 'native_stop_text',
+                                           'tests_passed_inferred': False}})
         outputs = []
         finished = None
         for action in actions:

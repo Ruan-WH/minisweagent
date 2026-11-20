@@ -1,0 +1,75 @@
+{
+  "instance_id": "astropy__astropy-8707",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 17,
+  "agent_query_count": 17,
+  "clarification_model_calls": 0,
+  "all_model_calls": 17,
+  "tool_calls": 17,
+  "patch_bytes": 1436,
+  "solver_elapsed_seconds": 51.6642655020114,
+  "total_elapsed_seconds": 56.387031075995765,
+  "first_production_change": {
+    "tool_call": 10,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\n\np = Path('astropy/io/fits/header.py')\ns = p.read_text()\nold = '''        data : str\n           String containing the entire header.\n\n        sep : str, optional\n'''\nnew = '''        data : str or bytes\n           String containing the entire header.\n\n        sep : str or bytes, optional\n'''\nassert old in s\ns = s.replace(old, new)\nold = '''        cards = []\n\n        # If the card separator contains characters that may validly appear in\n'''\nnew = '''        cards = []\n\n        if isinstance(data, bytes):\n            data = data.decode('ascii')\n        if isinstance(sep, bytes):\n            sep = sep.decode('ascii')\n\n        # If the card separator contains characters that may validly appear in\n'''\nassert old in s\ns = s.replace(old, new)\np.write_text(s)\n\np = Path('astropy/io/fits/card.py')\ns = p.read_text()\nold = '''        card = cls()\n        card._image = _pad(image)\n'''\nnew = '''        if isinstance(image, bytes):\n            image = image.decode('ascii')\n\n        card = cls()\n        card._image = _pad(image)\n'''\nassert old in s\ns = s.replace(old, new)\np.write_text(s)\nPY\n\ngit diff -- astropy/io/fits/header.py astropy/io/fits/card.py",
+    "elapsed_start_seconds": 23.990351761007332,
+    "result": {
+      "output": "diff --git a/astropy/io/fits/card.py b/astropy/io/fits/card.py\nindex 8c1ac5d..58d9825 100644\n--- a/astropy/io/fits/card.py\n+++ b/astropy/io/fits/card.py\n@@ -553,6 +553,9 @@ class Card(_Verify):\n         card(s).\n         \"\"\"\n \n+        if isinstance(image, bytes):\n+            image = image.decode('ascii')\n+\n         card = cls()\n         card._image = _pad(image)\n         card._verified = False\ndiff --git a/astropy/io/fits/header.py b/astropy/io/fits/header.py\nindex ad07e6d..c43e346 100644\n--- a/astropy/io/fits/header.py\n+++ b/astropy/io/fits/header.py\n@@ -334,10 +334,10 @@ class Header:\n \n         Parameters\n         ----------\n-        data : str\n+        data : str or bytes\n            String containing the entire header.\n \n-        sep : str, optional\n+        sep : str or bytes, optional\n             The string separating cards from each other, such as a newline.  By\n             default there is no card separator (as is the case in a raw FITS\n             file).\n@@ -350,6 +350,11 @@ class Header:\n \n         cards = []\n \n+        if isinstance(data, bytes):\n+            data = data.decode('ascii')\n+        if isinstance(sep, bytes):\n+            sep = sep.decode('ascii')\n+\n         # If the card separator contains characters that may validly appear in\n         # a card, the only way to unambiguously distinguish between cards is to\n         # require that they be Card.length long.  However, if the separator\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.12761413599946536,
+    "tracked_changes": [
+      "astropy/io/fits/card.py",
+      "astropy/io/fits/header.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:57:36.586918+00:00",
+  "solver_wire": {
+    "http_requests": 17,
+    "http_responses": 17,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 323118,
+      "completion_tokens": 5883,
+      "total_tokens": 329001,
+      "reasoning_tokens": 3043
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

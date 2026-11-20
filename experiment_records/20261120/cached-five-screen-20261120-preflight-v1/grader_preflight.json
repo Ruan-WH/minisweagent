@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "version": "2.0.13",
+  "cases": [
+    {
+      "instance_id": "astropy__astropy-12907",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-12907:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 2,
+      "regression_tests": 13,
+      "eval_script_sha256": "918cb4d342da92be49d8aaf45708f14c1cce37c4b01ba64357482188e0dad175"
+    },
+    {
+      "instance_id": "astropy__astropy-13033",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-13033:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 20,
+      "eval_script_sha256": "86c847c86e2ea1c2e22cbbc84edffa5910e42458a36e8c040e538cb6a92b3909"
+    },
+    {
+      "instance_id": "astropy__astropy-13236",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-13236:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 2,
+      "regression_tests": 644,
+      "eval_script_sha256": "7fdce61172e844f9fca8c73f96ece796c51da3f0ead04d423c4b0b590f04b10f"
+    },
+    {
+      "instance_id": "astropy__astropy-13579",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-13579:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 40,
+      "eval_script_sha256": "51ccc4eb0e0c7ee8c09936e689e5c5838dbe2d5cf3619ef40c749fd93382d364"
+    },
+    {
+      "instance_id": "astropy__astropy-8872",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-8872:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 1,
+      "regression_tests": 80,
+      "eval_script_sha256": "8d65cb8effa3a6849daf271400223b49b628db7666ddc4fc69a00a7d33fe5d14"
+    }
+  ]
+}

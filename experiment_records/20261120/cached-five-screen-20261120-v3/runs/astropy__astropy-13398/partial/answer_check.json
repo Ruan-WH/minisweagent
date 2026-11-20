@@ -1,0 +1,16 @@
+{
+  "protocol": "cached-screen-fixed-initial-v1",
+  "status": "not_run",
+  "exchanges": [
+    {
+      "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+      "answer": "The issue discusses a new approach for transforming coordinates between the International Terrestrial Reference System (ITRS) and observed frames like AltAz and HADec. The current method has been problematic for users observing objects like satellites due to inaccuracies related to geocentric versus topocentric aberration. The proposed solution aims to simplify the process by staying within the ITRS framework and treating ITRS positions as time-invariant, avoiding unnecessary transformations that could lead to significant positional errors. The author seeks feedback on this approach before proceeding with a pull request."
+    }
+  ],
+  "checks": [],
+  "stop_reason": "initial_only_control",
+  "unresolved_information": "",
+  "unavailable_information": [],
+  "error": null,
+  "followups_used": 0
+}

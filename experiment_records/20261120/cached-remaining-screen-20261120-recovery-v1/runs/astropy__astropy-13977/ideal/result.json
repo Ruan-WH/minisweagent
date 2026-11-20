@@ -1,0 +1,75 @@
+{
+  "instance_id": "astropy__astropy-13977",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 18,
+  "agent_query_count": 18,
+  "clarification_model_calls": 0,
+  "all_model_calls": 18,
+  "tool_calls": 18,
+  "patch_bytes": 946,
+  "solver_elapsed_seconds": 79.44960577999882,
+  "total_elapsed_seconds": 83.78367439899012,
+  "first_production_change": {
+    "tool_call": 13,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/units/quantity.py')\ns = p.read_text()\nold = '''        arrays = []\n        for input_, converter in zip(inputs, converters):\n            input_ = getattr(input_, \"value\", input_)\n            arrays.append(converter(input_) if converter else input_)\n'''\nnew = '''        arrays = []\n        for input_, converter in zip(inputs, converters):\n            input_ = getattr(input_, \"value\", input_)\n            try:\n                arrays.append(converter(input_) if converter else input_)\n            except (TypeError, ValueError):\n                # The input could not be converted to the expected unit,\n                # which can happen for duck arrays.  In that case, let the\n                # other operand's __array_ufunc__ handle the operation.\n                return NotImplemented\n'''\nassert old in s\np.write_text(s.replace(old, new))\nPY\n\ngit diff -- astropy/units/quantity.py",
+    "elapsed_start_seconds": 44.30254704100662,
+    "result": {
+      "output": "diff --git a/astropy/units/quantity.py b/astropy/units/quantity.py\nindex b98abfa..85215c3 100644\n--- a/astropy/units/quantity.py\n+++ b/astropy/units/quantity.py\n@@ -667,7 +667,13 @@ class Quantity(np.ndarray):\n         arrays = []\n         for input_, converter in zip(inputs, converters):\n             input_ = getattr(input_, \"value\", input_)\n-            arrays.append(converter(input_) if converter else input_)\n+            try:\n+                arrays.append(converter(input_) if converter else input_)\n+            except (TypeError, ValueError):\n+                # The input could not be converted to the expected unit,\n+                # which can happen for duck arrays.  In that case, let the\n+                # other operand's __array_ufunc__ handle the operation.\n+                return NotImplemented\n \n         # Call our superclass's __array_ufunc__\n         result = super().__array_ufunc__(function, method, *arrays, **kwargs)\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.1461821489938302,
+    "tracked_changes": [
+      "astropy/units/quantity.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:37:34.558048+00:00",
+  "solver_wire": {
+    "http_requests": 18,
+    "http_responses": 18,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 312906,
+      "completion_tokens": 9125,
+      "total_tokens": 322031,
+      "reasoning_tokens": 6251
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

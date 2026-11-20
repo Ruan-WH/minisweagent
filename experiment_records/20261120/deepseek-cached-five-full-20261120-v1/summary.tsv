@@ -1,0 +1,6 @@
+instance_id	condition	status	resolved	model_calls	tool_calls	total_tokens	seconds
+astropy__astropy-12907	full	Submitted	True	8	8	58404	33.92
+astropy__astropy-13033	full	Submitted	False	16	16	247566	75.23
+astropy__astropy-13236	full	Submitted	True	19	19	333564	76.98
+astropy__astropy-13398	full	Submitted	False	79	84	5921285	570.14
+astropy__astropy-13579	full	Submitted	True	19	19	463381	105.0

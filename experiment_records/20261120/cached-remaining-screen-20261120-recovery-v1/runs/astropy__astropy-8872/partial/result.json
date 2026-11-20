@@ -1,0 +1,75 @@
+{
+  "instance_id": "astropy__astropy-8872",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 18,
+  "agent_query_count": 18,
+  "clarification_model_calls": 0,
+  "all_model_calls": 18,
+  "tool_calls": 18,
+  "patch_bytes": 1019,
+  "solver_elapsed_seconds": 61.13367378800467,
+  "total_elapsed_seconds": 65.77238582300197,
+  "first_production_change": {
+    "tool_call": 15,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/units/quantity.py')\ns = p.read_text()\nold1 = \"\"\"                if not (np.can_cast(np.float32, value.dtype) or\n                        value.dtype.fields):\n                    dtype = float\n\"\"\"\nnew1 = \"\"\"                if not (np.can_cast(np.float16, value.dtype) or\n                        value.dtype.fields):\n                    dtype = float\n\"\"\"\nold2 = \"\"\"        if dtype is None and (not (np.can_cast(np.float32, value.dtype)\n                                   or value.dtype.fields)\n                              or value.dtype.kind == 'O'):\n            value = value.astype(float)\n\"\"\"\nnew2 = \"\"\"        if dtype is None and (not (np.can_cast(np.float16, value.dtype)\n                                   or value.dtype.fields)\n                              or value.dtype.kind == 'O'):\n            value = value.astype(float)\n\"\"\"\nassert old1 in s, 'old1 not found'\nassert old2 in s, 'old2 not found'\ns = s.replace(old1, new1).replace(old2, new2)\np.write_text(s)\nPY\npython - <<'PY'\nimport numpy as np\nfrom astropy import units as u\nfor dt in [np.int16, np.float16, np.float32, np.float64, np.complex64]:\n    x = np.array([1, 2, 3], dtype=dt)\n    q = x * u.m\n    q2 = u.Quantity(q)\n    assert q.dtype == dt, (dt, q.dtype)\n    assert q2.dtype == dt, (dt, q2.dtype)\n    print(np.dtype(dt), '->', q.dtype, q2.dtype)\nPY\npython -m pytest astropy/units/tests/test_quantity.py -q 2>&1 | tail -60",
+    "elapsed_start_seconds": 49.662213710995275,
+    "result": {
+      "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 7, in <module>\nAssertionError: (<class 'numpy.int16'>, dtype('float64'))\n    \n        if attr in __future_scalars__:\n            # And future warnings for those that will change, but also give\n            # the AttributeError\n            warnings.warn(\n                f\"In the future `np.{attr}` will be defined as the \"\n                \"corresponding NumPy scalar.\", FutureWarning, stacklevel=2)\n    \n        if attr in __former_attrs__:\n>           raise AttributeError(__former_attrs__[attr])\nE           AttributeError: module 'numpy' has no attribute 'int'.\nE           `np.int` was a deprecated alias for the builtin `int`. To avoid this error in existing code, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.\nE           The aliases was originally deprecated in NumPy 1.20; for more details and guidance see the original release note at:\nE               https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations\n\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/numpy/__init__.py:319: AttributeError\n_____________________ TestQuantityMatplotlib.test_scatter ______________________\n\nself = <astropy.units.tests.test_quantity.TestQuantityMatplotlib object at 0x7d52a118cbe0>\n\n    def test_scatter(self):\n        x = u.Quantity([4, 5, 6], 'second')\n        y = [1, 3, 4] * u.m\n>       plt.scatter(x, y)\n\nastropy/units/tests/test_quantity.py:1581: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/matplotlib/pyplot.py:3903: in scatter\n    __ret = gca().scatter(\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/matplotlib/__init__.py:1476: in inner\n    return func(\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/matplotlib/axes/_axes.py:4815: in scatter\n    cbook._combine_masks(\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/matplotlib/cbook.py:1093: in _combine_masks\n    x = safe_masked_invalid(x)\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/matplotlib/cbook.py:740: in safe_masked_invalid\n    xm = np.ma.masked_where(~(np.isfinite(x)), x, copy=False)\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/numpy/ma/core.py:1936: in masked_where\n    cond = mask_or(cond, a._mask)\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/numpy/ma/core.py:1746: in mask_or\n    return make_mask(m1, copy=copy, shrink=shrink, dtype=dtype)\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/numpy/ma/core.py:1640: in make_mask\n    result = _shrink_mask(result)\n/opt/miniconda3/envs/testbed/lib/python3.9/site-packages/numpy/ma/core.py:1549: in _shrink_mask\n    if m.dtype.names is None and not m.any():\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <Quantity [False, False, False] s>, axis = None, out = None\n\n    def any(self, axis=None, out=None):\n>       raise NotImplementedError(\"cannot evaluate truth value of quantities. \"\n                                  \"Evaluate array with q.value.any(...)\")\nE       NotImplementedError: cannot evaluate truth value of quantities. Evaluate array with q.value.any(...)\n\nastropy/units/quantity.py:1540: NotImplementedError\n=========================== short test summary info ============================\nFAILED astropy/units/tests/test_quantity.py::test_quantity_from_table - Attri...\nFAILED astropy/units/tests/test_quantity.py::test_assign_slice_with_quantity_like\nFAILED astropy/units/tests/test_quantity.py::TestQuantityMatplotlib::test_scatter\n3 failed, 85 passed, 1 xfailed in 0.61s\n",
+      "returncode": 1,
+      "exception_info": ""
+    },
+    "duration_seconds": 1.2949273260019254,
+    "tracked_changes": [
+      "astropy/units/quantity.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:58:44.916959+00:00",
+  "solver_wire": {
+    "http_requests": 18,
+    "http_responses": 18,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 166743,
+      "completion_tokens": 5292,
+      "total_tokens": 172035,
+      "reasoning_tokens": 2756
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

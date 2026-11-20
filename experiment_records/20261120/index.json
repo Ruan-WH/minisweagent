@@ -1,0 +1,479 @@
+[
+  {
+    "experiment": "cached-five-screen-20261120-preflight-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-five-screen-20261120-preflight-v1",
+    "archived_files": 28,
+    "original_files": 114,
+    "original_bytes": 553361,
+    "runs": []
+  },
+  {
+    "experiment": "cached-five-screen-20261120-v2",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-five-screen-20261120-v2",
+    "archived_files": 28,
+    "original_files": 115,
+    "original_bytes": 614159,
+    "runs": []
+  },
+  {
+    "experiment": "cached-five-screen-20261120-v3",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-five-screen-20261120-v3",
+    "archived_files": 130,
+    "original_files": 1015,
+    "original_bytes": 64091385,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-12907",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 7,
+        "all_model_calls": 7,
+        "tool_calls": 7,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-12907/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-12907",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 10,
+        "all_model_calls": 10,
+        "tool_calls": 10,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-12907/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13033",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 32,
+        "all_model_calls": 32,
+        "tool_calls": 32,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13033/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13033",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 22,
+        "all_model_calls": 22,
+        "tool_calls": 22,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13033/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 20,
+        "all_model_calls": 20,
+        "tool_calls": 20,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13236/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 60,
+        "all_model_calls": 60,
+        "tool_calls": 60,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13236/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13398",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 33,
+        "all_model_calls": 33,
+        "tool_calls": 33,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13398/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13398",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 82,
+        "all_model_calls": 82,
+        "tool_calls": 82,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13398/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13579",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 20,
+        "all_model_calls": 20,
+        "tool_calls": 20,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13579/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13579",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 47,
+        "all_model_calls": 47,
+        "tool_calls": 47,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13579/partial/official_eval/report.json"
+      }
+    ]
+  },
+  {
+    "experiment": "cached-remaining-screen-20261120-recovery-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-remaining-screen-20261120-recovery-v1",
+    "archived_files": 196,
+    "original_files": 1058,
+    "original_bytes": 1469716264,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-13453",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 15,
+        "all_model_calls": 15,
+        "tool_calls": 15,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13453/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13453",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 24,
+        "all_model_calls": 24,
+        "tool_calls": 24,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13453/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13977",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 18,
+        "all_model_calls": 18,
+        "tool_calls": 18,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13977/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13977",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 36,
+        "all_model_calls": 36,
+        "tool_calls": 36,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13977/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-14182",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 18,
+        "all_model_calls": 18,
+        "tool_calls": 18,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-14182/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-14182",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 16,
+        "all_model_calls": 16,
+        "tool_calls": 16,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-14182/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-14365",
+        "condition": "ideal",
+        "exit_status": "FinalResponse",
+        "execution_fault": false,
+        "model_calls": 8,
+        "all_model_calls": 8,
+        "tool_calls": 7,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-14365/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-14365",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 6,
+        "all_model_calls": 6,
+        "tool_calls": 6,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-14365/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-8707",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 16,
+        "all_model_calls": 16,
+        "tool_calls": 16,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-8707/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-8707",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 17,
+        "all_model_calls": 17,
+        "tool_calls": 17,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-8707/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-8872",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 20,
+        "all_model_calls": 20,
+        "tool_calls": 20,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-8872/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-8872",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 18,
+        "all_model_calls": 18,
+        "tool_calls": 18,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-8872/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "django__django-10097",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 16,
+        "all_model_calls": 16,
+        "tool_calls": 16,
+        "errors": [],
+        "official_report_path": "runs/django__django-10097/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "django__django-10097",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 28,
+        "all_model_calls": 28,
+        "tool_calls": 28,
+        "errors": [],
+        "official_report_path": "runs/django__django-10097/partial/official_eval/report.json"
+      },
+      {
+        "instance_id": "django__django-10880",
+        "condition": "ideal",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 13,
+        "all_model_calls": 13,
+        "tool_calls": 13,
+        "errors": [],
+        "official_report_path": "runs/django__django-10880/ideal/official_eval/report.json"
+      },
+      {
+        "instance_id": "django__django-10880",
+        "condition": "partial",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 12,
+        "all_model_calls": 12,
+        "tool_calls": 12,
+        "errors": [],
+        "official_report_path": "runs/django__django-10880/partial/official_eval/report.json"
+      }
+    ]
+  },
+  {
+    "experiment": "cached-remaining-screen-20261120-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-remaining-screen-20261120-v1",
+    "archived_files": 0,
+    "original_files": 4,
+    "original_bytes": 9418,
+    "runs": []
+  },
+  {
+    "experiment": "cached-remaining-screen-20261120-v2",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-remaining-screen-20261120-v2",
+    "archived_files": 0,
+    "original_files": 146,
+    "original_bytes": 793217,
+    "runs": []
+  },
+  {
+    "experiment": "cached-remaining-screen-20261120-v3",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-remaining-screen-20261120-v3",
+    "archived_files": 0,
+    "original_files": 122,
+    "original_bytes": 776536,
+    "runs": []
+  },
+  {
+    "experiment": "cached-remaining-screen-20261120-v4",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/cached-remaining-screen-20261120-v4",
+    "archived_files": 0,
+    "original_files": 496,
+    "original_bytes": 14408562,
+    "runs": []
+  },
+  {
+    "experiment": "deepseek-13236-partial-followup-20261120-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/deepseek-13236-partial-followup-20261120-v1",
+    "archived_files": 21,
+    "original_files": 155,
+    "original_bytes": 2177096,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "followup",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 14,
+        "all_model_calls": 19,
+        "tool_calls": 14,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13236/followup/official_eval/report.json"
+      }
+    ]
+  },
+  {
+    "experiment": "deepseek-13236-partial-followup-issue-hints-20261120-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/deepseek-13236-partial-followup-issue-hints-20261120-v1",
+    "archived_files": 16,
+    "original_files": 108,
+    "original_bytes": 528516,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "followup",
+        "exit_status": "RuntimeError",
+        "execution_fault": true,
+        "model_calls": 0,
+        "all_model_calls": 3,
+        "tool_calls": 0,
+        "errors": [
+          "Clarification failed; no repair run: BadRequestError: Error code: 400 - Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'. (request_id: 36d9a599-bd08-4849-85e9-f26abe2cdc4d)"
+        ]
+      }
+    ]
+  },
+  {
+    "experiment": "deepseek-13236-partial-followup-issue-hints-20261120-v2",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/deepseek-13236-partial-followup-issue-hints-20261120-v2",
+    "archived_files": 23,
+    "original_files": 161,
+    "original_bytes": 3116410,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "followup",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 17,
+        "all_model_calls": 21,
+        "tool_calls": 17,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13236/followup/official_eval/report.json"
+      }
+    ]
+  },
+  {
+    "experiment": "deepseek-cached-five-full-20261120-v1",
+    "original_local_directory": "/home/rwh/Ambig-SWE-Origin/Ambig-SWE-mini-export/evaluation/evaluation_outputs/mini_swe/deepseek-cached-five-full-20261120-v1",
+    "archived_files": 78,
+    "original_files": 516,
+    "original_bytes": 33963371,
+    "runs": [
+      {
+        "instance_id": "astropy__astropy-12907",
+        "condition": "full",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 8,
+        "all_model_calls": 8,
+        "tool_calls": 8,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-12907/full/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13033",
+        "condition": "full",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 16,
+        "all_model_calls": 16,
+        "tool_calls": 16,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13033/full/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13236",
+        "condition": "full",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 19,
+        "all_model_calls": 19,
+        "tool_calls": 19,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13236/full/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13398",
+        "condition": "full",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 79,
+        "all_model_calls": 79,
+        "tool_calls": 84,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13398/full/official_eval/report.json"
+      },
+      {
+        "instance_id": "astropy__astropy-13579",
+        "condition": "full",
+        "exit_status": "Submitted",
+        "execution_fault": false,
+        "model_calls": 19,
+        "all_model_calls": 19,
+        "tool_calls": 19,
+        "errors": [],
+        "official_report_path": "runs/astropy__astropy-13579/full/official_eval/report.json"
+      }
+    ]
+  }
+]

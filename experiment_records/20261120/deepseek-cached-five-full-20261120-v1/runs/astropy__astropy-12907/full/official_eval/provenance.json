@@ -1,0 +1,14 @@
+{
+  "swebench_version": "2.0.13",
+  "entrypoint": "swebench.harness.run_evaluation.run_instance",
+  "model_has_stopped": true,
+  "feedback_to_model": false,
+  "image_id": "sha256:418a8b3a463564ad52c6a1d71462cef9db2012127a3954e10b7ba17f80d0f0e6",
+  "eval_script_sha256": "918cb4d342da92be49d8aaf45708f14c1cce37c4b01ba64357482188e0dad175",
+  "image_name_override": "sweb.eval.x86_64.astropy__astropy-12907:latest",
+  "dependency_source": "Official static environment spec",
+  "empty_patch_policy": "Run the same official single-instance entrypoint even for an empty diff",
+  "rm_image": false,
+  "force_rebuild": false,
+  "timeout": 1200
+}

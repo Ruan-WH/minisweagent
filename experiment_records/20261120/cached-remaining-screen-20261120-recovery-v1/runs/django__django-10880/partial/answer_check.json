@@ -1,0 +1,16 @@
+{
+  "protocol": "cached-screen-fixed-initial-v1",
+  "status": "not_run",
+  "exchanges": [
+    {
+      "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+      "answer": "There is a query syntax error occurring when using a Count annotation with both a Case condition and the distinct parameter set to true in Django 2.2. This issue arises across different database backends and involves a missing space in the generated SQL query."
+    }
+  ],
+  "checks": [],
+  "stop_reason": "initial_only_control",
+  "unresolved_information": "",
+  "unavailable_information": [],
+  "error": null,
+  "followups_used": 0
+}

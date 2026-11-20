@@ -1,0 +1,270 @@
+ASCII table output to HTML does not support supplied "formats"
+<!-- This comments are hidden when you submit the issue,_x000D_
+so you do not need to remove them! -->_x000D_
+_x000D_
+<!-- Please be sure to check out our contributing guidelines,_x000D_
+https://github.com/astropy/astropy/blob/main/CONTRIBUTING.md ._x000D_
+Please be sure to check out our code of conduct,_x000D_
+https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md . -->_x000D_
+_x000D_
+<!-- Please have a search on our GitHub repository to see if a similar_x000D_
+issue has already been posted._x000D_
+If a similar issue is closed, have a quick look to see if you are satisfied_x000D_
+by the resolution._x000D_
+If not please go ahead and open an issue! -->_x000D_
+_x000D_
+<!-- Please check that the development version still produces the same bug._x000D_
+You can install development version with_x000D_
+pip install git+https://github.com/astropy/astropy_x000D_
+command. -->_x000D_
+_x000D_
+### Description_x000D_
+<!-- Provide a general description of the bug. -->_x000D_
+When writing out an astropy table to HTML format, the `formats` option to the [`write()`](https://docs.astropy.org/en/stable/api/astropy.io.ascii.write.html#astropy.io.ascii.write) method seems to be ignored. It does work when writing out to other formats, e.g., rst, CSV, MRT, etc._x000D_
+_x000D_
+### Expected behavior_x000D_
+<!-- What did you expect to happen. -->_x000D_
+_x000D_
+I expect the HTML table output to respect the formatting given by the `formats` argument._x000D_
+_x000D_
+### Actual behavior_x000D_
+<!-- What actually happened. -->_x000D_
+<!-- Was the output confusing or poorly described? -->_x000D_
+The `formats` argument seems to be ignored and the output is not formatted as required._x000D_
+_x000D_
+### Steps to Reproduce_x000D_
+<!-- Ideally a code example could be provided so we can run it ourselves. -->_x000D_
+<!-- If you are pasting code, use triple backticks (```) around_x000D_
+your code snippet. -->_x000D_
+<!-- If necessary, sanitize your screen output to be pasted so you do not_x000D_
+reveal secrets like tokens and passwords. -->_x000D_
+_x000D_
+Outputting a HTML table_x000D_
+_x000D_
+```python_x000D_
+from astropy.table import Table_x000D_
+from io import StringIO_x000D_
+_x000D_
+# generate table_x000D_
+t = Table([(1.23875234858e-24, 3.2348748432e-15), (2, 4)], names=('a', 'b'))_x000D_
+tc = t.copy()  # copy table_x000D_
+_x000D_
+# print HTML table with "a" column formatted to show 2 decimal places_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="html", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+<html>_x000D_
+ <head>_x000D_
+  <meta charset="utf-8"/>_x000D_
+  <meta content="text/html;charset=UTF-8" http-equiv="Content-type"/>_x000D_
+ </head>_x000D_
+ <body>_x000D_
+  <table>_x000D_
+   <thead>_x000D_
+    <tr>_x000D_
+     <th>a</th>_x000D_
+     <th>b</th>_x000D_
+    </tr>_x000D_
+   </thead>_x000D_
+   <tr>_x000D_
+    <td>1.23875234858e-24</td>_x000D_
+    <td>2</td>_x000D_
+   </tr>_x000D_
+   <tr>_x000D_
+    <td>3.2348748432e-15</td>_x000D_
+    <td>4</td>_x000D_
+   </tr>_x000D_
+  </table>_x000D_
+ </body>_x000D_
+</html>_x000D_
+```_x000D_
+_x000D_
+gives the numbers to the full number of decimal places._x000D_
+_x000D_
+Instead, outputting to a CSV table:_x000D_
+_x000D_
+```python_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="csv", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+a,b_x000D_
+1.24e-24,2_x000D_
+3.23e-15,4_x000D_
+```_x000D_
+_x000D_
+or, e.g., rsrt:_x000D_
+_x000D_
+```python_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="ascii.rst", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+======== =_x000D_
+       a b_x000D_
+======== =_x000D_
+1.24e-24 2_x000D_
+3.23e-15 4_x000D_
+======== =_x000D_
+```_x000D_
+_x000D_
+gives the formatting as expected._x000D_
+_x000D_
+### System Details_x000D_
+<!-- Even if you do not think this is necessary, it is useful information for the maintainers._x000D_
+Please run the following snippet and paste the output below:_x000D_
+import platform; print(platform.platform())_x000D_
+import sys; print("Python", sys.version)_x000D_
+import numpy; print("Numpy", numpy.__version__)_x000D_
+import erfa; print("pyerfa", erfa.__version__)_x000D_
+import astropy; print("astropy", astropy.__version__)_x000D_
+import scipy; print("Scipy", scipy.__version__)_x000D_
+import matplotlib; print("Matplotlib", matplotlib.__version__)_x000D_
+-->_x000D_
+_x000D_
+Linux-5.4.0-121-generic-x86_64-with-glibc2.31_x000D_
+Python 3.9.12 (main, Jun  1 2022, 11:38:51) _x000D_
+[GCC 7.5.0]_x000D_
+Numpy 1.22.4_x000D_
+pyerfa 2.0.0.1_x000D_
+astropy 5.1_x000D_
+Scipy 1.8.1_x000D_
+Matplotlib 3.5.2_x000D_
+_x000D_
+
+ASCII table output to HTML does not support supplied "formats"
+<!-- This comments are hidden when you submit the issue,_x000D_
+so you do not need to remove them! -->_x000D_
+_x000D_
+<!-- Please be sure to check out our contributing guidelines,_x000D_
+https://github.com/astropy/astropy/blob/main/CONTRIBUTING.md ._x000D_
+Please be sure to check out our code of conduct,_x000D_
+https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md . -->_x000D_
+_x000D_
+<!-- Please have a search on our GitHub repository to see if a similar_x000D_
+issue has already been posted._x000D_
+If a similar issue is closed, have a quick look to see if you are satisfied_x000D_
+by the resolution._x000D_
+If not please go ahead and open an issue! -->_x000D_
+_x000D_
+<!-- Please check that the development version still produces the same bug._x000D_
+You can install development version with_x000D_
+pip install git+https://github.com/astropy/astropy_x000D_
+command. -->_x000D_
+_x000D_
+### Description_x000D_
+<!-- Provide a general description of the bug. -->_x000D_
+When writing out an astropy table to HTML format, the `formats` option to the [`write()`](https://docs.astropy.org/en/stable/api/astropy.io.ascii.write.html#astropy.io.ascii.write) method seems to be ignored. It does work when writing out to other formats, e.g., rst, CSV, MRT, etc._x000D_
+_x000D_
+### Expected behavior_x000D_
+<!-- What did you expect to happen. -->_x000D_
+_x000D_
+I expect the HTML table output to respect the formatting given by the `formats` argument._x000D_
+_x000D_
+### Actual behavior_x000D_
+<!-- What actually happened. -->_x000D_
+<!-- Was the output confusing or poorly described? -->_x000D_
+The `formats` argument seems to be ignored and the output is not formatted as required._x000D_
+_x000D_
+### Steps to Reproduce_x000D_
+<!-- Ideally a code example could be provided so we can run it ourselves. -->_x000D_
+<!-- If you are pasting code, use triple backticks (```) around_x000D_
+your code snippet. -->_x000D_
+<!-- If necessary, sanitize your screen output to be pasted so you do not_x000D_
+reveal secrets like tokens and passwords. -->_x000D_
+_x000D_
+Outputting a HTML table_x000D_
+_x000D_
+```python_x000D_
+from astropy.table import Table_x000D_
+from io import StringIO_x000D_
+_x000D_
+# generate table_x000D_
+t = Table([(1.23875234858e-24, 3.2348748432e-15), (2, 4)], names=('a', 'b'))_x000D_
+tc = t.copy()  # copy table_x000D_
+_x000D_
+# print HTML table with "a" column formatted to show 2 decimal places_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="html", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+<html>_x000D_
+ <head>_x000D_
+  <meta charset="utf-8"/>_x000D_
+  <meta content="text/html;charset=UTF-8" http-equiv="Content-type"/>_x000D_
+ </head>_x000D_
+ <body>_x000D_
+  <table>_x000D_
+   <thead>_x000D_
+    <tr>_x000D_
+     <th>a</th>_x000D_
+     <th>b</th>_x000D_
+    </tr>_x000D_
+   </thead>_x000D_
+   <tr>_x000D_
+    <td>1.23875234858e-24</td>_x000D_
+    <td>2</td>_x000D_
+   </tr>_x000D_
+   <tr>_x000D_
+    <td>3.2348748432e-15</td>_x000D_
+    <td>4</td>_x000D_
+   </tr>_x000D_
+  </table>_x000D_
+ </body>_x000D_
+</html>_x000D_
+```_x000D_
+_x000D_
+gives the numbers to the full number of decimal places._x000D_
+_x000D_
+Instead, outputting to a CSV table:_x000D_
+_x000D_
+```python_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="csv", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+a,b_x000D_
+1.24e-24,2_x000D_
+3.23e-15,4_x000D_
+```_x000D_
+_x000D_
+or, e.g., rsrt:_x000D_
+_x000D_
+```python_x000D_
+with StringIO() as sp:_x000D_
+    tc.write(sp, format="ascii.rst", formats={"a": lambda x: f"{x:.2e}"})_x000D_
+    print(sp.getvalue())_x000D_
+_x000D_
+======== =_x000D_
+       a b_x000D_
+======== =_x000D_
+1.24e-24 2_x000D_
+3.23e-15 4_x000D_
+======== =_x000D_
+```_x000D_
+_x000D_
+gives the formatting as expected._x000D_
+_x000D_
+### System Details_x000D_
+<!-- Even if you do not think this is necessary, it is useful information for the maintainers._x000D_
+Please run the following snippet and paste the output below:_x000D_
+import platform; print(platform.platform())_x000D_
+import sys; print("Python", sys.version)_x000D_
+import numpy; print("Numpy", numpy.__version__)_x000D_
+import erfa; print("pyerfa", erfa.__version__)_x000D_
+import astropy; print("astropy", astropy.__version__)_x000D_
+import scipy; print("Scipy", scipy.__version__)_x000D_
+import matplotlib; print("Matplotlib", matplotlib.__version__)_x000D_
+-->_x000D_
+_x000D_
+Linux-5.4.0-121-generic-x86_64-with-glibc2.31_x000D_
+Python 3.9.12 (main, Jun  1 2022, 11:38:51) _x000D_
+[GCC 7.5.0]_x000D_
+Numpy 1.22.4_x000D_
+pyerfa 2.0.0.1_x000D_
+astropy 5.1_x000D_
+Scipy 1.8.1_x000D_
+Matplotlib 3.5.2_x000D_
+_x000D_
+

@@ -1,0 +1,71 @@
+TimeSeries: misleading exception when required column check fails.
+<!-- This comments are hidden when you submit the issue,_x000D_
+so you do not need to remove them! -->_x000D_
+_x000D_
+<!-- Please be sure to check out our contributing guidelines,_x000D_
+https://github.com/astropy/astropy/blob/main/CONTRIBUTING.md ._x000D_
+Please be sure to check out our code of conduct,_x000D_
+https://github.com/astropy/astropy/blob/main/CODE_OF_CONDUCT.md . -->_x000D_
+_x000D_
+<!-- Please have a search on our GitHub repository to see if a similar_x000D_
+issue has already been posted._x000D_
+If a similar issue is closed, have a quick look to see if you are satisfied_x000D_
+by the resolution._x000D_
+If not please go ahead and open an issue! -->_x000D_
+_x000D_
+<!-- Please check that the development version still produces the same bug._x000D_
+You can install development version with_x000D_
+pip install git+https://github.com/astropy/astropy_x000D_
+command. -->_x000D_
+_x000D_
+### Description_x000D_
+<!-- Provide a general description of the bug. -->_x000D_
+_x000D_
+For a `TimeSeries` object that has additional required columns (in addition to `time`), when codes mistakenly try to remove a required column, the exception it produces is misleading._x000D_
+_x000D_
+### Expected behavior_x000D_
+<!-- What did you expect to happen. -->_x000D_
+An exception that informs the users required columns are missing._x000D_
+_x000D_
+### Actual behavior_x000D_
+The actual exception message is confusing:_x000D_
+`ValueError: TimeSeries object is invalid - expected 'time' as the first columns but found 'time'`_x000D_
+_x000D_
+### Steps to Reproduce_x000D_
+<!-- Ideally a code example could be provided so we can run it ourselves. -->_x000D_
+<!-- If you are pasting code, use triple backticks (```) around_x000D_
+your code snippet. -->_x000D_
+<!-- If necessary, sanitize your screen output to be pasted so you do not_x000D_
+reveal secrets like tokens and passwords. -->_x000D_
+_x000D_
+```python_x000D_
+from astropy.time import Time_x000D_
+from astropy.timeseries import TimeSeries_x000D_
+_x000D_
+time=Time(np.arange(100000, 100003), format='jd')_x000D_
+ts = TimeSeries(time=time, data = {"flux": [99.9, 99.8, 99.7]})_x000D_
+ts._required_columns = ["time", "flux"]                                   _x000D_
+ts.remove_column("flux")_x000D_
+_x000D_
+```_x000D_
+_x000D_
+### System Details_x000D_
+<!-- Even if you do not think this is necessary, it is useful information for the maintainers._x000D_
+Please run the following snippet and paste the output below:_x000D_
+import platform; print(platform.platform())_x000D_
+import sys; print("Python", sys.version)_x000D_
+import numpy; print("Numpy", numpy.__version__)_x000D_
+import erfa; print("pyerfa", erfa.__version__)_x000D_
+import astropy; print("astropy", astropy.__version__)_x000D_
+import scipy; print("Scipy", scipy.__version__)_x000D_
+import matplotlib; print("Matplotlib", matplotlib.__version__)_x000D_
+-->_x000D_
+```_x000D_
+Windows-10-10.0.22000-SP0_x000D_
+Python 3.9.10 | packaged by conda-forge | (main, Feb  1 2022, 21:21:54) [MSC v.1929 64 bit (AMD64)]_x000D_
+Numpy 1.22.3_x000D_
+pyerfa 2.0.0.1_x000D_
+astropy 5.0.3_x000D_
+Scipy 1.8.0_x000D_
+Matplotlib 3.5.1_x000D_
+```

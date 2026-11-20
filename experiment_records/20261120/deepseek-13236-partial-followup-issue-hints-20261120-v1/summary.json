@@ -1,0 +1,108 @@
+[
+  {
+    "instance_id": "astropy__astropy-13236",
+    "condition": "followup",
+    "exit_status": "RuntimeError",
+    "errors": [
+      "Clarification failed; no repair run: BadRequestError: Error code: 400 - Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'. (request_id: 36d9a599-bd08-4849-85e9-f26abe2cdc4d)"
+    ],
+    "execution_fault": true,
+    "model_calls": 0,
+    "agent_query_count": 0,
+    "clarification_model_calls": 3,
+    "all_model_calls": 3,
+    "tool_calls": 0,
+    "patch_bytes": 0,
+    "solver_elapsed_seconds": 0.0,
+    "total_elapsed_seconds": 9.729840202999185,
+    "first_production_change": null,
+    "finished_at": "2026-11-20T11:24:55.497784+00:00",
+    "solver_wire": {
+      "http_requests": 0,
+      "http_responses": 0,
+      "http_statuses": [],
+      "returned_models": [],
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "clarification_wire": {
+      "http_requests": 3,
+      "http_responses": 3,
+      "http_statuses": [
+        200,
+        200,
+        400
+      ],
+      "returned_models": [
+        "",
+        "deepseek-flash"
+      ],
+      "usage": {
+        "prompt_tokens": 1787,
+        "completion_tokens": 1455,
+        "total_tokens": 3242,
+        "reasoning_tokens": 1131
+      }
+    },
+    "official_report": null,
+    "reused_from": null,
+    "protocol_revision": "native-v3-standard-stop-text-final"
+  },
+  {
+    "instance_id": "astropy__astropy-13236",
+    "condition": "followup",
+    "exit_status": "RuntimeError",
+    "errors": [
+      "Clarification failed; no repair run: BadRequestError: Error code: 400 - Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'. (request_id: 36d9a599-bd08-4849-85e9-f26abe2cdc4d)"
+    ],
+    "execution_fault": true,
+    "model_calls": 0,
+    "agent_query_count": 0,
+    "clarification_model_calls": 3,
+    "all_model_calls": 3,
+    "tool_calls": 0,
+    "patch_bytes": 0,
+    "solver_elapsed_seconds": 0.0,
+    "total_elapsed_seconds": 9.729840202999185,
+    "first_production_change": null,
+    "finished_at": "2026-11-20T11:24:55.497784+00:00",
+    "solver_wire": {
+      "http_requests": 0,
+      "http_responses": 0,
+      "http_statuses": [],
+      "returned_models": [],
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "reasoning_tokens": 0
+      }
+    },
+    "clarification_wire": {
+      "http_requests": 3,
+      "http_responses": 3,
+      "http_statuses": [
+        200,
+        200,
+        400
+      ],
+      "returned_models": [
+        "",
+        "deepseek-flash"
+      ],
+      "usage": {
+        "prompt_tokens": 1787,
+        "completion_tokens": 1455,
+        "total_tokens": 3242,
+        "reasoning_tokens": 1131
+      }
+    },
+    "official_report": null,
+    "reused_from": null,
+    "protocol_revision": "native-v3-standard-stop-text-final"
+  }
+]

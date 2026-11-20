@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "at": "2026-11-20T07:35:42.929410+00:00",
+  "tool_calls": 20,
+  "wire": {
+    "http_requests": 20,
+    "http_responses": 20,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 243620,
+      "completion_tokens": 4734,
+      "total_tokens": 248354,
+      "reasoning_tokens": 2274
+    }
+  },
+  "alignment": {
+    "cwd": "/testbed",
+    "import_path": "/testbed/astropy/__init__.py",
+    "python": "/opt/miniconda3/envs/testbed/bin/python",
+    "python_version": "3.9.19 (main, May  6 2024, 19:43:03) \n[GCC 11.2.0]",
+    "edit_visible": true,
+    "restored_exact_bytes": true
+  },
+  "failure_probe": {
+    "output": "",
+    "returncode": 7,
+    "exception_info": ""
+  },
+  "limitation": "Checks transport and a failure sentinel, not semantic truth of every agent test claim"
+}

@@ -1,0 +1,74 @@
+{
+  "instance_id": "astropy__astropy-8707",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 16,
+  "agent_query_count": 16,
+  "clarification_model_calls": 0,
+  "all_model_calls": 16,
+  "tool_calls": 16,
+  "patch_bytes": 1667,
+  "solver_elapsed_seconds": 62.39430454900139,
+  "total_elapsed_seconds": 67.17839242999617,
+  "first_production_change": {
+    "tool_call": 8,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\n\ncard = Path('astropy/io/fits/card.py')\ns = card.read_text()\ns = s.replace(\n    \"from .util import _str_to_num, _is_int, translate, _words_group\\n\",\n    \"from .util import (_str_to_num, _is_int, translate, _words_group,\\n\"\n    \"                   decode_ascii)\\n\",\n)\ns = s.replace(\n    \"\"\"        Construct a `Card` object from a (raw) string. It will pad the string\n        if it is not the length of a card image (80 columns).  If the card\n        image is longer than 80 columns, assume it contains ``CONTINUE``\n        card(s).\n        \\\"\\\"\\\"\n\n        card = cls()\n        card._image = _pad(image)\n\"\"\",\n    \"\"\"        Construct a `Card` object from a (raw) string. It will pad the string\n        if it is not the length of a card image (80 columns).  If the card\n        image is longer than 80 columns, assume it contains ``CONTINUE``\n        card(s).\n\n        Parameters\n        ----------\n        image : str or bytes\n            The card image.\n        \\\"\\\"\\\"\n\n        if isinstance(image, bytes):\n            image = decode_ascii(image)\n\n        card = cls()\n        card._image = _pad(image)\n\"\"\",\n)\ncard.write_text(s)\n\nheader = Path('astropy/io/fits/header.py')\ns = header.read_text()\ns = s.replace(\n    \"\"\"        data : str\n           String containing the entire header.\n\"\"\",\n    \"\"\"        data : str or bytes\n           String containing the entire header.\n\"\"\",\n)\ns = s.replace(\n    \"\"\"        \\\"\\\"\\\"\n\n        cards = []\n\n        # If the card separator contains characters\n\"\"\",\n    \"\"\"        \\\"\\\"\\\"\n\n        if isinstance(data, bytes):\n            data = decode_ascii(data)\n        if isinstance(sep, bytes):\n            sep = decode_ascii(sep)\n\n        cards = []\n\n        # If the card separator contains characters\n\"\"\",\n    1,\n)\nheader.write_text(s)\nPY\ngit diff -- astropy/io/fits/card.py astropy/io/fits/header.py",
+    "elapsed_start_seconds": 26.249343534000218,
+    "result": {
+      "output": "diff --git a/astropy/io/fits/card.py b/astropy/io/fits/card.py\nindex 8c1ac5d..fc84a45 100644\n--- a/astropy/io/fits/card.py\n+++ b/astropy/io/fits/card.py\n@@ -5,7 +5,8 @@ import warnings\n \n import numpy as np\n \n-from .util import _str_to_num, _is_int, translate, _words_group\n+from .util import (_str_to_num, _is_int, translate, _words_group,\n+                   decode_ascii)\n from .verify import _Verify, _ErrList, VerifyError, VerifyWarning\n \n from . import conf\n@@ -551,8 +552,16 @@ class Card(_Verify):\n         if it is not the length of a card image (80 columns).  If the card\n         image is longer than 80 columns, assume it contains ``CONTINUE``\n         card(s).\n+\n+        Parameters\n+        ----------\n+        image : str or bytes\n+            The card image.\n         \"\"\"\n \n+        if isinstance(image, bytes):\n+            image = decode_ascii(image)\n+\n         card = cls()\n         card._image = _pad(image)\n         card._verified = False\ndiff --git a/astropy/io/fits/header.py b/astropy/io/fits/header.py\nindex ad07e6d..a4684e0 100644\n--- a/astropy/io/fits/header.py\n+++ b/astropy/io/fits/header.py\n@@ -334,7 +334,7 @@ class Header:\n \n         Parameters\n         ----------\n-        data : str\n+        data : str or bytes\n            String containing the entire header.\n \n         sep : str, optional\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.1213149590039393,
+    "tracked_changes": [
+      "astropy/io/fits/card.py",
+      "astropy/io/fits/header.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:58:17.319914+00:00",
+  "solver_wire": {
+    "http_requests": 16,
+    "http_responses": 16,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 237783,
+      "completion_tokens": 7150,
+      "total_tokens": 244933,
+      "reasoning_tokens": 4099
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

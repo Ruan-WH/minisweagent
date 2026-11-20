@@ -1,0 +1,73 @@
+{
+  "instance_id": "astropy__astropy-14182",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 16,
+  "agent_query_count": 16,
+  "clarification_model_calls": 0,
+  "all_model_calls": 16,
+  "tool_calls": 16,
+  "patch_bytes": 748,
+  "solver_elapsed_seconds": 86.58439877600176,
+  "total_elapsed_seconds": 91.28852725400066,
+  "first_production_change": {
+    "tool_call": 9,
+    "command": "python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/io/ascii/rst.py')\ns = p.read_text()\nold = '''    def __init__(self):\n        super().__init__(delimiter_pad=None, bookend=False)\n\n    def write(self, lines):\n        lines = super().write(lines)\n        lines = [lines[1]] + lines + [lines[1]]\n        return lines\n'''\nnew = '''    def __init__(self, header_rows=None):\n        super().__init__(\n            delimiter_pad=None, bookend=False, header_rows=header_rows\n        )\n\n    def write(self, lines):\n        lines = super().write(lines)\n        position_line = len(self.header.header_rows)\n        lines = [lines[position_line]] + lines + [lines[position_line]]\n        return lines\n'''\nassert old in s\np.write_text(s.replace(old, new))\nPY\npython - <<'PY'\nfrom astropy.io import ascii\nfrom astropy.table import Table\nfrom io import StringIO\n\nt = Table([[1.2, 2.4], ['hello', \"s worlds\"]], names=['Col1', 'Col2'])\nt['Col1'].unit = 'm'\nt['Col2'].unit = 's'\nfor header_rows in (None, ['name'], ['name', 'unit']):\n    out = StringIO()\n    kwargs = {} if header_rows is None else {'header_rows': header_rows}\n    ascii.write(t, out, format='rst', **kwargs)\n    print('header_rows=', header_rows)\n    print(out.getvalue())\nPY\npython -m pytest astropy/io/ascii/tests/test_rst.py -q",
+    "elapsed_start_seconds": 34.36847990199749,
+    "result": {
+      "output": "header_rows= None\n==== ========\nCol1     Col2\n==== ========\n 1.2    hello\n 2.4 s worlds\n==== ========\n\nheader_rows= ['name']\n==== ========\nCol1     Col2\n==== ========\n 1.2    hello\n 2.4 s worlds\n==== ========\n\nheader_rows= ['name', 'unit']\n==== ========\nCol1     Col2\n   m        s\n==== ========\n 1.2    hello\n 2.4 s worlds\n==== ========\n\n<frozen importlib._bootstrap>:228: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 80 from C header, got 96 from PyObject\nInternet access disabled\n\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m9 passed\u001b[0m\u001b[32m in 0.01s\u001b[0m\u001b[0m\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.9815312390128383,
+    "tracked_changes": [
+      "astropy/io/ascii/rst.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:39:08.076221+00:00",
+  "solver_wire": {
+    "http_requests": 16,
+    "http_responses": 16,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 369845,
+      "completion_tokens": 10620,
+      "total_tokens": 380465,
+      "reasoning_tokens": 7525
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

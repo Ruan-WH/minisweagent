@@ -1,0 +1,77 @@
+{
+  "instance_id": "astropy__astropy-8872",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 20,
+  "agent_query_count": 20,
+  "clarification_model_calls": 0,
+  "all_model_calls": 20,
+  "tool_calls": 20,
+  "patch_bytes": 1019,
+  "solver_elapsed_seconds": 54.37145601600059,
+  "total_elapsed_seconds": 58.75557074799144,
+  "first_production_change": {
+    "tool_call": 6,
+    "command": "cd /testbed && python - <<'EOF'\nfrom pathlib import Path\np = Path('astropy/units/quantity.py')\ns = p.read_text()\ns2 = s.replace('np.can_cast(np.float32, value.dtype)', 'np.can_cast(np.float16, value.dtype)')\nassert s2 != s\nassert s2.count('np.can_cast(np.float16, value.dtype)') == 2\np.write_text(s2)\nEOF\npython -c \"\nimport numpy as np\nfrom astropy import units as u\nfor dt in [np.float16, np.float32, np.float64, np.longdouble]:\n    q = np.dtype(dt).type(1) * u.km\n    print(dt, q, q.dtype)\n    q2 = u.Quantity(np.array([1,2], dtype=dt), u.km)\n    print('  array:', q2.dtype)\n    print('  copy:', u.Quantity(q2, copy=True).dtype)\nfor dt in [np.int8, np.int64, np.bool_]:\n    q = np.dtype(dt).type(1) * u.km\n    print(dt, q.dtype)\n\"",
+    "elapsed_start_seconds": 11.854877509002108,
+    "result": {
+      "output": "<class 'numpy.float16'> 1.0 km float16\n  array: float16\n  copy: float16\n<class 'numpy.float32'> 1.0 km float32\n  array: float32\n  copy: float32\n<class 'numpy.float64'> 1.0 km float64\n  array: float64\n  copy: float64\n<class 'numpy.longdouble'> 1.0 km float128\n  array: float128\n  copy: float128\n<class 'numpy.int8'> float64\n<class 'numpy.int64'> float64\n<class 'numpy.bool_'> float64\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.32974232600827236,
+    "tracked_changes": [
+      "astropy/units/quantity.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:59:18.446154+00:00",
+  "solver_wire": {
+    "http_requests": 20,
+    "http_responses": 20,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 203042,
+      "completion_tokens": 4687,
+      "total_tokens": 207729,
+      "reasoning_tokens": 1905
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,40 @@
+Modeling's `separability_matrix` does not compute separability correctly for nested CompoundModels
+Consider the following model:_x000D_
+_x000D_
+```python_x000D_
+from astropy.modeling import models as m_x000D_
+from astropy.modeling.separable import separability_matrix_x000D_
+_x000D_
+cm = m.Linear1D(10) & m.Linear1D(5)_x000D_
+```_x000D_
+_x000D_
+It's separability matrix as you might expect is a diagonal:_x000D_
+_x000D_
+```python_x000D_
+>>> separability_matrix(cm)_x000D_
+array([[ True, False],_x000D_
+       [False,  True]])_x000D_
+```_x000D_
+_x000D_
+If I make the model more complex:_x000D_
+```python_x000D_
+>>> separability_matrix(m.Pix2Sky_TAN() & m.Linear1D(10) & m.Linear1D(5))_x000D_
+array([[ True,  True, False, False],_x000D_
+       [ True,  True, False, False],_x000D_
+       [False, False,  True, False],_x000D_
+       [False, False, False,  True]])_x000D_
+```_x000D_
+_x000D_
+The output matrix is again, as expected, the outputs and inputs to the linear models are separable and independent of each other._x000D_
+_x000D_
+If however, I nest these compound models:_x000D_
+```python_x000D_
+>>> separability_matrix(m.Pix2Sky_TAN() & cm)_x000D_
+array([[ True,  True, False, False],_x000D_
+       [ True,  True, False, False],_x000D_
+       [False, False,  True,  True],_x000D_
+       [False, False,  True,  True]])_x000D_
+```_x000D_
+Suddenly the inputs and outputs are no longer separable?_x000D_
+_x000D_
+This feels like a bug to me, but I might be missing something?

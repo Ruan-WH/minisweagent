@@ -1,0 +1,1 @@
+There is an issue where `np.float16` values are automatically converted to `np.float64` when used in certain operations, unlike other float types which retain their original precision. This behavior is inconsistent and may lead to unexpected results when working with specific numerical types.

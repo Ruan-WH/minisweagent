@@ -1,0 +1,75 @@
+{
+  "instance_id": "astropy__astropy-14182",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 18,
+  "agent_query_count": 18,
+  "clarification_model_calls": 0,
+  "all_model_calls": 18,
+  "tool_calls": 18,
+  "patch_bytes": 906,
+  "solver_elapsed_seconds": 71.80479635500524,
+  "total_elapsed_seconds": 76.53607413300779,
+  "first_production_change": {
+    "tool_call": 11,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/io/ascii/rst.py')\ns = p.read_text()\ns = s.replace(\n'''    def __init__(self):\n        super().__init__(delimiter_pad=None, bookend=False)\n\n    def write(self, lines):\n        lines = super().write(lines)\n        lines = [lines[1]] + lines + [lines[1]]\n        return lines\n''',\n'''    def __init__(self, header_rows=None):\n        super().__init__(delimiter_pad=None, bookend=False, header_rows=header_rows)\n\n    def write(self, lines):\n        lines = super().write(lines)\n        if self.header_rows:\n            position_line = lines[len(self.header_rows)]\n            lines = [position_line] + lines + [position_line]\n        else:\n            position_line = lines[0]\n            lines = [position_line] + lines[1:] + [position_line]\n        return lines\n''')\np.write_text(s)\nPY\npython - <<'PY'\nfrom astropy.table import QTable\nimport astropy.units as u\nfrom astropy.io import ascii\nimport io\ntbl = QTable({'wave': [350,950]*u.nm, 'response': [0.7, 1.2]*u.count})\nfor hr in [None, ['name'], ['name','unit'], ['name','unit','format']]:\n    out=io.StringIO()\n    kwargs = {} if hr is None else {'header_rows':hr}\n    ascii.write(tbl,out,format='rst',**kwargs)\n    print('header_rows=',hr)\n    print(repr(out.getvalue()))\n    print(out.getvalue())\n# no headers\nout=io.StringIO(); ascii.write(tbl,out,format='rst',header_rows=[]); print('empty'); print(out.getvalue())\n# roundtrip default\nout=io.StringIO(); ascii.write(tbl,out,format='rst'); t2=ascii.read(out.getvalue(),format='rst'); print(t2)\nPY",
+    "elapsed_start_seconds": 38.79584655399958,
+    "result": {
+      "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 9, in <module>\n  File \"/testbed/astropy/io/ascii/ui.py\", line 980, in write\n    lines = writer.write(table)\n  File \"/testbed/astropy/io/ascii/rst.py\", line 65, in write\n    if self.header_rows:\nAttributeError: 'RST' object has no attribute 'header_rows'\n",
+      "returncode": 1,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.34940146100416314,
+    "tracked_changes": [
+      "astropy/io/ascii/rst.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:57:07.653030+00:00",
+  "solver_wire": {
+    "http_requests": 18,
+    "http_responses": 18,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 201024,
+      "completion_tokens": 8125,
+      "total_tokens": 209149,
+      "reasoning_tokens": 5518
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "startup": "HEAD is now at b9cf764be6 Fixed #29517 -- Added support for SQLite column check constraints on positive integer fields.\n/opt/miniconda3/envs/testbed/bin/python\nb9cf764be62e77b4777b3a75ec256f6209a57671\n",
+  "alignment": {
+    "cwd": "/testbed",
+    "edit_visible": true,
+    "python": "/opt/miniconda3/envs/testbed/bin/python",
+    "python_version": "3.5.6 |Anaconda, Inc.| (default, Jun  4 2021, 13:57:47) \n[GCC 7.5.0]",
+    "import_path": "/testbed/django/__init__.py",
+    "restored_exact_bytes": true
+  },
+  "history": {
+    "remotes": [],
+    "commit_objects": [
+      "b9cf764be62e77b4777b3a75ec256f6209a57671"
+    ],
+    "external_tcp_blocked": true,
+    "remote_access_exit": 128,
+    "baseline": "b9cf764be62e77b4777b3a75ec256f6209a57671",
+    "refs": "b9cf764be62e77b4777b3a75ec256f6209a57671 refs/heads/baseline",
+    "reflogs": {
+      ".git/logs/refs/heads/baseline": "0000000000000000000000000000000000000000 b9cf764be62e77b4777b3a75ec256f6209a57671 Repair Agent <repair@localhost> 1795161563 +0000\n",
+      ".git/logs/HEAD": "0000000000000000000000000000000000000000 b9cf764be62e77b4777b3a75ec256f6209a57671 Repair Agent <repair@localhost> 1795161563 +0000\n"
+    },
+    "unreachable_objects": 0,
+    "objects": 8173
+  },
+  "repositories": [
+    "/testbed/.git"
+  ],
+  "mounts": [],
+  "network": "none",
+  "failure_probe": {
+    "output": "intentional failure\n",
+    "returncode": 7,
+    "exception_info": ""
+  }
+}

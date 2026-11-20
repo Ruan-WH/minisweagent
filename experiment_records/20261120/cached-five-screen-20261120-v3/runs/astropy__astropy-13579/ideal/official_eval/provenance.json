@@ -1,0 +1,12 @@
+{
+  "swebench_version": "2.0.13",
+  "entrypoint": "swebench.harness.run_evaluation.run_instance",
+  "model_has_stopped": true,
+  "feedback_to_model": false,
+  "image_id": "sha256:b8eac8846c03489a62d7d0c42796fa0ddabd79cd3d0266dda429ec17de1284d7",
+  "eval_script_sha256": "51ccc4eb0e0c7ee8c09936e689e5c5838dbe2d5cf3619ef40c749fd93382d364",
+  "empty_patch_policy": "Run the same official single-instance entrypoint even for an empty diff",
+  "rm_image": false,
+  "force_rebuild": false,
+  "timeout": 1200
+}

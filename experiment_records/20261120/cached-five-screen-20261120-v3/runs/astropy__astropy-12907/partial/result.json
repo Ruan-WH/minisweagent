@@ -1,0 +1,67 @@
+{
+  "instance_id": "astropy__astropy-12907",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 10,
+  "agent_query_count": 10,
+  "clarification_model_calls": 0,
+  "all_model_calls": 10,
+  "tool_calls": 10,
+  "patch_bytes": 500,
+  "solver_elapsed_seconds": 35.27023313999234,
+  "total_elapsed_seconds": 39.44127850000223,
+  "first_production_change": {
+    "tool_call": 6,
+    "command": "python - <<'PY'\nfrom pathlib import Path\npath = Path('astropy/modeling/separable.py')\ntext = path.read_text()\nold = \"        cright[-right.shape[0]:, -right.shape[1]:] = 1\\n\"\nnew = \"        cright[-right.shape[0]:, -right.shape[1]:] = right\\n\"\nassert text.count(old) == 1\npath.write_text(text.replace(old, new))\nPY\npython -m pytest astropy/modeling/tests/test_separable.py -q\npython - <<'PY'\nimport numpy as np\nfrom astropy.modeling import models\nfrom astropy.modeling.separable import separability_matrix\n\nnested = models.Shift(1) & (models.Shift(2) & models.Scale(3))\nresult = separability_matrix(nested)\nprint(result)\nassert np.array_equal(result, np.eye(3, dtype=bool))\nPY",
+    "elapsed_start_seconds": 17.15460813899699,
+    "result": {
+      "output": "<frozen importlib._bootstrap>:228: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 80 from C header, got 96 from PyObject\nInternet access disabled\n...........                                                              [100%]\n11 passed in 0.08s\n[[ True False False]\n [False  True False]\n [False False  True]]\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 1.082338117994368,
+    "tracked_changes": [
+      "astropy/modeling/separable.py"
+    ]
+  },
+  "finished_at": "2026-11-20T06:50:32.171929+00:00",
+  "solver_wire": {
+    "http_requests": 10,
+    "http_responses": 10,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 87420,
+      "completion_tokens": 3761,
+      "total_tokens": 91181,
+      "reasoning_tokens": 2270
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

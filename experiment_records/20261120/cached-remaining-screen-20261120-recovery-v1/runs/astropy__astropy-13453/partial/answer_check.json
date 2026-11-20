@@ -1,0 +1,16 @@
+{
+  "protocol": "cached-screen-fixed-initial-v1",
+  "status": "not_run",
+  "exchanges": [
+    {
+      "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+      "answer": "There is an issue with the HTML output functionality of a table-writing method, where the specified formatting options are not being applied. This problem does not occur with other output formats like CSV or RST, where the formatting works as expected. The issue is specific to the HTML format, leading to discrepancies in the output appearance."
+    }
+  ],
+  "checks": [],
+  "stop_reason": "initial_only_control",
+  "unresolved_information": "",
+  "unavailable_information": [],
+  "error": null,
+  "followups_used": 0
+}

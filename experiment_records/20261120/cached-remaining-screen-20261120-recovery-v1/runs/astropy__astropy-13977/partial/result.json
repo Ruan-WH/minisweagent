@@ -1,0 +1,93 @@
+{
+  "instance_id": "astropy__astropy-13977",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 36,
+  "agent_query_count": 36,
+  "clarification_model_calls": 0,
+  "all_model_calls": 36,
+  "tool_calls": 36,
+  "patch_bytes": 1399,
+  "solver_elapsed_seconds": 173.60895765799796,
+  "total_elapsed_seconds": 178.20808911099448,
+  "first_production_change": {
+    "tool_call": 27,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path(\"astropy/units/quantity.py\")\ns = p.read_text()\nold = \"\"\"        # Determine required conversion functions -- to bring the unit of the\n        # input to that expected (e.g., radian for np.sin), or to get\n        # consistent units between two inputs (e.g., in np.add) --\n        # and the unit of the result (or tuple of units for nout > 1).\n        converters, unit = converters_and_unit(function, method, *inputs)\n\"\"\"\nnew = \"\"\"        # Determine required conversion functions -- to bring the unit of the\n        # input to that expected (e.g., radian for np.sin), or to get\n        # consistent units between two inputs (e.g., in np.add) --\n        # and the unit of the result (or tuple of units for nout > 1).\n        try:\n            converters, unit = converters_and_unit(function, method, *inputs)\n        except UnitConversionError:\n            # If the units are incompatible, but one of the inputs is not a\n            # Quantity, another class may be able to handle the operation.\n            # Return NotImplemented so that its __array_ufunc__ gets a chance.\n            # For ndarray inputs, we know they cannot deal with units, so\n            # preserve the more informative UnitConversionError.\n            if any(\n                not isinstance(input_, (Quantity, np.ndarray)) for input_ in inputs\n            ):\n                return NotImplemented\n            raise\n\"\"\"\nassert old in s\np.write_text(s.replace(old, new))\nPY\npython - <<'PY'\nimport numpy as np\nfrom astropy import units as u\n\nclass Duck:\n    unit = u.s\n    def __array_ufunc__(self, function, method, *inputs, **kwargs):\n        print(\"duck ufunc\", function.__name__, method)\n        return \"duck handled\"\n\nfor expr in [\"q + d\", \"q - d\", \"np.add(q,d)\", \"np.equal(q,d)\", \"q + (1*u.s)\"]:\n    q = 1*u.m\n    d = Duck()\n    try:\n        print(expr, \"=>\", eval(expr))\n    except Exception as e:\n        print(expr, \"ERROR\", type(e).__name__, e)\n\n# Incompatible quantities should still raise.\ntry:\n    (1*u.m) + (1*u.s)\nexcept Exception as e:\n    print(\"q+q\", type(e).__name__, e)\n\n# Incompatible plain ndarray should still raise.\ntry:\n    (1*u.m) + np.array([1.0])\nexcept Exception as e:\n    print(\"q+arr\", type(e).__name__, e)\n\n# no-unit custom object still TypeError\ntry:\n    (1*u.m) + {\"a\": 1}\nexcept Exception as e:\n    print(\"q+dict\", type(e).__name__, e)\nPY",
+    "elapsed_start_seconds": 112.73458114100504,
+    "result": {
+      "output": "duck ufunc add __call__\nq + d => duck handled\nduck ufunc subtract __call__\nq - d => duck handled\nduck ufunc add __call__\nnp.add(q,d) => duck handled\nduck ufunc equal __call__\nnp.equal(q,d) => duck handled\nq + (1*u.s) ERROR UnitConversionError Can only apply 'add' function to quantities with compatible dimensions\nq+q UnitConversionError Can only apply 'add' function to quantities with compatible dimensions\nq+arr UnitConversionError Can only apply 'add' function to dimensionless quantities when other argument is not a quantity (unless the latter is all zero/infinity/nan).\nq+dict TypeError Unsupported operand type(s) for ufunc add: 'Quantity,dict'\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.3133058809908107,
+    "tracked_changes": [
+      "astropy/units/quantity.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:38:41.543685+00:00",
+  "solver_wire": {
+    "http_requests": 36,
+    "http_responses": 36,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 942316,
+      "completion_tokens": 20802,
+      "total_tokens": 963118,
+      "reasoning_tokens": 15898
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

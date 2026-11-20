@@ -1,0 +1,11 @@
+instance_id	condition	status	resolved	model_calls	tool_calls	total_tokens	seconds
+astropy__astropy-12907	partial	Submitted	True	10	10	91181	39.44
+astropy__astropy-12907	ideal	Submitted	True	7	7	51954	33.77
+astropy__astropy-13033	partial	Submitted	False	22	22	522919	203.09
+astropy__astropy-13033	ideal	Submitted	False	32	32	577792	396.68
+astropy__astropy-13236	partial	Submitted	False	60	60	2618899	405.96
+astropy__astropy-13236	ideal	Submitted	False	20	20	291415	113.57
+astropy__astropy-13398	partial	Submitted	False	82	82	5557278	528.11
+astropy__astropy-13398	ideal	Submitted	False	33	33	1027121	162.08
+astropy__astropy-13579	partial	Submitted	True	47	47	1700478	259.64
+astropy__astropy-13579	ideal	Submitted	True	20	20	521445	102.03

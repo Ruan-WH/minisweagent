@@ -1,0 +1,10 @@
+{
+  "at": "2026-11-20T11:24:55.498030+00:00",
+  "instance_id": "astropy__astropy-13236",
+  "condition": "followup",
+  "reason": "Execution/clarification/protocol fault; preserve results and stop new requests",
+  "errors": [
+    "Clarification failed; no repair run: BadRequestError: Error code: 400 - Prompt must contain the word 'json' in some form to use 'response_format' of type 'json_object'. (request_id: 36d9a599-bd08-4849-85e9-f26abe2cdc4d)"
+  ],
+  "exit_status": "RuntimeError"
+}

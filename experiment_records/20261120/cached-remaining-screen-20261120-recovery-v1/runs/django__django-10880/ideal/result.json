@@ -1,0 +1,70 @@
+{
+  "instance_id": "django__django-10880",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 13,
+  "agent_query_count": 13,
+  "clarification_model_calls": 0,
+  "all_model_calls": 13,
+  "tool_calls": 13,
+  "patch_bytes": 1840,
+  "solver_elapsed_seconds": 37.789846814004704,
+  "total_elapsed_seconds": 42.5309583079943,
+  "first_production_change": {
+    "tool_call": 7,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\npath = Path('django/db/models/aggregates.py')\ntext = path.read_text()\nold = \"        extra_context['distinct'] = 'DISTINCT' if self.distinct else ''\\n\"\nnew = \"        extra_context['distinct'] = 'DISTINCT ' if self.distinct else ''\\n\"\nassert old in text\npath.write_text(text.replace(old, new))\nPY\npython tests/runtests.py aggregation --verbosity 1",
+    "elapsed_start_seconds": 17.149587121995864,
+    "result": {
+      "output": "Testing against Django installed in '/testbed/django' with up to 32 processes\nSystem check identified no issues (0 silenced).\nCreating test database for alias 'default'\\u2026\nCloning test database for alias 'default'\\u2026\nCloning test database for alias 'default'\\u2026\n.................................................................\n----------------------------------------------------------------------\nRan 65 tests in 0.128s\n\nOK\nDestroying test database for alias 'default'\\u2026\nDestroying test database for alias 'default'\\u2026\nDestroying test database for alias 'default'\\u2026\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.6863841170124942,
+    "tracked_changes": [
+      "django/db/models/aggregates.py"
+    ]
+  },
+  "finished_at": "2026-11-20T08:04:34.801513+00:00",
+  "solver_wire": {
+    "http_requests": 13,
+    "http_responses": 13,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 80373,
+      "completion_tokens": 3827,
+      "total_tokens": 84200,
+      "reasoning_tokens": 1966
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

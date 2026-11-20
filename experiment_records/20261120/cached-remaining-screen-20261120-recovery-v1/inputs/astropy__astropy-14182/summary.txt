@@ -1,0 +1,1 @@
+The issue involves adding support for header rows in the RestructuredText output format when using a specific library. Currently, an error occurs when attempting to include header rows, which limits the flexibility and usability of the output for documentation purposes.

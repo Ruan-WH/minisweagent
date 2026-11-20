@@ -11,7 +11,7 @@ from minisweagent.models.litellm_model import LitellmModel
 from minisweagent.models.litellm_textbased_model import LitellmTextbasedModel
 from minisweagent.exceptions import FormatError
 
-from evaluation.benchmarks.swe_bench.mini_swe.protocol import submission_text
+from evaluation.benchmarks.swe_bench.mini_swe.protocol import submission_text, native_text_final
 
 
 def model_options(settings: dict) -> dict:
@@ -44,8 +44,9 @@ class NativeBenchmarkModel(LitellmModel):
 
     stops_on_protocol_error = True
 
-    def __init__(self, *, request_log_dir: Path, tool_choice="required", **kwargs):
+    def __init__(self, *, request_log_dir: Path, tool_choice="required", allow_text_final=False, **kwargs):
         super().__init__(**kwargs)
+        self.allow_text_final = allow_text_final
         self.config.model_kwargs.update(
             tool_choice=tool_choice, parallel_tool_calls=False
         )
@@ -101,6 +102,8 @@ class NativeBenchmarkModel(LitellmModel):
     def _parse_actions(self, response):
         message = response.choices[0].message
         if not message.tool_calls and submission_text(message.content) is not None:
+            return []
+        if self.allow_text_final and native_text_final(response.model_dump()) is not None:
             return []
         actions = super()._parse_actions(response)
         ids = [action.get("tool_call_id") for action in actions]

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "startup": "HEAD is now at 7269fa3e33 Merge pull request #14013 from WilliamJamieson/deprecate/Voigt1D_humlicek2_option\n/opt/miniconda3/envs/testbed/bin/python\n7269fa3e33e8d02485a647da91a5a2a60a06af61\n",
+  "alignment": {
+    "cwd": "/testbed",
+    "import_path": "/testbed/astropy/__init__.py",
+    "python": "/opt/miniconda3/envs/testbed/bin/python",
+    "python_version": "3.9.19 (main, May  6 2024, 19:43:03) \n[GCC 11.2.0]",
+    "edit_visible": true,
+    "restored_exact_bytes": true
+  },
+  "history": {
+    "baseline": "7269fa3e33e8d02485a647da91a5a2a60a06af61",
+    "refs": "7269fa3e33e8d02485a647da91a5a2a60a06af61 refs/heads/baseline",
+    "reflogs": {
+      ".git/logs/HEAD": "0000000000000000000000000000000000000000 7269fa3e33e8d02485a647da91a5a2a60a06af61 Repair Agent <repair@localhost> 1795161376 +0000\n",
+      ".git/logs/refs/heads/baseline": "0000000000000000000000000000000000000000 7269fa3e33e8d02485a647da91a5a2a60a06af61 Repair Agent <repair@localhost> 1795161376 +0000\n"
+    },
+    "commit_objects": [
+      "7269fa3e33e8d02485a647da91a5a2a60a06af61"
+    ],
+    "objects": 2032,
+    "unreachable_objects": 0,
+    "remotes": [],
+    "remote_access_exit": 128,
+    "external_tcp_blocked": true
+  },
+  "repositories": [
+    "/testbed/.git"
+  ],
+  "mounts": [],
+  "network": "none",
+  "failure_probe": {
+    "output": "intentional failure\n",
+    "returncode": 7,
+    "exception_info": ""
+  }
+}

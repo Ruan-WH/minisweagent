@@ -1,0 +1,85 @@
+{
+  "instance_id": "django__django-10097",
+  "condition": "partial",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 28,
+  "agent_query_count": 28,
+  "clarification_model_calls": 0,
+  "all_model_calls": 28,
+  "tool_calls": 28,
+  "patch_bytes": 592,
+  "solver_elapsed_seconds": 257.6619034109899,
+  "total_elapsed_seconds": 263.99902621199726,
+  "first_production_change": {
+    "tool_call": 25,
+    "command": "python - <<'PY'\nfrom pathlib import Path\np = Path('django/core/validators.py')\ns = p.read_text()\nold = \"        r'(?:\\\\S+(?::\\\\S*)?@)?'  # user:pass authentication\\n\"\nnew = \"        r'(?:[^\\\\s:@/]+(?::[^\\\\s:@/]*)?@)?'  # user:pass authentication\\n\"\nassert old in s\np.write_text(s.replace(old, new))\nPY\npython -m pytest tests/validators/tests.py -q --disable-warnings --maxfail=5",
+    "elapsed_start_seconds": 226.2474456439959,
+    "result": {
+      "output": "/opt/miniconda3/envs/testbed/bin/python: No module named pytest\n",
+      "returncode": 1,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.17349412699695677,
+    "tracked_changes": [
+      "django/core/validators.py"
+    ]
+  },
+  "finished_at": "2026-11-20T08:03:11.140882+00:00",
+  "solver_wire": {
+    "http_requests": 28,
+    "http_responses": 28,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 369590,
+      "completion_tokens": 16460,
+      "total_tokens": 386050,
+      "reasoning_tokens": 13790
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

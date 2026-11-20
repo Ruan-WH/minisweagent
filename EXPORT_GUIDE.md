@@ -29,3 +29,11 @@ MSWEA_SILENT_STARTUP=1 .venv-mini/bin/python -m pytest tests/unit/test_mini_swe.
 ```
 
 Original OpenHands code remains part of this snapshot so its benchmark and shared utilities remain available. It is not the mini execution framework.
+
+## 2026-11-20 更新
+
+当前运行与缓存筛选入口为 `run_cached_screen.sh`，说明见 `CACHED_SCREEN.md`。
+独立 mini 仓库路径为 `Ambig-SWE-mini-export`，分支为 main，远端为 Ruan-WH/minisweagent。
+相邻 `InteractiveSWEAgents` 是另一个独立仓库，不是此仓库的分支或 Git worktree。
+实验配置、结果、问答、补丁和故障记录的紧凑归档见 `experiment_records/README.md`。
+完整原始轨迹仍被忽略并保留在本机；本次归档不上传凭证或评测器的 gold patch/隐藏测试正文。

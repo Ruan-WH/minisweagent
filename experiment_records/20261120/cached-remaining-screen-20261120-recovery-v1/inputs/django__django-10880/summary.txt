@@ -1,0 +1,1 @@
+There is a query syntax error occurring when using a Count annotation with both a Case condition and the distinct parameter set to true in Django 2.2. This issue arises across different database backends and involves a missing space in the generated SQL query.

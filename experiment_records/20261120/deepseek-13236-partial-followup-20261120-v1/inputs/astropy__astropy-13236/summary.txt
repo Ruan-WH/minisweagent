@@ -1,0 +1,1 @@
+The issue discusses the potential removal of an automatic transformation process that converts structured numpy arrays into a specific mixin class when added to a table. The current behavior is questioned in light of recent updates, and a proposal is made to change this behavior in future versions, with a warning to users about the upcoming change.

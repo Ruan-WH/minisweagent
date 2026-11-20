@@ -1,0 +1,16 @@
+{
+  "protocol": "cached-screen-fixed-initial-v1",
+  "status": "not_run",
+  "exchanges": [
+    {
+      "question": "Please describe the reported problem and provide the available reproduction details and expected behavior.",
+      "answer": "There is an issue with the `world_to_pixel` function in the `SlicedLowLevelWCS` class, where it produces inconsistent results when applied to a sliced 2D WCS compared to the full 3D WCS. The problem arises when converting world coordinates to pixel coordinates for a specific wavelength slice, leading to unexpected and erroneous pixel values. This inconsistency does not occur in the reverse operation, `pixel_to_world`, which behaves as expected for both full and sliced WCS instances."
+    }
+  ],
+  "checks": [],
+  "stop_reason": "initial_only_control",
+  "unresolved_information": "",
+  "unavailable_information": [],
+  "error": null,
+  "followups_used": 0
+}

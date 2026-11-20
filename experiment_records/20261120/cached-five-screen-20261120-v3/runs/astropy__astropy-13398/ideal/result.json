@@ -1,0 +1,90 @@
+{
+  "instance_id": "astropy__astropy-13398",
+  "condition": "ideal",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 33,
+  "agent_query_count": 33,
+  "clarification_model_calls": 0,
+  "all_model_calls": 33,
+  "tool_calls": 33,
+  "patch_bytes": 3572,
+  "solver_elapsed_seconds": 157.62979096999334,
+  "total_elapsed_seconds": 162.08335577801336,
+  "first_production_change": {
+    "tool_call": 15,
+    "command": "cd /testbed && cat > astropy/coordinates/builtin_frames/itrs_observed_transforms.py <<'EOF'\n# Licensed under a 3-clause BSD style license - see LICENSE.rst\n\"\"\"\nContains the transformation functions for getting to \"observed\" systems from ITRS.\n\"\"\"\n\nimport numpy as np\n\nfrom astropy import units as u\nfrom astropy.coordinates.baseframe import frame_transform_graph\nfrom astropy.coordinates.matrix_utilities import matrix_transpose, rotation_matrix\nfrom astropy.coordinates.transformations import FunctionTransformWithFiniteDifference\n\nfrom .altaz import AltAz\nfrom .hadec import HADec\nfrom .itrs import ITRS\nfrom .utils import PIOVER2\n\n\ndef itrs_to_observed_mat(observed_frame):\n    lon, lat, height = observed_frame.location.to_geodetic('WGS84')\n    elong = lon.to_value(u.radian)\n\n    if isinstance(observed_frame, AltAz):\n        # form ITRS to AltAz matrix\n        elat = lat.to_value(u.radian)\n        # AltAz frame is left handed\n        minus_x = np.eye(3)\n        minus_x[0][0] = -1.0\n        mat = (minus_x\n               @ rotation_matrix(PIOVER2 - elat, 'y', unit=u.radian)\n               @ rotation_matrix(elong, 'z', unit=u.radian))\n\n    else:\n        # form ITRS to HADec matrix\n        # HADec frame is left handed\n        minus_y = np.eye(3)\n        minus_y[1][1] = -1.0\n        mat = (minus_y\n               @ rotation_matrix(elong, 'z', unit=u.radian))\n    return mat\n\n\n@frame_transform_graph.transform(FunctionTransformWithFiniteDifference, ITRS, AltAz)\n@frame_transform_graph.transform(FunctionTransformWithFiniteDifference, ITRS, HADec)\ndef itrs_to_observed(itrs_coo, observed_frame):\n    # Trying to synchronize the obstimes here makes no sense. In fact,\n    # it's a real gotcha as doing an ITRS->ITRS transform references\n    # ITRS coordinates, which should be tied to the Earth, to the SSB.\n    # Instead, we treat ITRS coordinates as time invariant here.\n\n    # form the Topocentric ITRS position\n    topocentric_itrs_repr = (itrs_coo.cartesian\n                             - observed_frame.location.get_itrs().cartesian)\n    rep = topocentric_itrs_repr.transform(itrs_to_observed_mat(observed_frame))\n    return observed_frame.realize_frame(rep)\n\n\n@frame_transform_graph.transform(FunctionTransformWithFiniteDifference, AltAz, ITRS)\n@frame_transform_graph.transform(FunctionTransformWithFiniteDifference, HADec, ITRS)\ndef observed_to_itrs(observed_coo, itrs_frame):\n\n    # form the Topocentric ITRS position\n    topocentric_itrs_repr = observed_coo.cartesian.transform(matrix_transpose(\n                            itrs_to_observed_mat(observed_coo)))\n    # form the Geocentric ITRS position\n    rep = topocentric_itrs_repr + observed_coo.location.get_itrs().cartesian\n    return itrs_frame.realize_frame(rep)\nEOF\npython - <<'PY'\nfrom pathlib import Path\np=Path('astropy/coordinates/builtin_frames/__init__.py')\ns=p.read_text()\ns=s.replace('from . import intermediate_rotation_transforms\\n', 'from . import intermediate_rotation_transforms\\nfrom . import itrs_observed_transforms\\n')\np.write_text(s)\nPY\ngit diff --stat && git diff -- astropy/coordinates/builtin_frames/__init__.py",
+    "elapsed_start_seconds": 63.81815369898686,
+    "result": {
+      "output": " astropy/coordinates/builtin_frames/__init__.py | 1 +\n 1 file changed, 1 insertion(+)\ndiff --git a/astropy/coordinates/builtin_frames/__init__.py b/astropy/coordinates/builtin_frames/__init__.py\nindex 6fd688c..17f4642 100644\n--- a/astropy/coordinates/builtin_frames/__init__.py\n+++ b/astropy/coordinates/builtin_frames/__init__.py\n@@ -49,6 +49,7 @@ from . import icrs_cirs_transforms\n from . import cirs_observed_transforms\n from . import icrs_observed_transforms\n from . import intermediate_rotation_transforms\n+from . import itrs_observed_transforms\n from . import ecliptic_transforms\n \n # Import this after importing other frames, since this requires various\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.15650399500736967,
+    "tracked_changes": [
+      "astropy/coordinates/builtin_frames/__init__.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:03:24.998503+00:00",
+  "solver_wire": {
+    "http_requests": 33,
+    "http_responses": 33,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 1010128,
+      "completion_tokens": 16993,
+      "total_tokens": 1027121,
+      "reasoning_tokens": 11935
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

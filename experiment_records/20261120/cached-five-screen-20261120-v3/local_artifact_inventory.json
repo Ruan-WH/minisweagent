@@ -1,0 +1,5077 @@
+[
+  {
+    "path": "cached_inventory.json",
+    "bytes": 5287,
+    "sha256": "17b3cd02e5fa6af891852c65408fa71a422951df483f615cdbc869b25289f3a1"
+  },
+  {
+    "path": "candidates.json",
+    "bytes": 158,
+    "sha256": "0587a38088ee9c0f50c81b6d488d2b2e3b8f5e1af3dfc56f4088af3507ba1636"
+  },
+  {
+    "path": "completed.json",
+    "bytes": 90,
+    "sha256": "a7a9dd27d7f36d01bbac856ffd97e1577de90d81959ce816a91381c8fcd4a4ac"
+  },
+  {
+    "path": "console/astropy__astropy-12907.ideal.log",
+    "bytes": 2054,
+    "sha256": "bcf44f30514a907aba89e8e0b3426dbf8401ab2ad9c358b199a67303e26e2d12"
+  },
+  {
+    "path": "console/astropy__astropy-12907.partial.log",
+    "bytes": 2539,
+    "sha256": "35565d7faab6d3c1311077b0d2245a52b32a36b6c4c7578644a904307f8903fb"
+  },
+  {
+    "path": "console/astropy__astropy-13033.ideal.log",
+    "bytes": 5995,
+    "sha256": "51332a51e4b98307c6debb63bb935b8031253dddee2d0989d17be55f0519aade"
+  },
+  {
+    "path": "console/astropy__astropy-13033.partial.log",
+    "bytes": 4458,
+    "sha256": "00aed3eeab59caee0ef31edb621fe015961e73df4220f5a9bb807400366512bd"
+  },
+  {
+    "path": "console/astropy__astropy-13236.ideal.log",
+    "bytes": 4091,
+    "sha256": "cead2f046bba157bafff9e3f7f03d2ddf7b1f37da74288c92a8681532d90d291"
+  },
+  {
+    "path": "console/astropy__astropy-13236.partial.log",
+    "bytes": 10520,
+    "sha256": "5a19f058cc113090e3040777f8dcebe603b24d8ebefdc6229b97f1f579d4af5f"
+  },
+  {
+    "path": "console/astropy__astropy-13398.ideal.log",
+    "bytes": 6145,
+    "sha256": "7b5e7f823345c8ea89b3c492690e55b278ee63128ec77fe79360cea7f6f5d6f3"
+  },
+  {
+    "path": "console/astropy__astropy-13398.partial.log",
+    "bytes": 14045,
+    "sha256": "edb80eed30042d2fb683e56ec3ebc87b4fc6ca4289eceed46016d1d0518ca198"
+  },
+  {
+    "path": "console/astropy__astropy-13579.ideal.log",
+    "bytes": 4090,
+    "sha256": "1615e5fae071d637e51f02f07e5a2eaaad07432c048241e10213f9c1d72548a7"
+  },
+  {
+    "path": "console/astropy__astropy-13579.partial.log",
+    "bytes": 8445,
+    "sha256": "5d24a2bb0f4294cda05564d4ede700c5d49c4b15fc3cce214fbdfa07b1b0c64b"
+  },
+  {
+    "path": "experiment_started.json",
+    "bytes": 56,
+    "sha256": "4d77c4da0923ecef2a8a8c1746b7cd914d90c123c82dbbc065d8f0acfd31700e"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/environment.py",
+    "bytes": 4860,
+    "sha256": "48326927c97ab2024b8aa97073fbb12fd4e75949132a245828146816b4cb1224"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/grader.py",
+    "bytes": 3587,
+    "sha256": "7c1476c18bd1e53b1f56c631e63b1e6c74e2e4e6445be3c6560791d4e389c719"
+  },
+  {
+    "path": "frozen_source/evaluation/analysis/mini_cached_screen_20261120/run.py",
+    "bytes": 30621,
+    "sha256": "f82a3faac9920f0bd5fe48a8f9568c04292923c630acbc85b341115b70290cf4"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/__init__.py",
+    "bytes": 79,
+    "sha256": "bb41a5fa53d4b41b8b1ee7d60d3ddc524a83cab4cf1eeb869aaa08306a0246f5"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/agent.py",
+    "bytes": 5081,
+    "sha256": "ca46dbcf580abd7d9e136bb24f24d55d6f7fa1248be311467e465482675691b1"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/model.py",
+    "bytes": 5383,
+    "sha256": "ea18ea64209a79d4ab3e8e3c431c8d80efc35dc112615b80ae8a3feaa181bc77"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/protocol.py",
+    "bytes": 501,
+    "sha256": "6d07b4fed51d75d2f954ca61cb5d3595a5ff2a4975b80a8e1d816ae40178ab65"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/reporter.py",
+    "bytes": 3852,
+    "sha256": "7b491f961c3512a929953ec3fa8e6a8a5f9d2ac4b3b1a699f4cafa572feafc8c"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/run.py",
+    "bytes": 13529,
+    "sha256": "a2573ad276e82616b5ac6dfee863eb1919f773633f10acf0ce8ea53c359be58a"
+  },
+  {
+    "path": "frozen_source/evaluation/benchmarks/swe_bench/mini_swe/runtime.py",
+    "bytes": 5018,
+    "sha256": "1e0e1d5968b1b0187e8adc5cdff612cde9b453d4b64bd082ffcc889244941266"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/answer_check.py",
+    "bytes": 14898,
+    "sha256": "7d74d8f6fd5d3e9c82a2dfd4e37c6ff15a61981d62e792a682803a415a7ddb8a"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/clarification_evidence.py",
+    "bytes": 937,
+    "sha256": "d12e434e996cd0fc6f958050ea059e1db1d67232bc0b826e1fa258dec3121e40"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/controlled_proxy.py",
+    "bytes": 12049,
+    "sha256": "001a3fec4e728ad0398703eef5b04b74092c77911c4de3df2113aa4d748d370c"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/reference_history.py",
+    "bytes": 6915,
+    "sha256": "37aea6a17ae1788a7f10ad22ca5bdbbd36e1ceeaee1cd59080a14c12b4b4bdf5"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/simple_clarification.py",
+    "bytes": 6799,
+    "sha256": "6ea01eb9c442e56840aa68db501cb13caff842c2a1c96c0455fa37dce2fc0865"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/simple_followup.py",
+    "bytes": 20338,
+    "sha256": "2cfbc47b14ce070fe1f8d6f3e35d1059f715756f0d03b746bc6c0a43b0522617"
+  },
+  {
+    "path": "frozen_source/evaluation/utils/source_grounded_proxy.py",
+    "bytes": 8691,
+    "sha256": "8621eb503d623b5fbe1c98ff620db95a1dc5c2d07e8ee2e256b4e0c59642601b"
+  },
+  {
+    "path": "frozen_source/run_cached_screen.sh",
+    "bytes": 499,
+    "sha256": "ddd5d1a0cfbaa6c29efa880052638ee88dcf026b0cde68803cf8cf7ba9e4abd0"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/__init__.py",
+    "bytes": 2371,
+    "sha256": "0a708308b1b62cc020b60799c3d54f665845f795b3f0c4fdac787c96a38d12c7"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/__main__.py",
+    "bytes": 194,
+    "sha256": "148c803a2c3ef9cdc5436836e3414e33515d2f4964fcfc52a62c6ed2943b585a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/__init__.py",
+    "bytes": 980,
+    "sha256": "f95a9f4d1dcc08a05ba6263c5da562b3a7e9e3ae07734f2b9f0d83153c8d0cab"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/default.py",
+    "bytes": 8043,
+    "sha256": "e8ef8aa365942d739c2ec5cb0879f60f377d2dc2de8ec670aaedf3bafb45a4c2"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/interactive.py",
+    "bytes": 10352,
+    "sha256": "d68236832ce2a8c65340fdfd4cdb6df2a24818691112f83bc229197203521cce"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/agents/utils/prompt_user.py",
+    "bytes": 752,
+    "sha256": "4fc4ca772db13067ebad7fdce8b3ec0ab229e1b3e764f3abd4412522b73cab3e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/config/__init__.py",
+    "bytes": 2002,
+    "sha256": "ec19d21c65d1d720e80847e85a4d2752b6f5be30b1bfc9f0f1f97d342f20ba94"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/config/benchmarks/__init__.py",
+    "bytes": 52,
+    "sha256": "7b53280250e7ff073d1e75cda2771fd4ff81e0343e8917fa9fb43fb718d91912"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/__init__.py",
+    "bytes": 1434,
+    "sha256": "7a02c4576d3e95ca21f243919e5bc5b94d183df35b24d778c0b35b776c3a426b"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/docker.py",
+    "bytes": 6427,
+    "sha256": "21d389122b008e7b743d1e640207fda0b08d9010cf6323ddd02f0742b33b96a6"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/bubblewrap.py",
+    "bytes": 5235,
+    "sha256": "9aceddac6efdce92926f0de8b13f974c66c58544bc87facba7d61878df4a44c0"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/contree.py",
+    "bytes": 5786,
+    "sha256": "88ddea919f18c2e0ea85dd8a3b2483836098afd668b6bdd7fe518675bcfb6ff7"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/swerex_docker.py",
+    "bytes": 3198,
+    "sha256": "2f200454247aaf299d851d6db02869fee88e1254c0b4f1e79f2c2a899b659fd8"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/extra/swerex_modal.py",
+    "bytes": 5037,
+    "sha256": "34155d79bb72648eaf765116d03255e697fc9546164f69d842bc5e759878a3de"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/local.py",
+    "bytes": 3617,
+    "sha256": "01dd33ae6be897458611911cc0eee1389092ea9fc6788c7eb24773e7c6342b1c"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/environments/singularity.py",
+    "bytes": 5545,
+    "sha256": "5d75c3977c4ebe728778f25bc231f5876d857c837c30fd42845a64b48e10ac68"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/exceptions.py",
+    "bytes": 729,
+    "sha256": "0590393c56bee873c79a691dcb4f15cb39c85f1658598b84bfb295bfde56921d"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/__init__.py",
+    "bytes": 4466,
+    "sha256": "eb141eae346d51af407b4faf868ad7e869fa4fff275415381fa8ef845616f351"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/extra/roulette.py",
+    "bytes": 2147,
+    "sha256": "74aa8c1b4389097031944382b7461457875902eb98c8aa761060a07d8fb2e09f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_model.py",
+    "bytes": 7661,
+    "sha256": "6df4483bcdc9620b2f9d7f8bb1027a7fb9729b739976cbcf1a9d18fb58c48227"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_response_model.py",
+    "bytes": 4100,
+    "sha256": "968de298d508b0de58f52548472e47135efff3891ddda157a9740e7571a6e8c8"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/litellm_textbased_model.py",
+    "bytes": 2114,
+    "sha256": "395bc9bc4a06c18577e73b21c5465f9d22a6d0cc45b006f3d7c9fdaae399e732"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_model.py",
+    "bytes": 7802,
+    "sha256": "6f217e91d04da906ea8e8a156f710e19ddbcf5ab6397b329a2abb66a95a80313"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_response_model.py",
+    "bytes": 5300,
+    "sha256": "19284d9f6ba6ec95b60cc0e91f06be3ff6e1976e204633f533076db0c1e499dd"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/openrouter_textbased_model.py",
+    "bytes": 3218,
+    "sha256": "61944531db221e4d668b245d1ccfec022110906fd732397a49f9d3b01e510573"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/portkey_model.py",
+    "bytes": 10227,
+    "sha256": "d5e2bb009791e0d00745d95cb142d090531f28bda6e3782b8ba94d2ac1b2f528"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/portkey_response_model.py",
+    "bytes": 7460,
+    "sha256": "b491e7dd2db134667e2733be944b0b2edfcd928b02edb53db9ee1c4922e64b89"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/requesty_model.py",
+    "bytes": 7208,
+    "sha256": "b8b52e125b0cc75ec144b40e3ca4d996f469aca5acedaa3ed41446dede171063"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/test_models.py",
+    "bytes": 10728,
+    "sha256": "44330685739f47e554b90fa73ccf019bc2e2b80e4c287c025f63ea4f5263b23e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_text.py",
+    "bytes": 2629,
+    "sha256": "e5997bba3ae3d541ff418317cc8dd9e9e17657de806679ef38ab1ad74e294047"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_toolcall.py",
+    "bytes": 4134,
+    "sha256": "47b666412e4f838508b50009cf34c7f63fe15e9e40affc257a17c0829896526f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/actions_toolcall_response.py",
+    "bytes": 5568,
+    "sha256": "36244c4383dde6059742eb1f99fe96b2a91f214f558ece463f81baef96018bcf"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/anthropic_utils.py",
+    "bytes": 1189,
+    "sha256": "1355c546d7d217502f4aeb5ba87513f55720f8d4d2c1247b8fc5d793078d170e"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/cache_control.py",
+    "bytes": 2365,
+    "sha256": "edbb8952195d1d9dbef45ed7cad910a50b1cdec08175de74dbffc9414f3da5ba"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/content_string.py",
+    "bytes": 3567,
+    "sha256": "17ea19b28a2298abaeb51d70f2dcc94e62098a758ecb2dcb98f27f546cd87fc3"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/openai_multimodal.py",
+    "bytes": 1865,
+    "sha256": "c498ec2e97c0bf45c212a10de9f5d1b2d24d4de46a05fd0eaea975c1abe3f81f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/models/utils/retry.py",
+    "bytes": 860,
+    "sha256": "fb9dd9d9ca0253a2b2ac86907fea4c34fe75c55af6d443781e1ab02229a1ac18"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/__init__.py",
+    "bytes": 38,
+    "sha256": "588a18807565ee2645d989dcadf57722db6ea46e8fe4aa20ae82872840a46b70"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/__init__.py",
+    "bytes": 66,
+    "sha256": "c7b08a7fc761427203f3bacfdffd4a7ee0d19e62c8d869cdab71744962ef90ac"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/programbench.py",
+    "bytes": 8704,
+    "sha256": "25c67a662a665781d60193a2cb441f13ec5a25d6530a4fd087b4e6f68b9be374"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/swebench.py",
+    "bytes": 12167,
+    "sha256": "4bc6cfc0a388ba14b8c9cd7278f15efaef654f7f79b3b252208f8fdb11a0fc99"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/swebench_single.py",
+    "bytes": 4680,
+    "sha256": "52bac3804b388aee49dc8b29c03c16a92a2d2fce321fa55622ff3bd993936296"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/batch_progress.py",
+    "bytes": 6808,
+    "sha256": "b1928297576b6d9f4f75b38397e29a0d93851e9c66ebf267a03ce4d2051a5287"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/benchmarks/utils/common.py",
+    "bytes": 739,
+    "sha256": "618776d688f11018827ea8eb48ab20839d2d0ec182b4bd844a08af48937df398"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/extra/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/hello_world.py",
+    "bytes": 1157,
+    "sha256": "e1d2b259e5716167e3066ce406d91e51d67b432dd49d47342e1306d25f5cf2f6"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/mini.py",
+    "bytes": 4895,
+    "sha256": "ae9c82013afbc8e0320dc1e55600eed9d9ee6dec5acbc59763ff984a0594f9a9"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/__init__.py",
+    "bytes": 79,
+    "sha256": "4fb745f3835e4282a02703d444dcb7178082af189c8beec0c068b257466c0e5a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/config.py",
+    "bytes": 4248,
+    "sha256": "c9a6955ca3f6de180ddc4bc5a54d7c7d49e96d996c9b80e2d146630230aaf954"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/inspector.py",
+    "bytes": 11617,
+    "sha256": "5a9deb60c7462ade44c6b364af0aca4fd4b9b394f117247592c70dde7b706a1a"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/run/utilities/mini_extra.py",
+    "bytes": 1700,
+    "sha256": "52ac1ef811c1fb23a0ee0e3cf0a093c99ca8cbe2c31345e18c8762451508da59"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/log.py",
+    "bytes": 996,
+    "sha256": "aee0cc34a32b542f4d3ef09e1f03b7418cf98ec54d506401d9d4401003c05a9f"
+  },
+  {
+    "path": "frozen_source/vendor/mini-swe-agent/src/minisweagent/utils/serialize.py",
+    "bytes": 938,
+    "sha256": "3035b27cfeffdf91117c72bc8131340bd9c5f67a3010baeb4ecd6b0c7406f462"
+  },
+  {
+    "path": "grader_preflight.json",
+    "bytes": 1842,
+    "sha256": "618960c5e99103f71487c82548c9f52b04ef58fe64914cc8d32d7a6aecb1ccbc"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/ideal.task.txt",
+    "bytes": 2485,
+    "sha256": "9909de5fb446a3cdc7061e77d54f56b0c6d85677f96608c017926e8cf3e02c02"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/original_issue.txt",
+    "bytes": 1246,
+    "sha256": "c01334ec1b21a089c650cf2e7b96ab974469076bf1260d23885799e1f0a7551f"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/partial.task.txt",
+    "bytes": 1604,
+    "sha256": "606cf60883833ad63cbd6bca95a7facf365b7101d1e241c486267ea236b8307b"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/spreadsheet_original_raw.txt",
+    "bytes": 1474,
+    "sha256": "be0f7e008314b3967a6477113060df0723bf270ca54e19b633605681234065a8"
+  },
+  {
+    "path": "inputs/astropy__astropy-12907/summary.txt",
+    "bytes": 443,
+    "sha256": "14e168a132df06ecd0c9484a81fd8c75476f00f95e59a887c23eadd4f8bf26bf"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/ideal.task.txt",
+    "bytes": 3900,
+    "sha256": "a1f84f78a82a43580906391d32c580787f450a42b7dfe08f7c700be59a0bb806"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/original_issue.txt",
+    "bytes": 2790,
+    "sha256": "a295c83e68ff62290947b0796b75659b94621b7f2340d6f0055512d04be3f1d1"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/partial.task.txt",
+    "bytes": 1182,
+    "sha256": "6be45b81fe65356027067823c09d3661e7f4395818dec1ef3d4c56ba5f4efe53"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/spreadsheet_original_raw.txt",
+    "bytes": 3204,
+    "sha256": "bc90b7bf5b01a1482fd78a63e408fa06b7f0d8d0e6ede54950008e4128f00631"
+  },
+  {
+    "path": "inputs/astropy__astropy-13033/summary.txt",
+    "bytes": 232,
+    "sha256": "f534b551adf32c0cd70d5bdc66d8c550380e4025796d70a5389bc8866e29f0da"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/ideal.task.txt",
+    "bytes": 3199,
+    "sha256": "e8a766d5047519cb4741058e3b162d78042fd4b0d5ab51167b45468b97c54de2"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/original_issue.txt",
+    "bytes": 2057,
+    "sha256": "1f01b57c4e17057a2427b8ed897618f91782d22e98804b706826ba936a3d5ec4"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/partial.task.txt",
+    "bytes": 1418,
+    "sha256": "cf86aa46e5f944f47be228bf75f139aeb634ec0afa9d88a5d121e490256a4d8b"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/spreadsheet_original_raw.txt",
+    "bytes": 2273,
+    "sha256": "c4f8f632e37d403e08449fc041bf08ed2e50c3fde3112f4c4bad9efd16722687"
+  },
+  {
+    "path": "inputs/astropy__astropy-13236/summary.txt",
+    "bytes": 350,
+    "sha256": "71575cccaf675c24bcc74605519e792f52cc1091571fe3b8d66b121a9f192ba5"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/ideal.task.txt",
+    "bytes": 6845,
+    "sha256": "959c773a6fbc8f8b5d45c539e12140c24743e13290f3981ca527362292414744"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/original_issue.txt",
+    "bytes": 5323,
+    "sha256": "c26c8dc258dc5cb9dd34f30bdbaaed3f19a8ada137e0f19d81d7f57dc5f11bba"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/partial.task.txt",
+    "bytes": 1974,
+    "sha256": "cb0f6dfe9ff9324662a93b44d77475b7b4edfeeb2c8d1378610aada210916976"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/spreadsheet_original_raw.txt",
+    "bytes": 5845,
+    "sha256": "5024fd1c556a3408e96076770a18f3599a48436490ac51f55096bee9f4cbbd68"
+  },
+  {
+    "path": "inputs/astropy__astropy-13398/summary.txt",
+    "bytes": 628,
+    "sha256": "1735b293f3cd111babff614f3a3f6c999a70be9096350302e424e0e6fcc3bcca"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/ideal.task.txt",
+    "bytes": 6275,
+    "sha256": "0ace0f9547c2cec6c2ebf03e5da2a009a36fccb8dd6bb959253ec19e433495ce"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/original_issue.txt",
+    "bytes": 4822,
+    "sha256": "70a48b6e4c77b5abc12b1e750bbb70110b7215d19c9ea3550f2b7261be84021d"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/partial.task.txt",
+    "bytes": 1692,
+    "sha256": "2a832f7e9c0ca2496aeeb1c8d0de206be7f76533e2595627dcad830fa413d968"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/spreadsheet_original_raw.txt",
+    "bytes": 5524,
+    "sha256": "d81fd47ea4bd3f75b67ff8dce3673964d3eb6021b33bc29a6017edb14b7a84f5"
+  },
+  {
+    "path": "inputs/astropy__astropy-13579/summary.txt",
+    "bytes": 487,
+    "sha256": "8495a2544f5fbffd36f0d382abfa2fa56065681a08d79c7386e52adaa2fceb22"
+  },
+  {
+    "path": "plan.json",
+    "bytes": 176373,
+    "sha256": "3f14cb65f26d402380d484dea30141b8d5645389d95aab07983cfd65d95cfbc7"
+  },
+  {
+    "path": "preflight/astropy__astropy-12907/audit.json",
+    "bytes": 1438,
+    "sha256": "a60b2e377e9868c1f0290237d53f0d9ef3c3d2e1f05debb21666beab7f440a41"
+  },
+  {
+    "path": "preflight/astropy__astropy-12907/dependencies.txt",
+    "bytes": 577,
+    "sha256": "869873bf7eb377482d58e7fa4a352bed00c631a866127e718abc5ed5de05173c"
+  },
+  {
+    "path": "preflight/astropy__astropy-13033/audit.json",
+    "bytes": 1459,
+    "sha256": "1130111a408f243519e4b2fcc2cd9a5f32c6032c91d034f54c964b9d0fed5a9f"
+  },
+  {
+    "path": "preflight/astropy__astropy-13033/dependencies.txt",
+    "bytes": 577,
+    "sha256": "0d598bc2ed336f3591bd0f049a70a25ccc3832c8e5f8228cd2a98de0c49e4b7f"
+  },
+  {
+    "path": "preflight/astropy__astropy-13236/audit.json",
+    "bytes": 1447,
+    "sha256": "194f65c5f25c1bc2ad730dcaf572ffcfe0c9093d230a7cad8b9f88eafad5592a"
+  },
+  {
+    "path": "preflight/astropy__astropy-13236/dependencies.txt",
+    "bytes": 576,
+    "sha256": "54652940e79abe44a3dabac2329dea3cdaf7f968fe4149de79f8ebd0d8e8332c"
+  },
+  {
+    "path": "preflight/astropy__astropy-13398/audit.json",
+    "bytes": 1436,
+    "sha256": "e8e59a1832d26b298139396579e9ee8ef9ba613bd7195af6d3bb0d1064ec20a0"
+  },
+  {
+    "path": "preflight/astropy__astropy-13398/dependencies.txt",
+    "bytes": 577,
+    "sha256": "c702e183439384977f8bd41eaa2c1bbddeb0ea913245e43132b97556264fffe2"
+  },
+  {
+    "path": "preflight/astropy__astropy-13579/audit.json",
+    "bytes": 1429,
+    "sha256": "d3dc220975591d30cf82da1bcfed9d6c56b3e8ea85d04b743a31be6b56f39fe3"
+  },
+  {
+    "path": "preflight/astropy__astropy-13579/dependencies.txt",
+    "bytes": 577,
+    "sha256": "abe879fd7e24972a77de7a095e362a218d8a4f08b9cb7251bd777d69f2619931"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/answer_check.json",
+    "bytes": 1741,
+    "sha256": "dec99bd3986868c159f8122c4890e2ec2898707244b02e92b49b534143c5f728"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/dependencies.txt",
+    "bytes": 577,
+    "sha256": "869873bf7eb377482d58e7fa4a352bed00c631a866127e718abc5ed5de05173c"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/001.request.json",
+    "bytes": 4150,
+    "sha256": "cc110eb6cc82a009db9bc56aa1ed1d8f951074b3f52bc8a62eae83db81b07dd9"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/001.response.json",
+    "bytes": 1683,
+    "sha256": "b7c15614cdd2e8d6413df4341b065ea3d1e208cf6cc8cdf4c11d1188892559a1"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/002.request.json",
+    "bytes": 14719,
+    "sha256": "0409c63a9bed1f311f9ecb29d010e1626bc4d85f76552e836e3c6175db20ff38"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/002.response.json",
+    "bytes": 1606,
+    "sha256": "ce3fc5cb08f8994de42c623d1c51df6a2cc2ff783a8be80e4ae807690f2a8e89"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/003.request.json",
+    "bytes": 24839,
+    "sha256": "d27fcca8229d0f5e0e1c5f7cbad2dd392751151c25d9c9f891fbcc7f9f9e9882"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/003.response.json",
+    "bytes": 5713,
+    "sha256": "78507dda7ceea44c2afb7f1ca3178a6b93890a83bf9487b34f5c591c56ef8bdc"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/004.request.json",
+    "bytes": 30468,
+    "sha256": "5f1e64c54aae750a044f02ef71db5770e6bd7c80022856c6d234127d09956dfb"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/004.response.json",
+    "bytes": 2605,
+    "sha256": "0bedc567009f16e376a07b33abbda5347eb24eb3992adb877826a59c06655f15"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/005.request.json",
+    "bytes": 32880,
+    "sha256": "031a41e8b7c95ee8249ae44e3d3aaf150a26ab8f085c1661ea262d4773e3099e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/005.response.json",
+    "bytes": 1920,
+    "sha256": "946cf9330b7b1cee392dd2cd075e48a558a57faff179a938eab08633f2aac27e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/006.request.json",
+    "bytes": 40130,
+    "sha256": "695ca67738ef2686914e528ab26ed425035dc0a3759b1640fb8f808716d7c648"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/006.response.json",
+    "bytes": 2516,
+    "sha256": "767687abddf37aed745486c0bb89a797706765f4b52f64b851fb1a9e472566f5"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/007.request.json",
+    "bytes": 45294,
+    "sha256": "3fdd5b3cdf45864bc35dc4c895d07a947c05e08087a906fe38ca59708de149f6"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/http/007.response.json",
+    "bytes": 3564,
+    "sha256": "507a0c775a00ed8bf119c1cca6c17369786187ea8e195839d4e57a87b5544e67"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/input_manifest.json",
+    "bytes": 166,
+    "sha256": "855af16be087ac4576b282661f1abc73161fd51171cd1a94d6a9712aa5b2f375"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/model.patch",
+    "bytes": 500,
+    "sha256": "b86e615b347d95438c2f23d4f8d83d14c6e0cd8f6f3fce1772fd14ef592e036e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/dataset.json",
+    "bytes": 4873,
+    "sha256": "a83c2e918322e1a1e6de9bdc92f3ea0c0b92719c126ce26cff77cfebccf2606c"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-12907/eval.sh",
+    "bytes": 2046,
+    "sha256": "918cb4d342da92be49d8aaf45708f14c1cce37c4b01ba64357482188e0dad175"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-12907/patch.diff",
+    "bytes": 500,
+    "sha256": "b86e615b347d95438c2f23d4f8d83d14c6e0cd8f6f3fce1772fd14ef592e036e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-12907/report.json",
+    "bytes": 2123,
+    "sha256": "fe3f3bddc9631279d3babf7270913070d91e9207c3468bd947823aee3e7b1b86"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-12907/run_instance.log",
+    "bytes": 5293,
+    "sha256": "13617b8c86d1402f320aebe8e2ae84c5a5fe16e55fc22fca460874ced3fd17e5"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-12907/test_output.txt",
+    "bytes": 305024,
+    "sha256": "e8189398fc25d9eca538cbc1e7bf308236fdae1308d6c2928c1f94f5de9051d2"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/prediction.json",
+    "bytes": 640,
+    "sha256": "c1a696a84a9e836c484603197c41e1b99aed0fa2a39a5f8c0ab91d9efe508c43"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "3ccb0a7ff7e1afbfbb2b7b62b3da1f076ed6e4f8e3ee71f74e4cb5e9782b4842"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/official_eval/report.json",
+    "bytes": 1705,
+    "sha256": "6eed2caa77109017aa3dcf3a13eedaef87003993ce08b952bdc24841a5b74167"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/predictions.json",
+    "bytes": 641,
+    "sha256": "2dad9071293379f9340e34f4aa1ba553ac07b2bd0c43d406faa38b1549d54a67"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/preflight.json",
+    "bytes": 1438,
+    "sha256": "5dbf3f52a680a16428678afa7d11f0207ad2e82104155ce10db828d48dde7ab6"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/result.json",
+    "bytes": 2406,
+    "sha256": "d801858d6dfc56df89f876daab26064a461ab9d717cd4046aa23c21c89036c66"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/started.json",
+    "bytes": 71,
+    "sha256": "8dfbd0d2bdd21599a61a84884111e40108af768473e00938f0c0dece9e3dbb07"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/task.txt",
+    "bytes": 2485,
+    "sha256": "9909de5fb446a3cdc7061e77d54f56b0c6d85677f96608c017926e8cf3e02c02"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/tool_events.json",
+    "bytes": 33311,
+    "sha256": "d246965383dd9225110fd8b77fcbc169544e2ec0cc9c3abca334328e02ba9af6"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/ideal/trajectory.json",
+    "bytes": 107431,
+    "sha256": "2b30d31a18386c938370b1f07d2a9c53f5c6ecff362c15fbce48e7c5aee77764"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/answer_check.json",
+    "bytes": 860,
+    "sha256": "d15eea24a19832098e9f45c1a5abb85707a2d3e6cd212808a443f612b2ffd8c6"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/dependencies.txt",
+    "bytes": 577,
+    "sha256": "869873bf7eb377482d58e7fa4a352bed00c631a866127e718abc5ed5de05173c"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/001.request.json",
+    "bytes": 3191,
+    "sha256": "8cebec76b896e3c1c8c031ddff39b1bf7f3605ea30776f6cddef0ba51b33c581"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/001.response.json",
+    "bytes": 1250,
+    "sha256": "6d810ea59eb4658bda2845be01dfe2b875f8233f51a9c2b3e1d65d136e79e11f"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/002.request.json",
+    "bytes": 7725,
+    "sha256": "d957c590c7f60f13c1a1c606bc57b611e6bbf8d1e3515d60d2a8f004402028c9"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/002.response.json",
+    "bytes": 1238,
+    "sha256": "28ee1fc810012cb5560d2922a244f954ae1526f31a8b62aac0a66573edf78540"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/003.request.json",
+    "bytes": 10671,
+    "sha256": "f3a76f0bad4eda68e376a0bee8c362b1e0ae645ae2f427f516e2dbfe65477851"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/003.response.json",
+    "bytes": 1275,
+    "sha256": "bd48f7947a34e8e2c5589276601bccb3667add37366809a513f9e2f6f6c7d03a"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/004.request.json",
+    "bytes": 26634,
+    "sha256": "e0c0b8ed0d186f02721726441a45248fa2fe4e3ff161a6126da7ebf6644b92ac"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/004.response.json",
+    "bytes": 1661,
+    "sha256": "f83b429f86995b5f296dc1b65e7600451bf7a7c179124bf5a1e226f72913b017"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/005.request.json",
+    "bytes": 28138,
+    "sha256": "ad709ccebaffdc5a4cb0065e34475bfc3db509cbf7f89c3c30ec0dc1cb319629"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/005.response.json",
+    "bytes": 3621,
+    "sha256": "c463a9d9e8a0a9c1bdc88f4e54c0a0a18dfbead2b6fa04221cbf1476ba65fef7"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/006.request.json",
+    "bytes": 33651,
+    "sha256": "e5fa4bebdbf98cd970b40c00906f62b9ad354dd21f4217c921dd93d6427ae598"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/006.response.json",
+    "bytes": 5163,
+    "sha256": "7cbf4b18d299b06fbaf3834499ea9ecf0c39009e097598bb621ecf50c462e452"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/007.request.json",
+    "bytes": 38593,
+    "sha256": "a98ae83cd73a5fd8199dde495fd07323df167c8ebf3573b2a78e6e0b8a6d7f29"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/007.response.json",
+    "bytes": 3541,
+    "sha256": "d4d0011075107d9f3341f96923ddae9b498efec13fb3048949cc3c7dc6b21d95"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/008.request.json",
+    "bytes": 57928,
+    "sha256": "4044a2f534f168ccd40766dead7be1a63b992c3b358798d83b090a3410c88977"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/008.response.json",
+    "bytes": 1637,
+    "sha256": "6e4c5e243c8b1d9fe0e4cf6e8f7f1b84b6a7e3b5a1d36c6a14677b94b57361ac"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/009.request.json",
+    "bytes": 59160,
+    "sha256": "a7bfa6bb1b4cdf44931d1924057e5d85e852cadb9723922e4f81c422168ddc9c"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/009.response.json",
+    "bytes": 3858,
+    "sha256": "42d3e1079c8a8bf293d3ec00c8967dad81202c85b4ccf2bad142f3429e006d38"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/010.request.json",
+    "bytes": 62476,
+    "sha256": "bed45a4706577c9b6b0550eeb1168f5c86e21daec972afbab7ff062357a58aa2"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/http/010.response.json",
+    "bytes": 2201,
+    "sha256": "135ea82e424cc6783fcaa3f2c6782410d6d1f560e18d77c303f5358bf4c09a97"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/input_manifest.json",
+    "bytes": 168,
+    "sha256": "b94d8685a5ce7ae33a325a15f79f54428fd4bdd9424119edaf817b8d77a945d4"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/model.patch",
+    "bytes": 500,
+    "sha256": "b86e615b347d95438c2f23d4f8d83d14c6e0cd8f6f3fce1772fd14ef592e036e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/dataset.json",
+    "bytes": 4873,
+    "sha256": "a83c2e918322e1a1e6de9bdc92f3ea0c0b92719c126ce26cff77cfebccf2606c"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-12907/eval.sh",
+    "bytes": 2046,
+    "sha256": "918cb4d342da92be49d8aaf45708f14c1cce37c4b01ba64357482188e0dad175"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-12907/patch.diff",
+    "bytes": 500,
+    "sha256": "b86e615b347d95438c2f23d4f8d83d14c6e0cd8f6f3fce1772fd14ef592e036e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-12907/report.json",
+    "bytes": 2123,
+    "sha256": "fe3f3bddc9631279d3babf7270913070d91e9207c3468bd947823aee3e7b1b86"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-12907/run_instance.log",
+    "bytes": 5299,
+    "sha256": "8cdb6abf754ca1c9154fe94f7b484b64f24cc579121658c97a3e15b0259b4a6f"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-12907/test_output.txt",
+    "bytes": 305024,
+    "sha256": "18df9c4b9664dd6a88665ee88f3f419c56878d43c72b0e2b5a281cce47c3c462"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/prediction.json",
+    "bytes": 642,
+    "sha256": "9721e5a8a5699f0d797a5b2ee95d648edf8fd9553225215dbf5d7fbb411be24e"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "3ccb0a7ff7e1afbfbb2b7b62b3da1f076ed6e4f8e3ee71f74e4cb5e9782b4842"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/official_eval/report.json",
+    "bytes": 1705,
+    "sha256": "6eed2caa77109017aa3dcf3a13eedaef87003993ce08b952bdc24841a5b74167"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/predictions.json",
+    "bytes": 643,
+    "sha256": "c28c3424693306b81586082b1a370f19d977a86bf988e981b66b338a31f36749"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/preflight.json",
+    "bytes": 1438,
+    "sha256": "5dbf3f52a680a16428678afa7d11f0207ad2e82104155ce10db828d48dde7ab6"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/result.json",
+    "bytes": 2504,
+    "sha256": "ab5b56913725e590c87e6d4eaad78800371c0eb901b76f27ee5d7a372bd07e46"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/started.json",
+    "bytes": 73,
+    "sha256": "6a741640361092201812b8b1346e567509f605925f1e0f5847132edf010573ae"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/task.txt",
+    "bytes": 1604,
+    "sha256": "606cf60883833ad63cbd6bca95a7facf365b7101d1e241c486267ea236b8307b"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/tool_events.json",
+    "bytes": 84589,
+    "sha256": "e3c05299da53ba121a81c9c33591034ae19403f52b8b37a77369b6333f67c1cf"
+  },
+  {
+    "path": "runs/astropy__astropy-12907/partial/trajectory.json",
+    "bytes": 181619,
+    "sha256": "ac189ac30745269d9c7702849d2edffafae8ee1287510f8a5f6810022532a599"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/answer_check.json",
+    "bytes": 3367,
+    "sha256": "3419483ee8e3c9511dcb38c8852a77ce26729d4b33a1d3e75201db1d6751bb9f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/checkpoint20.json",
+    "bytes": 1087,
+    "sha256": "28ce0eae770f42121eb8838e54e8918b39205e8382c759e175dd118cf7d50566"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/dependencies.txt",
+    "bytes": 577,
+    "sha256": "0d598bc2ed336f3591bd0f049a70a25ccc3832c8e5f8228cd2a98de0c49e4b7f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/001.request.json",
+    "bytes": 5667,
+    "sha256": "5ec53547ae78ba2c0a952208ca18da6e630e3d60745d4910a94cd7daf397496b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/001.response.json",
+    "bytes": 1330,
+    "sha256": "e883a4aa35df75f74a1869d22a6fbba7d700d3a4c4f09f7793ceccede65866e8"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/002.request.json",
+    "bytes": 6423,
+    "sha256": "c47ddb18ac6ea33602dce225b4c2e5fb3582812d3ccaa081a47cb561802401ce"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/002.response.json",
+    "bytes": 1323,
+    "sha256": "a070fd3f7191517a25cb5bf37319a3558ebd7b85fcb4a74ff2cd1a3087df31cd"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/003.request.json",
+    "bytes": 10890,
+    "sha256": "2a8a3ebfef85854f2208cd60b429ebf8399f3a8818b84ea0c090b9d2b10558e1"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/003.response.json",
+    "bytes": 1495,
+    "sha256": "79899d0d5a79b8a0493e5bb494816a6c51ff24c2f9cfb49857f94b527411c047"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/004.request.json",
+    "bytes": 18446,
+    "sha256": "d59b4a0f1e7aa6d0c6f39596b4cc9577df19b54322816537e27f626fb2db5d9c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/004.response.json",
+    "bytes": 2270,
+    "sha256": "58bb55896ef97d3bc5587381cad5b0d916e702f96fe39920c90ca6d171435c84"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/005.request.json",
+    "bytes": 33135,
+    "sha256": "db453b795f1f58a3e6c7eb4bbc7bc0d37c7387eeeeae76436d210964e42782e0"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/005.response.json",
+    "bytes": 3516,
+    "sha256": "dad69166fb464f91db52fe93b8bfbeb69bffda65da7fab895e2575fb4bf03593"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/006.request.json",
+    "bytes": 36259,
+    "sha256": "7a90f18aae00f62112f8bdaf73254b9ccf4ad3711fa6b66eedc22f5c7788fb59"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/006.response.json",
+    "bytes": 4020,
+    "sha256": "60182b17cc7f6e30345e9cbc216d5e17fe58788baee2b9d18a6618599090b9b5"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/007.request.json",
+    "bytes": 40197,
+    "sha256": "9d6b853d4f402a00bd7f0b686dd2430e95631fa91a2b4001b54e3df1c1253350"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/007.response.json",
+    "bytes": 1335,
+    "sha256": "2ea8f43c5936b2ea68bcf28eaec2dceca610710d304518fb403ff637de2ae8fb"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/008.request.json",
+    "bytes": 41058,
+    "sha256": "6e1232cdae31acd0ab2fc852f09030bfd63caa98833b18692a7302578583fd96"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/008.response.json",
+    "bytes": 4820,
+    "sha256": "5a47ed371b621055b80e6f2caac3cacf9949eedc2e52324aec2e7497e67838fe"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/009.request.json",
+    "bytes": 45441,
+    "sha256": "3b4ab85453222025a719ac841139910275bfe7ffb74b8a479c0cd79c09762a73"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/009.response.json",
+    "bytes": 3147,
+    "sha256": "0de9988f34ba7f6b69170dcadba6f2caf113291a6df43c444c26ea3af3acd81f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/010.request.json",
+    "bytes": 48008,
+    "sha256": "4dc958c1e76373af3d65d6b8e7b6069459a65351c8bd5c7a4fad353911fcf58c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/010.response.json",
+    "bytes": 2541,
+    "sha256": "bd4592b48d9fb7580ae176d78eced7588510877f496799b2e33b8cfe49d721d0"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/011.request.json",
+    "bytes": 50815,
+    "sha256": "40f899ea119986208bb97c43f78eb7c516c7d5c2a815d6911608543ab6fda6a6"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/011.response.json",
+    "bytes": 1383,
+    "sha256": "270923f1d0ae1fac58282e7d4d1f78a4d52fb14e695548da258d9dcd142aba28"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/012.request.json",
+    "bytes": 51619,
+    "sha256": "ed76de21fca7ecc6870579f20873af3d4c4ff3248326a553cc87cb108c887ff1"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/012.response.json",
+    "bytes": 11635,
+    "sha256": "8e8cfd6b2039a6631111046b336eb960549fecf49ad526e87463fddd83399386"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/013.request.json",
+    "bytes": 66012,
+    "sha256": "88703678a5e1d696bf2275dc873f77f2a258f5498b7d5b5356ba653ab179bb46"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/013.response.json",
+    "bytes": 1276,
+    "sha256": "5118148bf61d24234555df295fcaaa8b89e98f2cac269de2192b3dc413103d2f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/014.request.json",
+    "bytes": 74089,
+    "sha256": "60cb901fb1fd1bf5a2cd266f9d5bc985372f4a60717bee23044490ea8f3562ef"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/014.response.json",
+    "bytes": 1399,
+    "sha256": "4cc53e16256e15fab7fea6cde870ee4e0ecc405bd1294be312a76872f3e5411b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/015.request.json",
+    "bytes": 75112,
+    "sha256": "1d3ccc58d0b7a2fed2cb7c3b72292f06a383b89443398cbf83aa907ae2de0826"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/015.response.json",
+    "bytes": 1394,
+    "sha256": "3aaac8316181acc805365da958ff301f096938551b223d49aa9002f94fe02496"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/016.request.json",
+    "bytes": 76226,
+    "sha256": "1e796414032fa605c78b2396e1dbc86b944b721ed10ff7fd263b81ed3298b1c3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/016.response.json",
+    "bytes": 4762,
+    "sha256": "2ab3b4203ac1bcc6e08aa491fff53b2c5a43b56dfe2b887c94f4128b0d0b1523"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/017.request.json",
+    "bytes": 80515,
+    "sha256": "55dd87cfb426df8ccba84c35697eacdf4c7aad0b27b03076205839830885610a"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/017.response.json",
+    "bytes": 1437,
+    "sha256": "e28060ba634aef4a9c0dbd5525efbab0c07e6948917912e3db99fef8dbcddbe4"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/018.request.json",
+    "bytes": 81375,
+    "sha256": "fa45717dc9aa93c5a5fb52c092fe7ca7c70c4298bda760244768ab1e7079e571"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/018.response.json",
+    "bytes": 1661,
+    "sha256": "b6c8ef0bfece788ffe498c87dd619cdbc88a33d8559b8b202906cf2346ad51d9"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/019.request.json",
+    "bytes": 84139,
+    "sha256": "b84ba787e2630dc600e57979cf6aa5ae7e786181ae07ac81d90a2a2372173bc5"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/019.response.json",
+    "bytes": 5146,
+    "sha256": "3bb4ad74f568fe2cd97b64a241dc1d6ec147caa0ff2ac1b185fa73bade30a455"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/020.request.json",
+    "bytes": 89697,
+    "sha256": "dd89c6963d187711d7bc4ed80a63f09d12d44234153db21d4ed89ccb8622f353"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/020.response.json",
+    "bytes": 1446,
+    "sha256": "87d7b0ab4747914be5282e62694879499c96ef3a63700529c5df138b113a5c0b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/021.request.json",
+    "bytes": 90564,
+    "sha256": "3770fc06d54aa105ba1f1ab78cd38888e6df13560787ca42a72725c189b9a8d2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/021.response.json",
+    "bytes": 1288,
+    "sha256": "5f6b411d8338889eb44da29520e4bb0543cc25ae8366ff67b47c24c143b882d3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/022.request.json",
+    "bytes": 91395,
+    "sha256": "a25594e99c42ee20e07fff5e9331aa548500029288095dfd663f5d6f71efb716"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/022.response.json",
+    "bytes": 6307,
+    "sha256": "b300cbb862fb75b025c760e1b25fbadbbd30d9b647a4c1ad5e5d3b06cbb62add"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/023.request.json",
+    "bytes": 97685,
+    "sha256": "6c22100a74e6b7dd9f535af6e8036ef26de5dc596dc4f56e3d2b23c079092e77"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/023.response.json",
+    "bytes": 9902,
+    "sha256": "b0e96dec893b2713c9ecbad2faaade5d56ae2e3a3b0097794e7ee5743833f774"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/024.request.json",
+    "bytes": 108427,
+    "sha256": "62f9f1379c840eb6e5e079a8eed7b125badacfccc06f743e63e7d76f92699685"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/024.response.json",
+    "bytes": 3803,
+    "sha256": "6ab39e6d9c1a7c1fd6dc596d6bf5907b58795cee2db037fcb93a65ad5aa9dfaa"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/025.request.json",
+    "bytes": 113510,
+    "sha256": "b39e0c13ae11e7d1f2215b910e27c437a63d7dc9b423409de478fbe42604996e"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/025.response.json",
+    "bytes": 9908,
+    "sha256": "6e3e338df3ce2bebf1b3f0bc78d926a9450153f1cdff79dd1cb3965cd5bbca0d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/026.request.json",
+    "bytes": 124774,
+    "sha256": "d1c0d76a7869bd56b71afad661db25d1d5a1b285c19adf7fd157deac91bc4a2d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/026.response.json",
+    "bytes": 2606,
+    "sha256": "b57495e40b3b08d188c3be9636cdbd03fd60217a50448a31a2f15c5387fa3ef3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/027.request.json",
+    "bytes": 127368,
+    "sha256": "b4edd234999463e3f28ee22a337ed4ffefe25188cf95b0226eeeba608258aea3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/027.response.json",
+    "bytes": 1638,
+    "sha256": "15b4492aeb29f1056f620554d1206c9719ae2a6c262a952856f60f6aa1a1852a"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/028.request.json",
+    "bytes": 131092,
+    "sha256": "674aa28555a5aada01220ee47ee9046ccc28a17bc6dc25f6d310b3c9b19eed3d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/028.response.json",
+    "bytes": 2016,
+    "sha256": "554c7609ae380f99589a9ec9eee42636b9131f20b52e7f5b6631565f861b6edb"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/029.request.json",
+    "bytes": 133940,
+    "sha256": "5effd833356eeea2eda1aed5a7e592a9664acf20cd82c85c7e3fa9ddf8256553"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/029.response.json",
+    "bytes": 5384,
+    "sha256": "c24b5fc695e9afd7aaefe19b92f59bafbd628895f8dff6184a6201230c57f62f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/030.request.json",
+    "bytes": 142452,
+    "sha256": "32767d88a3c5bce1430e385408c61da99f6ee6007a490ffa8f4c880ff0854656"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/030.response.json",
+    "bytes": 1367,
+    "sha256": "ee95c5383f9f36828260155d517bfeaefcc07a5170c24e76c53c22091710fade"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/031.request.json",
+    "bytes": 144963,
+    "sha256": "61338398e6c36d1267508bbf8b4aa5dfbf2374aa06046f2f26477d62ba5b55e6"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/031.response.json",
+    "bytes": 10031,
+    "sha256": "4c7bc96f9989a2119e187f6e34c4a33c4d78cbd20074ab6778e3c54f1afd1839"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/032.request.json",
+    "bytes": 156003,
+    "sha256": "b65acef91bbeaf127cc6c506b4cde58630d6b4c4337694d16d8468642beb2c7f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/http/032.response.json",
+    "bytes": 8057,
+    "sha256": "eca070c1f7d5b117bdf8b25b35ff23c1639422168f152731a53429bbb3974f21"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/input_manifest.json",
+    "bytes": 166,
+    "sha256": "b24ab28f16040a4fdcfa9a2f9a080cc73b03725b98a2322fe154a0407c90c00d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/model.patch",
+    "bytes": 1536,
+    "sha256": "59a0669e706f44c3395fb26adae46a1f8e207d3f89cb2fcc02bf4cb1e23138b2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/dataset.json",
+    "bytes": 11680,
+    "sha256": "897bd8628c946c041eb033f4e929c6605a5a8d8d4444c2ff679098cd7cd7321d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13033/eval.sh",
+    "bytes": 1541,
+    "sha256": "86c847c86e2ea1c2e22cbbc84edffa5910e42458a36e8c040e538cb6a92b3909"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13033/patch.diff",
+    "bytes": 1536,
+    "sha256": "59a0669e706f44c3395fb26adae46a1f8e207d3f89cb2fcc02bf4cb1e23138b2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13033/report.json",
+    "bytes": 2678,
+    "sha256": "705c4ec835d6e35aba6abe2c4c762b44b6d82b62f49b39e0bf869ae95eed67b7"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13033/run_instance.log",
+    "bytes": 7780,
+    "sha256": "a9f924220f79b61dbd88589457b1839dccd13e69caa73f92af5f65f5d447773f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13033/test_output.txt",
+    "bytes": 288903,
+    "sha256": "7e4037d60a678820787cf6157f6ca2ebbf1850d5fa7235df52a04b562dab7482"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/prediction.json",
+    "bytes": 1701,
+    "sha256": "cf73b25fda8d707457b23a258b9fe181b9cdc7a967de1b78319f2c611cb1920e"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "89b8a3b97b04cb9fea14bc155c502aeb96e73c033edf3af91484cb78bc81a499"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/official_eval/report.json",
+    "bytes": 2178,
+    "sha256": "024181f4f9c12d955083c5e0448cd0430fe4920daebbd012f0e868d6e400858d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/predictions.json",
+    "bytes": 1702,
+    "sha256": "bba8d5e12b0c72ea9ccca9ad6232143c29e1aeeeadeb8c80c6385d3388fece76"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/preflight.json",
+    "bytes": 1459,
+    "sha256": "b4e2b12ee501b54501dcab7d31c84331e891f5835bcac4fca49cf4cb4b275eca"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/result.json",
+    "bytes": 5158,
+    "sha256": "33f644a6cc46214fa82324fdf6ca2d86a69124fe8f0c356821ecb8a94c709ff0"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/started.json",
+    "bytes": 71,
+    "sha256": "866c3804438e6a77673df61445e266562ae79198d400978f67774756d1c1e6fb"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/task.txt",
+    "bytes": 3900,
+    "sha256": "a1f84f78a82a43580906391d32c580787f450a42b7dfe08f7c700be59a0bb806"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/tool_events.json",
+    "bytes": 73888,
+    "sha256": "b72c01fb27f912f3322600bc75e8ccbbfe5b9cab7aac43a9eb119d4986ae50b6"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/ideal/trajectory.json",
+    "bytes": 374688,
+    "sha256": "3a7184c87871d01877ef755075b3c024acfaefa4d43438da4ca3b73ec70cf1c8"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/answer_check.json",
+    "bytes": 649,
+    "sha256": "b0418dd1eedcdb78f54de34074eab66bff9f5ddaaf2d821a5aa85030f49bea30"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/checkpoint20.json",
+    "bytes": 1089,
+    "sha256": "4cef66fd0dd91c2b1f2b8058def33d84a67bce3e6a9a945c1705235928ab3116"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/dependencies.txt",
+    "bytes": 577,
+    "sha256": "0d598bc2ed336f3591bd0f049a70a25ccc3832c8e5f8228cd2a98de0c49e4b7f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/001.request.json",
+    "bytes": 2769,
+    "sha256": "2d921483b696d913ad68e646f4febdedb3c771bf049a482667d65893b508d236"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/001.response.json",
+    "bytes": 1757,
+    "sha256": "894f0117ee099f98872e66bc1b33ec0fd033c2b935136eb3730734456108c32e"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/002.request.json",
+    "bytes": 10193,
+    "sha256": "6dca7fd97c6284b241bfe8dd98f1b8fe365f828ad1149ecd15f60b800cbda0c5"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/002.response.json",
+    "bytes": 1706,
+    "sha256": "923d266bf2b6e83ea2dfe898456f1161f5c463038a0edfb01e5351f3d1bf0c8b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/003.request.json",
+    "bytes": 19009,
+    "sha256": "a646f31d5e3af90ebeec56f19af9c81a5fac7731415af94fdf51ee0695882d1a"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/003.response.json",
+    "bytes": 2467,
+    "sha256": "fd7e9fd7ff01d1ba52718998ea626996510b4de45a39c8e981b325561efa6098"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/004.request.json",
+    "bytes": 26253,
+    "sha256": "0231a3e4aace1b06282dbe1d1cf44dcc4796adbd1342acbbeaa0b735eb1d70f2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/004.response.json",
+    "bytes": 2881,
+    "sha256": "465f70668e12547c26560e5d8e742d34f2c86552402532aa3284f3334fd0c13c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/005.request.json",
+    "bytes": 45089,
+    "sha256": "0716e3e9aecdf5597ca5abb87928f2d346354b05d106ae0e64eefea79adfe574"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/005.response.json",
+    "bytes": 6215,
+    "sha256": "c2a05e8e5036d4fd0f2d3577295015321b5687640803ed318d4e0741147050f2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/006.request.json",
+    "bytes": 51406,
+    "sha256": "aea8d858dcae3dbd57c13716537067c8f4899853c6eb41f57622a43e331aec75"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/006.response.json",
+    "bytes": 1635,
+    "sha256": "ea906f92c0a9b6c1ea35315bc58e6320c8d6b9506a0369f6015eea5f577c23be"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/007.request.json",
+    "bytes": 52532,
+    "sha256": "116a28bee5e4c3890d23c7782c9e8f3986c785512489ae137cf1fd918477f084"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/007.response.json",
+    "bytes": 2259,
+    "sha256": "0a7d5164711c71815a8e8b7ff27bbc484556220be69f622b7d814402392c486d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/008.request.json",
+    "bytes": 54344,
+    "sha256": "466f450fea3b38a53ac91bbe229bcdbbd1697bc61efbb7a95b8bc785effb9ae9"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/008.response.json",
+    "bytes": 2327,
+    "sha256": "560dad746443f8361c031acbb2bffc8831cca759012fb3c29ae60715ee770afa"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/009.request.json",
+    "bytes": 56198,
+    "sha256": "aac471feafc508da09063c5c662173ea5bb24bf52c3141fc112b0ddb2922b307"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/009.response.json",
+    "bytes": 4748,
+    "sha256": "eb83ead8f55f51b356e0eb63c1cfc08a0683d2509ebd40a8b736f99120fc7dc1"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/010.request.json",
+    "bytes": 62525,
+    "sha256": "0496c77fb9a169aa719cffb927acfd4fe06b0703b017013d2abb58e4f49515ad"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/010.response.json",
+    "bytes": 9675,
+    "sha256": "2225a3356533b7254841294da8f35b2405b51969534d087fbc31d0bea7881fad"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/011.request.json",
+    "bytes": 72180,
+    "sha256": "f0f727decb564e1e59e456a87c50131d0bd4124c4bcd5f66bcbdf22573c95445"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/011.response.json",
+    "bytes": 3515,
+    "sha256": "d85a3665ea77e0ae816320072ab6e2c64b633af7187fda383066b5f8664e0e2c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/012.request.json",
+    "bytes": 81231,
+    "sha256": "ab7a6e948565c48b5527ccc86efe1f4d3922ce57b19d383ddbdc78d74c7e526c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/012.response.json",
+    "bytes": 11433,
+    "sha256": "50a2ac7e1988165da8a99313b099a8e020d108e37dbf973b3e5d8969dcfa5bfc"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/013.request.json",
+    "bytes": 92947,
+    "sha256": "efb5de78bd4c24f91da96a1fd1580b80d94a67081019315e84767a8a210b39a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/013.response.json",
+    "bytes": 33704,
+    "sha256": "932f212039a3eeb2c0936db0be53e454f2cf73d3988dce6a76208aac2a0d5de4"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/014.request.json",
+    "bytes": 126562,
+    "sha256": "c5f1a545a958efe96aa4eb4b70f28c4ba9cdb19c250c24fb6231290970f019f2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/014.response.json",
+    "bytes": 9114,
+    "sha256": "3189dc7cc34270a7f8a7af50a8ba859b7e931bf4c9ed2ef167a30bd98fce7d46"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/015.request.json",
+    "bytes": 138387,
+    "sha256": "946438a374fe7891e5eb701cd57c2e283e6319baefc73c4a058cdfe9544312bc"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/015.response.json",
+    "bytes": 3449,
+    "sha256": "b52e6fc163e016f2fbaecc2ac68737eb40f37ce0017318854d82d77123ddb472"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/016.request.json",
+    "bytes": 146779,
+    "sha256": "5fb227c255fa3f193617d004e60c64f4485a19a20bdb023db2554a3020f5f919"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/016.response.json",
+    "bytes": 8263,
+    "sha256": "8f36da8021bfd43973c295f5fe14e3d647cb0d85e516df9bb1805e5a210ec84d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/017.request.json",
+    "bytes": 155104,
+    "sha256": "00f84cc11622221e7a2afe1299ef882dcdb4a6911053702dc3fe66fac6e03659"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/017.response.json",
+    "bytes": 10422,
+    "sha256": "bf0e5a2ccaf58e06161ee6c394a6ec0e6b7a2b515588db979b2ad8ba11bf720b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/018.request.json",
+    "bytes": 167859,
+    "sha256": "7ae2aa9bf722db88228db0bf728ba50e5d0342f2ccf72114cee18629323c65f2"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/018.response.json",
+    "bytes": 5562,
+    "sha256": "44c1a4d3214e5d22c0a99cfc0bcb2669b644995b15b1469ea9d5ff521783d02c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/019.request.json",
+    "bytes": 174946,
+    "sha256": "8c5cb270cbfa42189e294b83f3c0b557779370a451adab1bf230cc0e420a5999"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/019.response.json",
+    "bytes": 2954,
+    "sha256": "833138c876514e9866ed3ed012b847f4d57f1f0f6c9935895fdd560d770c1e6f"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/020.request.json",
+    "bytes": 180953,
+    "sha256": "12b2a9642d46e03da31fef691480ae619f3bf2136a422abbef6c070640bb1c8d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/020.response.json",
+    "bytes": 9581,
+    "sha256": "38a1a110e47fc664e25d81173cdb642560aef5be236bca3340611ec43fb0eed1"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/021.request.json",
+    "bytes": 192222,
+    "sha256": "be5b49cbbc31e2c036408f39626f4cc12d83cd1e87420f542872b761656f4313"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/021.response.json",
+    "bytes": 7742,
+    "sha256": "2b9e06d80090bb4fd579a84ba6a275bb5560966ef8510b41d1d7881e9595b3b3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/022.request.json",
+    "bytes": 200714,
+    "sha256": "7f809bb60b29c05f1700077dcc5e734e4ecafa14042c07d20af6ed6728f36188"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/http/022.response.json",
+    "bytes": 4985,
+    "sha256": "9bc171d7460e33801b781ce521376377dfb668fb8f040fba690850dd0c7fa4d7"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/input_manifest.json",
+    "bytes": 168,
+    "sha256": "dcd1db2df83d0feb1a3421e388b73739fee472cf5c07505cfef288fb7f70b16c"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/model.patch",
+    "bytes": 931,
+    "sha256": "560f7cbffd8f1c171ba5a4dc8beed38c53cd97093fc2742b8a99075ee9b6ec54"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/dataset.json",
+    "bytes": 11680,
+    "sha256": "897bd8628c946c041eb033f4e929c6605a5a8d8d4444c2ff679098cd7cd7321d"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13033/eval.sh",
+    "bytes": 1541,
+    "sha256": "86c847c86e2ea1c2e22cbbc84edffa5910e42458a36e8c040e538cb6a92b3909"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13033/patch.diff",
+    "bytes": 931,
+    "sha256": "560f7cbffd8f1c171ba5a4dc8beed38c53cd97093fc2742b8a99075ee9b6ec54"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13033/report.json",
+    "bytes": 2662,
+    "sha256": "8b5425b761eb390cdd57b4286e38758877869337ed8eb95cadc4f25a19c33769"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13033/run_instance.log",
+    "bytes": 6578,
+    "sha256": "e78ba1864356ebac02a9bde3224038c6af926ce9df8a75d3bd72b0954ad401f7"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13033/test_output.txt",
+    "bytes": 287508,
+    "sha256": "083cf0e42b4a74b4e5fb6f35ce440eb43fd1b44f3eab51ee853e8977001440e3"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/prediction.json",
+    "bytes": 1086,
+    "sha256": "9b227ecdb2fbb0d0e2c6ad481538b2fe1647bd029bcadc13671ec32608f74d03"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "89b8a3b97b04cb9fea14bc155c502aeb96e73c033edf3af91484cb78bc81a499"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/official_eval/report.json",
+    "bytes": 2172,
+    "sha256": "9af49409a44def1b6759fd8f296867da31296068358542e4c2499344fd49b531"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/predictions.json",
+    "bytes": 1087,
+    "sha256": "509df326994b2046121e29a8db8de1dda8965a2b0399bbc7535d1987df2a362a"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/preflight.json",
+    "bytes": 1459,
+    "sha256": "86c2a412028be831832769ce1ef1dcfb34589dae4228549f43a8f9d0e99566f0"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/result.json",
+    "bytes": 8758,
+    "sha256": "c1a7e69f7e3b8622fac2e4f180ba7e86ac9a5bcd6b4c8e6b2f7fc3801d92c115"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/started.json",
+    "bytes": 73,
+    "sha256": "8e4975e11060742426ee9e588e12940321d159bad432892b976649ea6382603b"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/task.txt",
+    "bytes": 1182,
+    "sha256": "6be45b81fe65356027067823c09d3661e7f4395818dec1ef3d4c56ba5f4efe53"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/tool_events.json",
+    "bytes": 90652,
+    "sha256": "5060468911423de6c4189d01b0f67dac60d9c7dc03b86d6e97fe6e2ae9743adc"
+  },
+  {
+    "path": "runs/astropy__astropy-13033/partial/trajectory.json",
+    "bytes": 455294,
+    "sha256": "1e63146b5da0a5c5548b0c3943c7b50db8a032f51626b31797dd984461f97e13"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/answer_check.json",
+    "bytes": 2548,
+    "sha256": "1cdc3c50e14cddb820738475440138a281e74229344031e25b678bde686d61c2"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/checkpoint20.json",
+    "bytes": 1088,
+    "sha256": "5a18553eeb1d5f69f9b6e21fd1d9166a070a3943ecfd83828510df37d5e27fc8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/dependencies.txt",
+    "bytes": 576,
+    "sha256": "54652940e79abe44a3dabac2329dea3cdaf7f968fe4149de79f8ebd0d8e8332c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/001.request.json",
+    "bytes": 4860,
+    "sha256": "dc73614f86334c82a77dff96a720caa5b76852e9b829ac118e4147e8289b5a86"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/001.response.json",
+    "bytes": 1866,
+    "sha256": "e65989c33d4809102b42c575a8509d10e326fcdcad8711bd523212cc7f88da7b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/002.request.json",
+    "bytes": 6255,
+    "sha256": "b529163916912fc2d8b969651ea299e441fe4aa6225a775819748ee0cfe952af"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/002.response.json",
+    "bytes": 1436,
+    "sha256": "033e16a310786b891d6f1b31257cb4486ca762cd3dc95f090f38e2dd04435165"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/003.request.json",
+    "bytes": 13926,
+    "sha256": "87220759a44b42aa9370f02b9462f4f5bf83f2940a152d104436c9724e444571"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/003.response.json",
+    "bytes": 1787,
+    "sha256": "96aae4068f60f09b42ab05c9e6ae35e47072261a300715653cc726c56b6acd75"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/004.request.json",
+    "bytes": 21759,
+    "sha256": "a85679372dc663abec4427161f6889d6ef20d8a633cb425e8cdcebc7176c1605"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/004.response.json",
+    "bytes": 2347,
+    "sha256": "18d486ff8ccc01ada56f0845a915410735300f2b65c1facfdad31b935641a9a6"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/005.request.json",
+    "bytes": 30765,
+    "sha256": "aeb53c7c5f65dddb0f75cc640b9eaa1928f7741b2fe0cc69040deeb9c9c9d364"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/005.response.json",
+    "bytes": 1940,
+    "sha256": "aa72e7e6db9c47e674dbeb7603e913279ecd3ee0314c494ae16bb22d5efcdb13"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/006.request.json",
+    "bytes": 36141,
+    "sha256": "0e4e1956a5d0fcfa9f132848edad9a5cff1614a6b71e18456244bc2366e98c0c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/006.response.json",
+    "bytes": 2590,
+    "sha256": "bf4f3459919a44b9998b9582c0a3e855049ceeb254e7b4dbec581a20b435e7af"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/007.request.json",
+    "bytes": 38242,
+    "sha256": "7f567f6192d40bcfdbc024936a90414223765eb8a4bd1d238c88addec4807c1a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/007.response.json",
+    "bytes": 5013,
+    "sha256": "ca6161977a856cd1ef6f99abbd62438ff3b605ca0af9729a6b39f3e993e3cbe9"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/008.request.json",
+    "bytes": 45764,
+    "sha256": "beed8ac8a2a17b1528844eecfb0e43cace94dcb7b7e3e8561c462b179039bd09"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/008.response.json",
+    "bytes": 1582,
+    "sha256": "fff8f439588a4313eb757628538a3ff8d8ef49f9d6bfdbe731623da81acc7b97"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/009.request.json",
+    "bytes": 47868,
+    "sha256": "269891807fa8a3e2b098bcc3778da36d37de1b37b3a946e05d6ecd081b9a7633"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/009.response.json",
+    "bytes": 1950,
+    "sha256": "d327590aa156de6f6b674b1decfa0e68a36cd8568eef27d3acb3ed6387436f4a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/010.request.json",
+    "bytes": 56079,
+    "sha256": "ce4505534eedfcc043dd394cd7cec73bd6d2bd70cc390ede8b25b7f1f9b24c85"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/010.response.json",
+    "bytes": 2560,
+    "sha256": "66619ebe84ce996d71c1b405156b1ed2c48bc0b30ac1bdffb29f0fb2d74e12ec"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/011.request.json",
+    "bytes": 59575,
+    "sha256": "48218e0598189a90b12779f9e05a9948558ee66e48b177030d209ef6b6687964"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/011.response.json",
+    "bytes": 1877,
+    "sha256": "fc7205a45e0e9746bb9eab606bc12e662f21d8e896c8f416b82bc8f567a5262f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/012.request.json",
+    "bytes": 60904,
+    "sha256": "fc18fb43d15fcf09f3da8524fefe5f9065f565b37ecf56bf24ac685d1c967ddd"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/012.response.json",
+    "bytes": 2005,
+    "sha256": "9e312f8e066cc823c2ce03c5f5c2b38e03bb335b2e46483c6f1de72136c8cec4"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/013.request.json",
+    "bytes": 62359,
+    "sha256": "be4f1982945ef0a78473b372319442043e90bd94abe23a783ffd17dbaa442648"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/013.response.json",
+    "bytes": 1335,
+    "sha256": "67b62f3a206450a1bec3ae40364cc6e93733c9064ad5c7eca85e0051bebfecf1"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/014.request.json",
+    "bytes": 65666,
+    "sha256": "c74256c2e0ea3dece650398c1c3e428dbff043aac7e8cb233f3403b7f52fba94"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/014.response.json",
+    "bytes": 11165,
+    "sha256": "130687230ee640be9e91b81ed916c2f30aa24b29e45f5914b528138030885b14"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/015.request.json",
+    "bytes": 76601,
+    "sha256": "c19a0d1f661428a0b462081a4efdae974df1d3759e98a5dfa91647f60d74cd1c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/015.response.json",
+    "bytes": 4360,
+    "sha256": "6d6da97001d99fc0de06642e6c8a7313b0469eefdc25d66b53fb96ab1e3680ba"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/016.request.json",
+    "bytes": 96786,
+    "sha256": "e4f2e61469d5de58334fbb9f0a966b4ccbcb411b804a83fecaa8cb9cf4d352c7"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/016.response.json",
+    "bytes": 3172,
+    "sha256": "c0a263361d32a7c9a75facd138973fc486f6bb00fab39471bba1b30da300cd19"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/017.request.json",
+    "bytes": 100082,
+    "sha256": "dd8f6d716fff5df387eec6b31e45c30d3fbff8eb8a2646b350f85a9e70a965fe"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/017.response.json",
+    "bytes": 2269,
+    "sha256": "d30ef24f05ccab15bdfc8629f5cf8ddf891afee99f704c43278741e031520ad6"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/018.request.json",
+    "bytes": 107020,
+    "sha256": "4a1aee8aa5362fc96034b4df30c42538c99acb985318b9de5d0fe472ce478036"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/018.response.json",
+    "bytes": 8082,
+    "sha256": "4bb0f8d9090918ec3171729226294aff4808088b28b42396ab864921b7d75128"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/019.request.json",
+    "bytes": 117922,
+    "sha256": "02f43ac692b5a728f1a287f12944dfca774f45c5108799ccc07e186c3e66d970"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/019.response.json",
+    "bytes": 11113,
+    "sha256": "07db93b8b347360724ed3936c8e3ccf2cd397e28d2998fa4b9d7d36a53ebb981"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/020.request.json",
+    "bytes": 129354,
+    "sha256": "e5e8fcc530f7d83625dcd05e12dac6c63f83afadce075dd112243b4237e798ce"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/http/020.response.json",
+    "bytes": 2894,
+    "sha256": "9d25219473af310969e58dba680a65f494a5e420bb0e35abfb4c66ea9641d589"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/input_manifest.json",
+    "bytes": 166,
+    "sha256": "b4ff6c222ab4d9f96801c5654a7a3972eeb52c25c5cdc63bb371a3b8ed02d99c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/model.patch",
+    "bytes": 659,
+    "sha256": "de39ed8abb35f4561a74ae3dcc6c8359327f66604a54ec9acdc82860cfe54f2d"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/dataset.json",
+    "bytes": 59207,
+    "sha256": "58db008d47580329defa7e3d2b887c31c994e5a7ecac0728e2cb25aec6234169"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13236/eval.sh",
+    "bytes": 4578,
+    "sha256": "7fdce61172e844f9fca8c73f96ece796c51da3f0ead04d423c4b0b590f04b10f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13236/patch.diff",
+    "bytes": 659,
+    "sha256": "de39ed8abb35f4561a74ae3dcc6c8359327f66604a54ec9acdc82860cfe54f2d"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13236/report.json",
+    "bytes": 63350,
+    "sha256": "fccd0bf2506a88581b18362ab40d582c209232398290346154401fa6d856ca8e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13236/run_instance.log",
+    "bytes": 54212,
+    "sha256": "1cd5324261469e62cb05e390a0e345e1fc3ffdd54d0201c9634e7a0a419aae08"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13236/test_output.txt",
+    "bytes": 375213,
+    "sha256": "6e226401fcbaddb28a35b641304b487341bbfb2a9df2e87e2d20503266d76ad7"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/prediction.json",
+    "bytes": 802,
+    "sha256": "7fa3c7f72b781fea28ad6fef7aa3ee6ea4079ddbc32591e08c6ea26b080770e8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "48cb9606bcac3316211eecaf5abda787436b9c19ca5d075c8d4e130056f7ac01"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/official_eval/report.json",
+    "bytes": 55360,
+    "sha256": "d0fa7a07ec4c088ecbaf239e62cac60ea52e1221ea42b0eb997234b739e00e4e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/predictions.json",
+    "bytes": 803,
+    "sha256": "841121a4ef97e222f717b24c93a5d2480a642f4007967098fd1db7968e73b2a9"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/preflight.json",
+    "bytes": 1447,
+    "sha256": "5f642ccf76cb9f4defc563eb492b953a31d98100f820bc81c63bf470d19e3d95"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/result.json",
+    "bytes": 3533,
+    "sha256": "d5506014c7065f9173c0ada2f39c4c4db81d2e73eef994c6cbc0c466f48cdf5e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/started.json",
+    "bytes": 71,
+    "sha256": "b9edaf11e53c59f3b570f1efb07bffe7e99bc6db1ec4e706356fe26cdbaeb83b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/task.txt",
+    "bytes": 3199,
+    "sha256": "e8a766d5047519cb4741058e3b162d78042fd4b0d5ab51167b45468b97c54de2"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/tool_events.json",
+    "bytes": 89281,
+    "sha256": "0fa57c20b0a5cfed11390502aeb855f8979bdf94e3e84dfc77e12de992c80fcb"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/ideal/trajectory.json",
+    "bytes": 304527,
+    "sha256": "0e283aa98b4395fc7327f3519a2e81029945cc0f93090c294da4581904e1d81a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/answer_check.json",
+    "bytes": 767,
+    "sha256": "03bd56042b61fcf170b6ab6fa327ca298e2cfd89aa22bb646c67f5349e6e19bf"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/checkpoint20.json",
+    "bytes": 1087,
+    "sha256": "0335cb5c71e6ef56be49677406df90b1fbec4340ff01608be2d2b962d037534a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/dependencies.txt",
+    "bytes": 576,
+    "sha256": "54652940e79abe44a3dabac2329dea3cdaf7f968fe4149de79f8ebd0d8e8332c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/001.request.json",
+    "bytes": 3005,
+    "sha256": "04196791520a73681f44eaa52480971c39db364e53cb50e092fd9ec6eaa88c58"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/001.response.json",
+    "bytes": 1232,
+    "sha256": "6922a977a6a9620238822d1176b266dcac206e9e70f52d41d55aa65eb679b98b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/002.request.json",
+    "bytes": 7699,
+    "sha256": "0fdd7ca10f51ee685e8996798008da1bd094650996d58ac2c858715c7793cf57"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/002.response.json",
+    "bytes": 1324,
+    "sha256": "549909f340af550770383e9f01e4515e01fc4c6d1f3506851032ae4e89689685"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/003.request.json",
+    "bytes": 12521,
+    "sha256": "842f7d263d343271741dd3fa1f6698fe26aa78e1602ab843a05b12435ed1d0e9"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/003.response.json",
+    "bytes": 1336,
+    "sha256": "6947fdb2cbae123ddd8cef8fce835eb63095517cfbbfdb09f0defc878fbed283"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/004.request.json",
+    "bytes": 21399,
+    "sha256": "4f7e3d6b8fd30fd724c75f7538e4f186840b360b7e4db978054d0a7057d7f087"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/004.response.json",
+    "bytes": 1953,
+    "sha256": "b8d66092c58df72d764673445a5ed651e0c070a0717ebe73a8ac1b853c349380"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/005.request.json",
+    "bytes": 24377,
+    "sha256": "7dbbb13af56b22a6cae1d91fc9236c4b8be7c0409f999bb7e5204d448079b073"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/005.response.json",
+    "bytes": 1343,
+    "sha256": "87bfb6efcaafa03f5bc8198a5069ae1a4f2b3a200e4fdfda89848d80c9976aea"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/006.request.json",
+    "bytes": 38375,
+    "sha256": "70c0412c4315b9857eec782ceeec6390a078e56f4298863ebc5ec1bcd214c255"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/006.response.json",
+    "bytes": 4235,
+    "sha256": "26230b34760ad53d869d7a01b82fe72c18abe3c22d37dca8745a190057ebb8ae"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/007.request.json",
+    "bytes": 51807,
+    "sha256": "ded8ffcf72dabf85028ece6c21e14810d24264a18de9a693d7a1c65af2e58619"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/007.response.json",
+    "bytes": 2574,
+    "sha256": "d448da4ba9ce0bac0a434fdfd9333b4121b27c56e83b135663821710d7ac9dd4"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/008.request.json",
+    "bytes": 54240,
+    "sha256": "de610c9a8a8d71a7e43e6671c22e5533643c620f2e9519665894bdd7a95d0978"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/008.response.json",
+    "bytes": 1441,
+    "sha256": "682af32c59607a306d200847244b985c429bb41c95ea4845c1d31201b1943abf"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/009.request.json",
+    "bytes": 55989,
+    "sha256": "6f60bef2a746802ffb2c7cb90d26d0e2fc6af638c6528e3492f8a5753aef69c8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/009.response.json",
+    "bytes": 1824,
+    "sha256": "6924ca698fadefeb33993ee51fb72a01bacccb9bbf9d9c299844450d030accdb"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/010.request.json",
+    "bytes": 57500,
+    "sha256": "153e38399034c780cf1c5bd9de1ee49394db07bdd4050d03ba7d10ba03264c09"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/010.response.json",
+    "bytes": 1367,
+    "sha256": "ac5956b0c1762881359d95b40416b9479bd0a73a470df0352b6b3eb9f7d402f2"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/011.request.json",
+    "bytes": 59011,
+    "sha256": "a6730e02f6b5fe2c62b2cab75a37e910970a8b2e863eb419977f906163aff132"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/011.response.json",
+    "bytes": 4631,
+    "sha256": "7b26aca46ae26baa45c40d16c0cd02ab32815d44fe3ea69f23a92c9a2a937951"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/012.request.json",
+    "bytes": 64089,
+    "sha256": "bf66068c5369d6c12c9a83f2053ee197bc099cfe31de084048c0393c90ea1ea3"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/012.response.json",
+    "bytes": 1535,
+    "sha256": "7a47e2a9cbb44a8689292c84e083b7fa385be7dc0138acd1f3d7ca4607f72bf4"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/013.request.json",
+    "bytes": 67899,
+    "sha256": "b6593b25b09a48b574692bab395260f353f561c2c4a429ea0a9a5c3977a77bfe"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/013.response.json",
+    "bytes": 2232,
+    "sha256": "d55524278ee352282bcfa44e0fee2a41d8059f5ce500a36f2a3c4f975216aa50"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/014.request.json",
+    "bytes": 74240,
+    "sha256": "8b57ed5eca6818196a1a0301f5b36f700e842cccb1ae4c29769829cd06631f14"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/014.response.json",
+    "bytes": 1555,
+    "sha256": "d172fbf9ad892fd2224185c6ef39d10ce44dcf5c0f92184d07b3e7e51e76c024"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/015.request.json",
+    "bytes": 75832,
+    "sha256": "8372178db2af0ae7a9c8aa3f0767e7c463fa719d041990aad6ddffdef8274a32"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/015.response.json",
+    "bytes": 1513,
+    "sha256": "345e049c33b755331282458b3afc7b9fbced845767821216137570b358a07af8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/016.request.json",
+    "bytes": 76770,
+    "sha256": "bb3c57edb3fae0bdd9b380566e1d90957d2b46ccc2d323d3ea6cf9c380de5280"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/016.response.json",
+    "bytes": 1349,
+    "sha256": "ac4ae9049cf3acf991c11a3a65f884b2e807832be83e681f997efce3b87be067"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/017.request.json",
+    "bytes": 77840,
+    "sha256": "6c6ebce7ca0367a0de9b34eb2b42445bb87abb82ea2658e89d422d4425cb6a8f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/017.response.json",
+    "bytes": 1455,
+    "sha256": "1ac45a645b5de32d1008e5d5d30e136b58baef89681c60b919142de76bb142ea"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/018.request.json",
+    "bytes": 84316,
+    "sha256": "11718617d1c8cb3e4b4438410ddca306c0541ff416c61ff31bffda39af065044"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/018.response.json",
+    "bytes": 1913,
+    "sha256": "2aa31e039aa8003966bbbc81d619d6a35d668fb8989b13f0d24c05ac8ed6d3dc"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/019.request.json",
+    "bytes": 89165,
+    "sha256": "490413e9864a7865fd84f4cc8a61aa0d647ade03082d181135a29e811bfafaf0"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/019.response.json",
+    "bytes": 1469,
+    "sha256": "3f0a3fa40f825b9b4dfc2c3f1344f4b97c23f275f80a95b3447ee3e25e5fe438"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/020.request.json",
+    "bytes": 98219,
+    "sha256": "02a636e605e6b2b2ef7e3ae34af40e78bed24b9cdec30c18842845aa7b5cdc11"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/020.response.json",
+    "bytes": 6079,
+    "sha256": "e81f1b75f792a804a90982632ed6642b20ff12ef204c7e5255bf2069be3f4fd1"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/021.request.json",
+    "bytes": 106386,
+    "sha256": "ce12c5f8198fb499cea59e7c4bbf0eee75f5329463f88a3f8f9d8188e06dd437"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/021.response.json",
+    "bytes": 3604,
+    "sha256": "29c70f539515e22f6cfb23f928339c700f1f9840352b9fd3cb6471cd4f14e6d3"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/022.request.json",
+    "bytes": 123235,
+    "sha256": "ade410442bc1813f515f206cf92821be7967b0d417694523521da7f972371693"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/022.response.json",
+    "bytes": 1302,
+    "sha256": "8b4e7dce24977538dbb8febfb60d6f602ad34cf8e4e233de883bc85edae35451"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/023.request.json",
+    "bytes": 126603,
+    "sha256": "14f73f7eae65b13730de9a712d8b3cc2558dc31d06cd61c0e79d4814b65ed90c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/023.response.json",
+    "bytes": 1745,
+    "sha256": "5f0f968ae6ecc8680d4d775ff1c24293cd9b6afe3315be5f8a4c18b9e03a8444"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/024.request.json",
+    "bytes": 130462,
+    "sha256": "1a237c67513c7bbe770d79e1eb6e466c461945c1264d68ceaebe463f8bee18b5"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/024.response.json",
+    "bytes": 1168,
+    "sha256": "fc3238f6a74d3c6919a37adfca0c6cf0882e0cea3001cf0fc892209e1d377f0f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/025.request.json",
+    "bytes": 133606,
+    "sha256": "30f36b11ae4b6fd58121ab5308f511aec96e92d5dff692824cc3fe1f34e16561"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/025.response.json",
+    "bytes": 10432,
+    "sha256": "8e07806e6c6243788483cb3b0acf9b988cbdb5e472c894bac69c1f8122bc0928"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/026.request.json",
+    "bytes": 143580,
+    "sha256": "f520ec5df1483a3269110f07b83bf8b809d861828c0a93313e6da9d7c9817aa1"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/026.response.json",
+    "bytes": 5378,
+    "sha256": "db9c22c01010efe4bdf71861c0f2e2065c2db7300e14cd652cb66db228041678"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/027.request.json",
+    "bytes": 151391,
+    "sha256": "38ad94ca5a44db3634cbb6b332710a2cc5df2419fcc5b5d79ea562d120c989da"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/027.response.json",
+    "bytes": 2340,
+    "sha256": "c6fc530c2787a39cb749384db767d61a622987c975ccd5c223696492bb419b5e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/028.request.json",
+    "bytes": 155277,
+    "sha256": "770e9e0051cac6813c1826a5d4131371bb384dc365b0faabbc8b68be32fd7585"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/028.response.json",
+    "bytes": 2446,
+    "sha256": "d5b41242a8445728cad6b021ab72b34cf5c1dce8392954b44615de031e470bdb"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/029.request.json",
+    "bytes": 157337,
+    "sha256": "4fcf038ebb353790accba415b297d5b155238dfcc3bb3c6cb5750b11f4517a0c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/029.response.json",
+    "bytes": 7790,
+    "sha256": "298a324fc1323e5d88c8621f1b47f6c1abb0fd02613400ca9c0719744779b0dc"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/030.request.json",
+    "bytes": 168041,
+    "sha256": "ae99e435686f74d1208b24127c90e996a3c2359bd6e295a0baef180ce422290c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/030.response.json",
+    "bytes": 5458,
+    "sha256": "e399917ffc6011c81caa6dcd0d162befe638e7aca216eb86867e8549358d918d"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/031.request.json",
+    "bytes": 172988,
+    "sha256": "f9de338992e46f6834e78a32c2b6eecbed48773e17d15a1ca5d436950aa17899"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/031.response.json",
+    "bytes": 9105,
+    "sha256": "7ebe859a1f252b5d1d8b5ad43cf16b1c468107877a8bb608b2a7b519828ce635"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/032.request.json",
+    "bytes": 182371,
+    "sha256": "c84c9a66d9a4b8cf29c68524e067f50a353c8ec7488d1220849191be9089f62b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/032.response.json",
+    "bytes": 1363,
+    "sha256": "6e7e967ab62bb8e2f363b3aeca725090af1072dff0ad9fcffe99bcc8e2cfba38"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/033.request.json",
+    "bytes": 188649,
+    "sha256": "b92d7aa7d092e5fd6dd57eae2f3142d76a9da7f02761515e11a3d6d283a4a537"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/033.response.json",
+    "bytes": 1788,
+    "sha256": "92766bd50a44e046f53fe0186aae60b6aab5cd7bd887a4d87717e429f39ba7a2"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/034.request.json",
+    "bytes": 200576,
+    "sha256": "636fa3c62ca2c902ce0b114240a902bdc85d190500c045f21f7dfb82bbc1e33b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/034.response.json",
+    "bytes": 1753,
+    "sha256": "c047032d4cf70e98bf1be914b9d9f4b34e5874dff49ef9a831985f416e13e662"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/035.request.json",
+    "bytes": 218196,
+    "sha256": "88aba4fcd9f95971eab5182128dc500d3868451e34139ebc7b0aff3ea723f7ad"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/035.response.json",
+    "bytes": 2520,
+    "sha256": "9d487e826ab354ba2165b9ed5086ea4ed51faef4f0e662e5f6d022dc8da00605"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/036.request.json",
+    "bytes": 225591,
+    "sha256": "0fba758ac8e410631e5049a29e0ece4d3442afb80a3946ca4df76c3cf0293198"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/036.response.json",
+    "bytes": 1307,
+    "sha256": "65bf7c69954ddfac240e9dd7477ab6401af8f4e6b2b9efa0aa95d324477c18bc"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/037.request.json",
+    "bytes": 233173,
+    "sha256": "e6b8277b8471b4308655a38d7d57af10ee54c2750efaa5ffc35bcf0d2fde0288"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/037.response.json",
+    "bytes": 4025,
+    "sha256": "4c2c51b958b0056e60288ec690ec6d358a96126a60c2cdb3074d681679ca3eaa"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/038.request.json",
+    "bytes": 236928,
+    "sha256": "37d9f1549d45c2bd96ecc4da7ef137f61f494a380712d39879d5b1988e520515"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/038.response.json",
+    "bytes": 6066,
+    "sha256": "fdfb374174d916216cd3a95ed47d88c3949d60c630fbbf5e4a8f470fa398ee55"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/039.request.json",
+    "bytes": 248969,
+    "sha256": "b3f8784f411fff5fe5a59a6bdfd5b6475084277bd5702893cef1c09c289ffd21"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/039.response.json",
+    "bytes": 1858,
+    "sha256": "3443a2149fb06cb8304c662895e59a99e1ecf37fd8ff17b65ba87f11c54ad31c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/040.request.json",
+    "bytes": 251959,
+    "sha256": "59317e6dda85486baab218d1867f38dbf0b369d8a6dbcfdbf5699362ccea2a59"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/040.response.json",
+    "bytes": 1298,
+    "sha256": "6b645205649d6f114633a6c3d3ef7d38b3bcdd64a30d16d509d7444618a218de"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/041.request.json",
+    "bytes": 252777,
+    "sha256": "fa9194df4da3caa4048141d75754930ce1e6468d2f91927dd9a9276e7267fab5"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/041.response.json",
+    "bytes": 9339,
+    "sha256": "87726129c5f359656dfdb5e5bac2f527559f96e32b9ba2a2739cdd6ffba08bad"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/042.request.json",
+    "bytes": 264680,
+    "sha256": "ff6600766e46c404fb1ae82685c791969aa555ffa5eb7a0026bdd1eb6034ef20"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/042.response.json",
+    "bytes": 1584,
+    "sha256": "63553f03266f489f2834ecf00603aad5dea4df8f1b58ce807fc109c77626f82e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/043.request.json",
+    "bytes": 265685,
+    "sha256": "d0ac03e0f339beb46b204f6a2764a3035aedfcd597365a3cc69a5be5a6fe916b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/043.response.json",
+    "bytes": 1343,
+    "sha256": "2bdc423c56351edaa87181b64cd22fa3158cb53f225f930545f12d8df29f1f92"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/044.request.json",
+    "bytes": 266448,
+    "sha256": "c9534cedd3ac81dbff7809bacd52b02806181361e512e3efb39b6f43c46e6ed2"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/044.response.json",
+    "bytes": 11942,
+    "sha256": "4beafba6262935081f541e9732d0133f777c55ac69ea9fa026b398ed3c6117d8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/045.request.json",
+    "bytes": 280544,
+    "sha256": "0283d61100d39ebf8c09d33103c37566600f79b31d6aa2123c5fae83da0e698e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/045.response.json",
+    "bytes": 2621,
+    "sha256": "dc46e1cac8add9394dd80d11f890028041a02023aa11aab755d34aa5fd5ada5a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/046.request.json",
+    "bytes": 285141,
+    "sha256": "e96c7ce325ecb82b49d48b5e09de741be92e90e28c6b76d8b5d4e9eafd3254b1"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/046.response.json",
+    "bytes": 1557,
+    "sha256": "73d783bbe1a1d03879280c3355a96caad9b4f752efb8c5a2021246ea560461e3"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/047.request.json",
+    "bytes": 287831,
+    "sha256": "d1458efef30acf7c384d8a8e38252533944d721a0342b58fd096097024ac825c"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/047.response.json",
+    "bytes": 1368,
+    "sha256": "0fd09039867946b629bf37b30e97c8d2feddf5c1978245dee4bea7ecf54e06b9"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/048.request.json",
+    "bytes": 289962,
+    "sha256": "7c48fd7a0c6f4f9af004a70d59e1a6a5ffd985d09550d5b41f6738b73f51a283"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/048.response.json",
+    "bytes": 8388,
+    "sha256": "ebfff59042c167ed0f9dc44b01406ee66a6ea13751f2ddc2b26d7eab54fad8fe"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/049.request.json",
+    "bytes": 300939,
+    "sha256": "4ec3090c66eff338caf0a100945371662725e66b0803c541b216fcb662674fb4"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/049.response.json",
+    "bytes": 3650,
+    "sha256": "542a07a58efa6ef17046ccbf224b5b403b58b970179248b4985de9e49a01b920"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/050.request.json",
+    "bytes": 304878,
+    "sha256": "84a35aa09dd8c27402a6cf1a77848f5d344bec994111aae64d70ba7712821c62"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/050.response.json",
+    "bytes": 2438,
+    "sha256": "6149983a617e44b39f77e8a70d277c5afaf127d879b7b1a2b1fe90f9f6387d93"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/051.request.json",
+    "bytes": 307697,
+    "sha256": "4f258a28cd6eb78ad9c8610820e51159e093ad7fd2a8a136771ab6b7a4248136"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/051.response.json",
+    "bytes": 1469,
+    "sha256": "555eeeace463348b2812a5449c2e7849b0a45214ac5842c784025e675a8da03a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/052.request.json",
+    "bytes": 309241,
+    "sha256": "3b2fb18a758edea93e14d6508253e95c4c69a7d93156bcb50e5f00ac82b149b7"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/052.response.json",
+    "bytes": 2369,
+    "sha256": "e7d6556f6998f50276b16f9935d3b8e7934443164449e4b76d3bf516b8d3bead"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/053.request.json",
+    "bytes": 311154,
+    "sha256": "0418e9ea787b4229b2eda32a822a8db9c498a9a3691cb2346e18cb3bd7548220"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/053.response.json",
+    "bytes": 2470,
+    "sha256": "2c043b28601abb5aafd0e08563dcc06199821d5927bb69b7b3fd3f6e816904c9"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/054.request.json",
+    "bytes": 313520,
+    "sha256": "742d66efbf972ec049a031aed8584c342abc7e8feed3c00050ba4ec5e6913330"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/054.response.json",
+    "bytes": 1487,
+    "sha256": "3685f043913c0b78a3aee5953d9c881d5598dfe57449dc648f65f3ca4c9d6e84"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/055.request.json",
+    "bytes": 315259,
+    "sha256": "bc34eac6a96367621ab0de9b51173b522263458dc46a8e5d0541f8d26e148f49"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/055.response.json",
+    "bytes": 3684,
+    "sha256": "8ba28dd6ca6de399dbfcda53017cfb976af27c37d41c4cbb3d100f68ed616397"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/056.request.json",
+    "bytes": 318546,
+    "sha256": "0aa0490f9942c766678278355e53cdfe843cc72437ae5d5492489bcb8175aa53"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/056.response.json",
+    "bytes": 2857,
+    "sha256": "4e8bad872ac26d7d068c0dc8acc4c0dffb6a3f78fb523fa35b9c4baf77c065dc"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/057.request.json",
+    "bytes": 320956,
+    "sha256": "fc269b460f7723eed15a79c4fd86bd97b60de36b1a871fa597f55fe8f98b73e8"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/057.response.json",
+    "bytes": 1615,
+    "sha256": "495db9d07cfb57b6a5b52aa4567c5f66cfc0499ffeca96afb552c46a1904b09a"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/058.request.json",
+    "bytes": 322484,
+    "sha256": "cbae6841be1895da7625ebf282026c4db8f99a6f7d67e8ecf18156503bc654d1"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/058.response.json",
+    "bytes": 2053,
+    "sha256": "ab3d84036dea7ed5442958948b55c2ef9aba9babda66e0f2bad04568dc880145"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/059.request.json",
+    "bytes": 326836,
+    "sha256": "9a438b47355da67fd03c556225621af4b4e7b5a53c744d528101b12c39f197aa"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/059.response.json",
+    "bytes": 3786,
+    "sha256": "d271319362344f241eaef7cd80a72e8d86669daef210ff16ff5b321a0114b6d7"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/060.request.json",
+    "bytes": 330063,
+    "sha256": "f4c917a8ea8402f68f226422aadebd3ea9da3907b85ec5a67e9405be9e8a3bef"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/http/060.response.json",
+    "bytes": 5294,
+    "sha256": "692703aa4d515d58ad0105013d2195916cad905c8d30fc84405b89360d33a599"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/input_manifest.json",
+    "bytes": 168,
+    "sha256": "8ab8fcd6d50678c74a2307afcddd2361326f45527ebf406133cf5f6079a99651"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/model.patch",
+    "bytes": 3165,
+    "sha256": "e0d1d32043a7e8e7daeab7d5c2713a0477476f18c401e9d75574ef80c810e7de"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/dataset.json",
+    "bytes": 59207,
+    "sha256": "58db008d47580329defa7e3d2b887c31c994e5a7ecac0728e2cb25aec6234169"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13236/eval.sh",
+    "bytes": 4578,
+    "sha256": "7fdce61172e844f9fca8c73f96ece796c51da3f0ead04d423c4b0b590f04b10f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13236/patch.diff",
+    "bytes": 3165,
+    "sha256": "e0d1d32043a7e8e7daeab7d5c2713a0477476f18c401e9d75574ef80c810e7de"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13236/report.json",
+    "bytes": 63350,
+    "sha256": "fccd0bf2506a88581b18362ab40d582c209232398290346154401fa6d856ca8e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13236/run_instance.log",
+    "bytes": 59341,
+    "sha256": "2aa8b0d381319170ce8fbca9373cd41fe98f0956f6573cf7244cc1b16e503eef"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13236/test_output.txt",
+    "bytes": 380450,
+    "sha256": "f10f1cf32fa77f787f08a59799a30d558e5a952818a89f2465f0bcdccde9e202"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/prediction.json",
+    "bytes": 3392,
+    "sha256": "fa55a9b2c28a9fbdf86da5dc99cec197c22f3521932aec7e2c4e24f3ba86d875"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "48cb9606bcac3316211eecaf5abda787436b9c19ca5d075c8d4e130056f7ac01"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/official_eval/report.json",
+    "bytes": 55360,
+    "sha256": "d0fa7a07ec4c088ecbaf239e62cac60ea52e1221ea42b0eb997234b739e00e4e"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/predictions.json",
+    "bytes": 3393,
+    "sha256": "7cc04c36c7d626dd77780f6f2ecb727fe12d31db0c3ae51a4d16ee326ec1583f"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/preflight.json",
+    "bytes": 1447,
+    "sha256": "e4766143546e3415d97023827bd128c70857b81aac6878d58058635cae364995"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/result.json",
+    "bytes": 5013,
+    "sha256": "7e3f217850bee1fe974c06e390b31c818c0a107de697c56152dead353b605d36"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/started.json",
+    "bytes": 73,
+    "sha256": "0ebab1daf95f60c7419450b08ac6320db823cb18b5712c925bfcc5264b9bc264"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/task.txt",
+    "bytes": 1418,
+    "sha256": "cf86aa46e5f944f47be228bf75f139aeb634ec0afa9d88a5d121e490256a4d8b"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/tool_events.json",
+    "bytes": 213889,
+    "sha256": "80e5ce001f7e125a06c13fb7b9566ebbdb113844442e6c37362b97b1d8af7adc"
+  },
+  {
+    "path": "runs/astropy__astropy-13236/partial/trajectory.json",
+    "bytes": 764105,
+    "sha256": "f71e752b5d192b07752d98f797683e43d4c9cdfaf31b43ab7d54986b2067fd73"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/answer_check.json",
+    "bytes": 5916,
+    "sha256": "eabca7cedb54de267c8c3c00ce983e88d4e3e7ba53e1091e6b674692e5db3b7e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/checkpoint20.json",
+    "bytes": 1087,
+    "sha256": "860069853e38224a35546360c7acb696ced5267b42ea26d3fe1a7ebaa7ab63b2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/dependencies.txt",
+    "bytes": 577,
+    "sha256": "c702e183439384977f8bd41eaa2c1bbddeb0ea913245e43132b97556264fffe2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/001.request.json",
+    "bytes": 8608,
+    "sha256": "5fbceab8462e9c686dc9c0b6768d8c0e6d98fc82c4d0c55e66aff2955cd2c9a3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/001.response.json",
+    "bytes": 1510,
+    "sha256": "bac4d57caf688256afbc8722453ab9da4017af3a3fb4e0428ca58838536cbc9e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/002.request.json",
+    "bytes": 9675,
+    "sha256": "0016e94c1c42ef31d0f7ca71298e0725fc4f311366be22aba3d5f01ffe72e6ae"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/002.response.json",
+    "bytes": 1361,
+    "sha256": "517bff29195c0f37cee974b64a8131a32b2d802ac38a0891dba05286c7bfc316"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/003.request.json",
+    "bytes": 10544,
+    "sha256": "dc6d64ebf9a054c1b6475a7b9d9446a4ca51c501a2b5bf78c9b17157ae2d0fec"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/003.response.json",
+    "bytes": 1373,
+    "sha256": "6864f2f2a4ebeedc6c23ff4781c2998330bb8f33c1beff33a8e0c1b7f1e72fe5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/004.request.json",
+    "bytes": 14949,
+    "sha256": "7babc0f9559f01238ee5997af0d906ef379443fd420d01ef202e6c0e6a5bde22"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/004.response.json",
+    "bytes": 1445,
+    "sha256": "9d9b4df6ccfca507f25e4cdba97b38a880c24fadb8543794aac48ec1a1a128ae"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/005.request.json",
+    "bytes": 32249,
+    "sha256": "85f01f0d5596a487af5ea4bc2cf0a58bfa0425b7a54daea36a93aaf706065826"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/005.response.json",
+    "bytes": 1640,
+    "sha256": "84704512acedfd7a5a23d8b05a239e8489e2834dc8ac74fa5147f7bd758ec256"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/006.request.json",
+    "bytes": 49845,
+    "sha256": "403e46cd07ea141ef64c389572f97c63c591d5fb666ca24cd2fd996c4976d052"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/006.response.json",
+    "bytes": 5148,
+    "sha256": "0e8ddde4f4f8ee076ee14fe135026b4041974be66f9904ad8f5228d8cf48b1b8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/007.request.json",
+    "bytes": 54475,
+    "sha256": "ebc0ee148f5834d5bcf43d5348ba94d870ae131d09927e42a4c167caefe20485"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/007.response.json",
+    "bytes": 6406,
+    "sha256": "2823ce733ac7246a4c3999dc10da4abffd7c21f24fa7ab2a6e422cdcec1ec87c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/008.request.json",
+    "bytes": 62662,
+    "sha256": "5526e295f92a938b5568c838a20c5cdcbfa1217a946aedc717ad5ec37a159cc7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/008.response.json",
+    "bytes": 1403,
+    "sha256": "2ef948a82e7443a4b080db4cc1d710b187e6ea25b5f7221f32dbd26904a8efd6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/009.request.json",
+    "bytes": 79949,
+    "sha256": "a95859213ec8cef996c43e8cfa812d01205f8d9bf9b7351747f5b416f86559a6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/009.response.json",
+    "bytes": 1491,
+    "sha256": "7ed7ef7453fc2c775267e43c869369fd374c0100126a148621d858ef7524e94e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/010.request.json",
+    "bytes": 85390,
+    "sha256": "613fa69361095107e36fcad27bee2118059c076b1c347d51754687820f9a10f4"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/010.response.json",
+    "bytes": 3660,
+    "sha256": "b5970ab3ed39db80a266593b3fb6a1b4929f13d1372737d5fd2e41d5475f3946"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/011.request.json",
+    "bytes": 88574,
+    "sha256": "8763912349c9015b4fffa800dd4583a4b8ab4f5bc3d499520cecc99514ddb4a6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/011.response.json",
+    "bytes": 1350,
+    "sha256": "9d83ea3a15470b8561e849d018564b17f5484ddb65889519e2dfc070ade36447"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/012.request.json",
+    "bytes": 89344,
+    "sha256": "aa3ee699168a2d0e3e7fc3b9679b850a43eb12f9835979a2dbd09957dd3592a9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/012.response.json",
+    "bytes": 3974,
+    "sha256": "46c9c32ffffb1b023c8e92bf934e9c951540d4935e3bc30eda70baa24515a26a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/013.request.json",
+    "bytes": 93960,
+    "sha256": "d5df9c200140e90e81d823d466a6e2ed8a8ef188e82d30d2740d240675fb2d86"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/013.response.json",
+    "bytes": 1277,
+    "sha256": "3623194fd7ad60efac0e30e13cb577a3429afe90e72ca9d552d24340e76d7b24"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/014.request.json",
+    "bytes": 96478,
+    "sha256": "7ff1004c6fe21dd69ee6e022ab6e73f2255956f6ed669a997145b15ec511d815"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/014.response.json",
+    "bytes": 1589,
+    "sha256": "800b0bd785fca8dcf01e984a719df5a1ba8fa8864e159f03a65a342d70742dc9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/015.request.json",
+    "bytes": 99180,
+    "sha256": "a57828f8f58d975a47a3ac5f19f0f2d6585a9dbe2747922bb7b0a98c860fc220"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/015.response.json",
+    "bytes": 6032,
+    "sha256": "90316d76ec0b8836596e3f0d7dae76e5efb6bcc8a9f1c5e4e5dd7ff319d49532"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/016.request.json",
+    "bytes": 105305,
+    "sha256": "b6e29b3e40353b8f1023c02d4fa81fc0cccf0f445fb9c5e5173a304a2a12edcb"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/016.response.json",
+    "bytes": 1340,
+    "sha256": "97adc1c2feea6ef05155f80d78fc5560cb33670611ed078fc88e53dfc3820622"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/017.request.json",
+    "bytes": 114466,
+    "sha256": "3ab0569deb42188834482d35349d9adf3c1459dc2a38b18e3307c415bbacee34"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/017.response.json",
+    "bytes": 4777,
+    "sha256": "9577c81825c10a10557425dda1f3d1b9796bc6f8bff8e63da7d227e4425d3e9e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/018.request.json",
+    "bytes": 118660,
+    "sha256": "0b534dc2080cba588a87ffa70da40cbd5cd8fac51daec345490b5ccd084cfef1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/018.response.json",
+    "bytes": 5076,
+    "sha256": "a89a85777cc0bc31289cafe8d2816179cd65308f012fdce4308b5eab97dde9d5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/019.request.json",
+    "bytes": 123404,
+    "sha256": "9f7c3464036d83e96ea270d430ca46f41f54b252b9501e36ff87c5d4668e25dc"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/019.response.json",
+    "bytes": 1397,
+    "sha256": "93a7a6c907a42be5e4cb40214132088be1b6ba8dc78bc6d9e72f165ee436f1e5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/020.request.json",
+    "bytes": 124338,
+    "sha256": "08d0e52030eea37a1ce6bcc4f4ea935bf0be6943539449c3b142118e968ad788"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/020.response.json",
+    "bytes": 4293,
+    "sha256": "9ef3d34f3eb3dfc9b79e697a7f06f84c08e20e1575dc2e5103e0270ef2fdd8d6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/021.request.json",
+    "bytes": 141469,
+    "sha256": "47b7f407901e457f3b4af7c692d7dc6b7549fc76fa9e33c644f17b0082a1af5a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/021.response.json",
+    "bytes": 2282,
+    "sha256": "18986fd6f67a2a5ff873dc23d58fb49bdf6870ea654cf34759e1a8dcf74136ff"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/022.request.json",
+    "bytes": 143380,
+    "sha256": "07dfcd2c4bf818885067cf1cfbbf4c5181c0df0c235416d287b5275bd5cdca7b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/022.response.json",
+    "bytes": 2026,
+    "sha256": "45408db25f438406f5cd1aac3c3d69ac7bbb246aed0d65e61626e114bd104ba0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/023.request.json",
+    "bytes": 154101,
+    "sha256": "3ff8ae494d2c2df0bff7bf641b3619cf32a6a980b89ec2e557645db912569fea"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/023.response.json",
+    "bytes": 3132,
+    "sha256": "d3982bc0f7aedb04756a3150da29a6fa6506200acd45308490dac7c0187b0cf3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/024.request.json",
+    "bytes": 171680,
+    "sha256": "d4720b3d6758bc9d5d7ab18ea7c1f0aeed63dd37b915bff63f6b38ac21932f9d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/024.response.json",
+    "bytes": 5491,
+    "sha256": "4e5c4848c6bfaf641a91eb8fa5605e3a556eee5f434b30273cc9c8b819374e21"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/025.request.json",
+    "bytes": 181156,
+    "sha256": "247c10720081c1b3e637c56576510173d72a4ab551bf05013bbf76220f732d22"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/025.response.json",
+    "bytes": 4335,
+    "sha256": "48cb800cb37aec562af658ef45b5faebbe4f900272e887adf357fdf1654969f8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/026.request.json",
+    "bytes": 185159,
+    "sha256": "305581a15efda534fadd24c73b8d23c6797ab52d259e60b548384b369895eab4"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/026.response.json",
+    "bytes": 1537,
+    "sha256": "c0972088e3aacaaec2ff0c10a1fd45c12d6e5626bfde49133455d9c6f03cb72b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/027.request.json",
+    "bytes": 194203,
+    "sha256": "b2c6a2feb41ff7fcfc7273d0316a22465af6b95ea5ecd1246b0ad30b34330d63"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/027.response.json",
+    "bytes": 7440,
+    "sha256": "fe652b7c0374dcd8ce1aacb0e4389a0297455d31a825c0e0d42758e2ca83d2d1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/028.request.json",
+    "bytes": 202403,
+    "sha256": "06872674ef19a99c343e3e798193312077d15476180372058c0472792f243dda"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/028.response.json",
+    "bytes": 2028,
+    "sha256": "3e9fc3a786ed27fba5eb94342d89c1fbfd9fdcaefbac98e2ce5b7b023e1db3fe"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/029.request.json",
+    "bytes": 204847,
+    "sha256": "0de1112652e0d2ccdd61a84e8d0acfdd6dce8b8ace1113e741fa2aa0bffb8096"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/029.response.json",
+    "bytes": 5584,
+    "sha256": "e33bdf33823264518db07450da8332028064702eb4fc2ce182be5392b5ea135e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/030.request.json",
+    "bytes": 212433,
+    "sha256": "5a4a86639fd297ba2f19733cbafcd60ee41cf781fdaff611267255490f831c8e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/030.response.json",
+    "bytes": 1835,
+    "sha256": "f45f3e932f1393b5734f93501550ba8729162a3e3d924f8159606574498d1290"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/031.request.json",
+    "bytes": 218319,
+    "sha256": "9aae290480231e73afcd48d7827ffb1a5e18959694ea0201d7d7b8076ddfa7a3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/031.response.json",
+    "bytes": 5411,
+    "sha256": "424a31019efc56cfce33c60a7bf2f0af10af095ae70d1de2faf9fbb521e52414"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/032.request.json",
+    "bytes": 223176,
+    "sha256": "911f5a6b7a9f9552aed8c6072e7978d675255dd70fe580e2a206d1d11b1fac6b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/032.response.json",
+    "bytes": 2495,
+    "sha256": "8ad82bd2eba5840aa8739cc95c983fad00020d22b4422bd99e37fb910b3f6fa1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/033.request.json",
+    "bytes": 228514,
+    "sha256": "659a2eac1d3b2daad7e9fb8ba0106be6cf7b25732ca98a82db89a23541a66787"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/http/033.response.json",
+    "bytes": 2680,
+    "sha256": "76599174f62b9c454b4c532453e84cf5af4e5a0b2741b8768e64f769066da334"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/input_manifest.json",
+    "bytes": 166,
+    "sha256": "e7e73b432e2eb97b7d1d58a9a9d1c3714d2c746460efbc16d18180b87dd75efe"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/model.patch",
+    "bytes": 3572,
+    "sha256": "88b3a5d61ebc5f5b9595bb37f2bf274fea1a24370a01896519bb1bf9fa630437"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/dataset.json",
+    "bytes": 49584,
+    "sha256": "760b8c91f24b9eeeda66a7e208c6026aa060967fceb3cb8e7b363a486b565f4b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13398/eval.sh",
+    "bytes": 8230,
+    "sha256": "867ae4da0c9abc57dd10e8f07597d6f62729c52a0b6935230a3fa7a6b74d985b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13398/patch.diff",
+    "bytes": 3572,
+    "sha256": "88b3a5d61ebc5f5b9595bb37f2bf274fea1a24370a01896519bb1bf9fa630437"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13398/report.json",
+    "bytes": 9286,
+    "sha256": "584cf4388f61fa1327ca8650902c895bf0ed11591e425e424d270a85ba44e211"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13398/run_instance.log",
+    "bytes": 11545,
+    "sha256": "df976b821d94e9182fd4c668091074e380bf4a7766d3977aa74d1cd0750409ca"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13398/test_output.txt",
+    "bytes": 309853,
+    "sha256": "192a9cb705402cdf5b82f489b1ec4b84afecb64304310e5ae1c00cfa23477ac3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/prediction.json",
+    "bytes": 3792,
+    "sha256": "983cc40bd93591d7493e6ce5560953b60e6473a6fee069d815a1ca6fc1364c70"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "7df70f81083c7eec7427a62fe6c14fe73542a7763c8dbbeb5ce93102aaac64a8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/official_eval/report.json",
+    "bytes": 8174,
+    "sha256": "6a0f14ef5713fc05eb5bd3a584787ea68fdf0d5bf6ccfc71697638106eee23be"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/predictions.json",
+    "bytes": 3793,
+    "sha256": "2bd0c06275054d7a24d46f10cd04c45d6536b373d1fba28685c95e0df9fbe570"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/preflight.json",
+    "bytes": 1436,
+    "sha256": "191a624f008abcda55376e4be3b3a11f732bee4ebe2a6567ce8244b48ffa0967"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/result.json",
+    "bytes": 5593,
+    "sha256": "b1edd41c4d0900a757a64571f7a411f827bb089dad96a745655639c0f75770df"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/started.json",
+    "bytes": 71,
+    "sha256": "8f8f4d1767a0bee25feba963a7e8753b6f7bb9bc1819fc712ded99d5056b4868"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/task.txt",
+    "bytes": 6845,
+    "sha256": "959c773a6fbc8f8b5d45c539e12140c24743e13290f3981ca527362292414744"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/tool_events.json",
+    "bytes": 181309,
+    "sha256": "78410b34227ce6e7a80b15d95f43f8710d8e186225b1f9a4eab1c5e441ab5603"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/ideal/trajectory.json",
+    "bytes": 532082,
+    "sha256": "026973113e2e5fd803d2f2c1cc5de32c3c64b27a8f2930ae7625a458df4b9e97"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/answer_check.json",
+    "bytes": 1045,
+    "sha256": "a50124d24018dd92f66bf05fd37e05bab4a275bad2ee1725d20a25141e8a1ab2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/checkpoint20.json",
+    "bytes": 1087,
+    "sha256": "365cf2703ced9d6389d964ff597d9380ed940409ed6fc56cf2216cfeef8bda46"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/dependencies.txt",
+    "bytes": 577,
+    "sha256": "c702e183439384977f8bd41eaa2c1bbddeb0ea913245e43132b97556264fffe2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/001.request.json",
+    "bytes": 3561,
+    "sha256": "f361b21b584e78e8f4a584620409c5c442254e3895a9f1f7007d5bfd926d2eac"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/001.response.json",
+    "bytes": 1239,
+    "sha256": "0350868d0625040284b0ea1a47a9f332f0fdc4b76acc64fb2000e1068d079937"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/002.request.json",
+    "bytes": 4493,
+    "sha256": "bf13a10d639859fa60a75f473d68779cf657569661f5933942a3caa579b5a38e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/002.response.json",
+    "bytes": 1481,
+    "sha256": "3d8cbcc381b5c61be167dc5dc13852b8d2678a15c4da0b11f65abac5259336cf"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/003.request.json",
+    "bytes": 8965,
+    "sha256": "b89c997cfd7a1724633973fb7b670a5c70ff15959d719bb09594f22e0b4a55ff"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/003.response.json",
+    "bytes": 1474,
+    "sha256": "a61fbc9fde93a62c0d62bf5fbd47112fa9c3332afa88c326d8b565c029791fb1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/004.request.json",
+    "bytes": 26265,
+    "sha256": "d9a567c84d7cbf31ab2b3aa25bddaaab2a30a62beb70b37c47cfeebae0673469"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/004.response.json",
+    "bytes": 1380,
+    "sha256": "64ec8acdec5a9c14402ffb82b2dd380c02d42f4f41194568fd263625996eb933"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/005.request.json",
+    "bytes": 32058,
+    "sha256": "deb1e4aa7bf043a10ca52ef94da2c3fd77f42f067445452eeb0bf4fd9ff8e1fa"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/005.response.json",
+    "bytes": 1564,
+    "sha256": "ca01b7d667074da82f65df0dc732e5ef5ed038164913d8c5a6cfb407dcbcba37"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/006.request.json",
+    "bytes": 33145,
+    "sha256": "af7719ac1acf5c50ca03a73aee3574e41017db64e21ad8b452a7dbdb04e61b05"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/006.response.json",
+    "bytes": 2352,
+    "sha256": "3b78fa6f0f4f27ac120367afce1dddb20c22097bda7203c0492c39d0bbfc9660"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/007.request.json",
+    "bytes": 36445,
+    "sha256": "cb46999f9f06dab2a1c4707f36b36f2b1475027ed43fa0faab9158421da5c846"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/007.response.json",
+    "bytes": 1511,
+    "sha256": "318bc5791747a3e4e4cf58aa82f60d5ac53d372ba6dd6c59f38edde333004cd0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/008.request.json",
+    "bytes": 49462,
+    "sha256": "27a4f058116e2deeba5bfd68c2cfd080adb2fd971572c9083a2d6e4205dab95c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/008.response.json",
+    "bytes": 1449,
+    "sha256": "5b344ade5dcf47e7d8ea5fb51b4f6b8109d2bea07e11060b58492b3ecc9673b8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/009.request.json",
+    "bytes": 50638,
+    "sha256": "613131e56fa512b60b09e90ade4887a7f07a29a807ec6298ac4082acd0ac0eea"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/009.response.json",
+    "bytes": 1227,
+    "sha256": "b38b71a76db82f3a19f8606315518cee764f553997a5f43f104f80f2cc7e939c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/010.request.json",
+    "bytes": 55460,
+    "sha256": "1cb251f4d903d6278b6ede0242d2dbda0281929bfb908e5af6d2147139f7a04b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/010.response.json",
+    "bytes": 1826,
+    "sha256": "fbc92a93be65a1f12e3084bb788d7cecab43fc427fbcac333e1a6385801a41e6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/011.request.json",
+    "bytes": 56718,
+    "sha256": "09177263f883c5ae76d9a2ffcf18a2ebb7168128cdf2a6fb1519b03306eb23a3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/011.response.json",
+    "bytes": 1731,
+    "sha256": "7033f69df879add3ac74069f512f0a8ec8e807c91fa2431200e16f512c5a70d0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/012.request.json",
+    "bytes": 58243,
+    "sha256": "c16c3c0966e23c47afd887ae9dfa5ffeae04cebe821a7b649b5415c6dfc0105b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/012.response.json",
+    "bytes": 1888,
+    "sha256": "ab634f08d344ccfefbe4983621cd39519d53bd4e82ae4162afb6038271cfae4c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/013.request.json",
+    "bytes": 60025,
+    "sha256": "fd1a26fd52cbee9b5635c7366c1692cb74f8dbf7f520dc7f713a83ead503d6ab"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/013.response.json",
+    "bytes": 3064,
+    "sha256": "0d9e9bb40f5de45da97b5002b6655971ec791d9b98449c3dd02cbdbdd7ef1cf5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/014.request.json",
+    "bytes": 62880,
+    "sha256": "07b8eb396ae0291e993f5991f205d70229dd4ac2eab0653e288e61156d746713"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/014.response.json",
+    "bytes": 1487,
+    "sha256": "ff1fc8ba11cade42fceecd7d951e77823ae9f431bde6f2e9fca61baef1491f7b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/015.request.json",
+    "bytes": 80342,
+    "sha256": "e551bb466e5ef7f81c35dbb8f86dfa51539d5826c8851120f0b558bccc1ed55b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/015.response.json",
+    "bytes": 1361,
+    "sha256": "5049b91b8bae57ff61035123c3c390ab3fc51d414f15560206b8c9349bbd961a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/016.request.json",
+    "bytes": 97561,
+    "sha256": "3128e7758c8c26dd0a7434adf94ab3d9997d2a004fe5043e7cdc5d2cf32fafee"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/016.response.json",
+    "bytes": 5642,
+    "sha256": "442cb76ac49d0f02fe477fadc1d217588976644149bf0275651c63878b2cad76"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/017.request.json",
+    "bytes": 119081,
+    "sha256": "b09cbb71c0093bf2333e330ea1e42c4bc456ca034f00f39f69b8a725bcbe4cf1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/017.response.json",
+    "bytes": 9044,
+    "sha256": "31e81dbade45cb41954d7b9efd1161ca3e34d5bffc384faf19a7ad7d84ad68b3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/018.request.json",
+    "bytes": 129188,
+    "sha256": "1041e0ee5097b31593f9131745983c69aae5d42753aabc181409a273c7f008d6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/018.response.json",
+    "bytes": 1267,
+    "sha256": "20ebd4922afc1572a237869477c457f374d9775f29fdaa1e6075963388d29b66"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/019.request.json",
+    "bytes": 138546,
+    "sha256": "f7bfb4791566ca161127197d4b9321a2b92e8f3b6f27626ec3db0b981ccbd76d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/019.response.json",
+    "bytes": 1408,
+    "sha256": "ddc8714d8fe6a6e33d9a4b4611580b3fe30978e98204458e03ba0f2e5783d277"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/020.request.json",
+    "bytes": 139573,
+    "sha256": "cd3c2b44fdc5f290ccbccba6803b753a56761f9fcac626d4fba83d7ed7f01bf0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/020.response.json",
+    "bytes": 4207,
+    "sha256": "370e0db7f1f3f947c5684ce0caedb417802f0fa8937525c262f292fbda93876a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/021.request.json",
+    "bytes": 154066,
+    "sha256": "27e78e4d5fd8aee3c553d2878fd4b5e0c550cbc50690f21da20c4a012ebb3e2d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/021.response.json",
+    "bytes": 10856,
+    "sha256": "a3af378095e5dc300eb19a71acf839de4bc3ba28421b368cc4a78fad625ae552"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/022.request.json",
+    "bytes": 172095,
+    "sha256": "8117725803c27c2afd31824c3084654ade402dd1c5b4575921c52d6babc0a093"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/022.response.json",
+    "bytes": 2965,
+    "sha256": "888b0c17851d148d4015b788f0a2dd6bdf7c7b16306c86664ec0c125f0188138"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/023.request.json",
+    "bytes": 180921,
+    "sha256": "073383d19f552a351e9ec89aea46a190fa3bb5938d88a2c8098bc377cd386706"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/023.response.json",
+    "bytes": 2923,
+    "sha256": "65ce46a84a8ae550be68033e7d2c19f0811f36c1c42f83447a93484eea9ef1e5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/024.request.json",
+    "bytes": 185122,
+    "sha256": "d71e4a3c137b90a5966915ef555f8d466c2c68035a3f536601cc874773863bc1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/024.response.json",
+    "bytes": 5877,
+    "sha256": "cdae67cc56533e5061c26487b998b647fd2ae48f169c5ec9dde7fe1dd6bcdfc9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/025.request.json",
+    "bytes": 191397,
+    "sha256": "bade819654b70623f05f21ebe14258f04071a687997a15391589d2528ac09b95"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/025.response.json",
+    "bytes": 2540,
+    "sha256": "b1a44663926a514e8e13b4244dd77df4466797411d5a5ce03c2bd5e9208623eb"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/026.request.json",
+    "bytes": 194100,
+    "sha256": "e813b1ce07cfdcb6bf86fd1436fc28dc93e814570d2a3c3a5e7683ed990c478f"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/026.response.json",
+    "bytes": 2844,
+    "sha256": "aea9b4607f9ca20e96a6612679c2f6e52ca0c5724226b058f741630358fc2e92"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/027.request.json",
+    "bytes": 197053,
+    "sha256": "157ce5e235831dfb753f342cb22dfc279a5be16d9b61a4b9fede6f762f4e76d0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/027.response.json",
+    "bytes": 2568,
+    "sha256": "d590d70d1292c593a5ac4584c7e00196099275ee7b77bf832a83f73b399778f3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/028.request.json",
+    "bytes": 206243,
+    "sha256": "e4e55b680f6753170856c621e8ec65ebf9313ad3fcc563f57c8eb70fb4ff82a9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/028.response.json",
+    "bytes": 3042,
+    "sha256": "7827a80a196bc0ace7edde31d6659deb00da8b0e540e0cbd110838949a63d6e4"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/029.request.json",
+    "bytes": 209534,
+    "sha256": "d62e92936c278794708f8cc4cced40b298a62bdb873bf33d86995f5304c0f907"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/029.response.json",
+    "bytes": 2434,
+    "sha256": "8558446b992a7197e87e05dfd5cb6d02b20262a738c161e266dfd97c1c9cdfdc"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/030.request.json",
+    "bytes": 211386,
+    "sha256": "03236b0dbec54192ac0af1c85dc48b8711cf773152b502e6cf81ba52283420ba"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/030.response.json",
+    "bytes": 21446,
+    "sha256": "0c36377ec791814df37850a24a038f049b35a523c79f854d062dc6b99f69207f"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/031.request.json",
+    "bytes": 241946,
+    "sha256": "c14024aea9249e1e90271243d0a54e13495add63dfb60fb239fa111f7034f2de"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/031.response.json",
+    "bytes": 7934,
+    "sha256": "82866fd87ab7125c35c428d52d6bc2069ac8f52514196e49286e262f9cb7c36c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/032.request.json",
+    "bytes": 249491,
+    "sha256": "13b0fab2d6a2ba8018dd5357953bdf8f8dbfec63fb2742bca9b2e761278626fa"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/032.response.json",
+    "bytes": 2956,
+    "sha256": "1c19762d9bfdba0024b3948a2a91f9c95a5e9cde34ea4d337f7e8df213d9ee59"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/033.request.json",
+    "bytes": 252894,
+    "sha256": "8794dd3f659649afee5ba1bce0543d05b688c638818862708ca0c65b86c82e2e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/033.response.json",
+    "bytes": 4061,
+    "sha256": "e8606dac2f874bcd3bd01e7be0bf38937097d1614fbb66a2a7d504e2204a98fa"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/034.request.json",
+    "bytes": 257041,
+    "sha256": "9974eae4555487210e4a81dc283e05540e7693616ed472b9e44f7678dd73be60"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/034.response.json",
+    "bytes": 1523,
+    "sha256": "1f52a20eda5f4bfb70f28c71acca1bffca7719993362f47f6985f4614192cc77"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/035.request.json",
+    "bytes": 261539,
+    "sha256": "5338d75b971ea938db3edeeeaf26fbcdf6bf12c5d6e9a4666ba5c952b8e80823"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/035.response.json",
+    "bytes": 2338,
+    "sha256": "012891221c72346c4ca29523f91858d6995eecc35bbbf9fc12b94e0583b77137"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/036.request.json",
+    "bytes": 264682,
+    "sha256": "803ac35aa75f595bf9c469c1456e5998f9d64477e3f437a05d75a534a4f3d710"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/036.response.json",
+    "bytes": 1924,
+    "sha256": "3740e3d7afc7414cd9dae6a73aee704a0e928cbfb7f212b1aebec233abadafeb"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/037.request.json",
+    "bytes": 269628,
+    "sha256": "81ccddb418cab3e0a70f630bc5a51ac0f7ec05f9f6d4c79d6e2d469acc0c726b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/037.response.json",
+    "bytes": 2524,
+    "sha256": "932f36af8de4796b417371145fc426b47a6558523d8ebe1370cac0dc9f31f1b7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/038.request.json",
+    "bytes": 272591,
+    "sha256": "5dc8a343c3c9f99158335264f0a57e1387b170bcc6fff651cafd0d61534407e9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/038.response.json",
+    "bytes": 1655,
+    "sha256": "1ad811369cdf629ba851d3309c3d8b6c5db0f0a437f2b4c863cd72af24721f00"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/039.request.json",
+    "bytes": 273665,
+    "sha256": "266ca575997355f3abe7f64451b35d79772b99bf5773194a8b4f16928f845b9c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/039.response.json",
+    "bytes": 1416,
+    "sha256": "b41c8a3ea0a3b58544d4f732b8b7697ed2c80c265ea7c2a598e6f15e1d677b3c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/040.request.json",
+    "bytes": 280667,
+    "sha256": "2907e31f4ff73fa42a3ca7586a3883f1efaa51424dd63d2e9e8a9c32436fed4e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/040.response.json",
+    "bytes": 1962,
+    "sha256": "1fb8889eb87105dc8b0ca8352446bcbcab7d29590745c1b9e0c3bdbfd818a252"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/041.request.json",
+    "bytes": 283857,
+    "sha256": "4dfa62baaf9a28579602c5fdde9e488a61dc67fc7f597f1f5069a09a5bc810d7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/041.response.json",
+    "bytes": 2843,
+    "sha256": "164aff46efdee0eeff804825e4a80e17f45886f66f9f57b504e30da1d762e6d7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/042.request.json",
+    "bytes": 294948,
+    "sha256": "781439854424500939d5d535ab9329af0900f1ae25131ab00e0b1066a6221135"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/042.response.json",
+    "bytes": 1628,
+    "sha256": "12ce5ec77fcf1cd748cd6bf1b7ca220b2e9e6ec98403329bc97733d5e70906e3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/043.request.json",
+    "bytes": 296173,
+    "sha256": "3df8b0ac0e5981eecece6d57e0a2febeaac9b0f001da2abbddd3845eaa7584ba"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/043.response.json",
+    "bytes": 2438,
+    "sha256": "8b3e9ed130c51687644730b74605060b8f5d42fad5ed3b0cc474194f67ba7960"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/044.request.json",
+    "bytes": 298186,
+    "sha256": "bf2dd85586525790e3d15e3c5def34f8a4462d5f683f49e4d7630e991c596fad"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/044.response.json",
+    "bytes": 1481,
+    "sha256": "5e6aa430dbebaadc0a5e2afd7b12c833f78aea90f314491c8eb41d6228aa470e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/045.request.json",
+    "bytes": 302239,
+    "sha256": "e648bd7259bab2d33c0caa61f58bd73b35729d2788af80280618bf271f657a9c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/045.response.json",
+    "bytes": 1867,
+    "sha256": "fc967b79ac41cc721b0058573688affa4241a4a86a452b13f070bea8730494f3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/046.request.json",
+    "bytes": 303847,
+    "sha256": "95883a7a0e18ee008bce15eef707990e0e0870186bab3431275cc2ead112d7e4"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/046.response.json",
+    "bytes": 1611,
+    "sha256": "0328c7a8f9246abde5b7bb985599a99b720afc64b3cb9c50ec24564e1c4604e8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/047.request.json",
+    "bytes": 309466,
+    "sha256": "d5e79d32b9cb3877645a7b3d69e248ed5b1493b6d43f826ee7effec3a2de4e9c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/047.response.json",
+    "bytes": 3055,
+    "sha256": "3724fd54a97c2607b2114f14d1ccb66306c82a6be015557904003ef397b38328"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/048.request.json",
+    "bytes": 318592,
+    "sha256": "3c57de4c49e6bff9cb2321f7b0ddf5b3b9c7ce76cf75aadd3144bd229a24ee60"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/048.response.json",
+    "bytes": 5080,
+    "sha256": "10a461bc8ca8191b014adea3b593c98dfcc38fb0f125cfb077744c15032caf5a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/049.request.json",
+    "bytes": 323120,
+    "sha256": "1fc15e7fece2ce515147116643a2f4c7aa03161862a4d1332dfc047b290d4796"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/049.response.json",
+    "bytes": 4317,
+    "sha256": "b4d0cb0264ea30dd169d470a947e6aac981a269591e6d65571f9028f9c73e935"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/050.request.json",
+    "bytes": 330086,
+    "sha256": "dfc89481037ee8655f8abc9f5edf4415387147ab950817e6a79e1710dc0b55e6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/050.response.json",
+    "bytes": 3500,
+    "sha256": "3340a7325b249cfaf0a7e9df181e014bc6277d547b9feb09c0695c68204837b7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/051.request.json",
+    "bytes": 334231,
+    "sha256": "a4a5bc33aa448ab938d2d972204904271305636ddebaf9aaf9d0fcd8eef08e07"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/051.response.json",
+    "bytes": 3378,
+    "sha256": "4017e736b439e1739ac6aad1c1a627d330af5730564c2b57e57e3e644be4904c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/052.request.json",
+    "bytes": 337742,
+    "sha256": "4ff66f4068914e3005816e5c7725e4450042a7ceb5c71a66157c57e509f1133e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/052.response.json",
+    "bytes": 6752,
+    "sha256": "8ca6de763f65ff3b2080d68e3367f592244cc2c4acc08be5ff6e61cf855ca138"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/053.request.json",
+    "bytes": 346513,
+    "sha256": "05ca94a05a8dc3cc2ab891747967d0a3c58e55ff2e144b0143b53fa1fe314ab9"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/053.response.json",
+    "bytes": 2972,
+    "sha256": "bf155fcec3d5e39bf2d4d6ce926e881215d8348b81712c18091e2cf78d0fd0e5"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/054.request.json",
+    "bytes": 349504,
+    "sha256": "bc12cd8dd87ddda5c5e383a70fcca655d660abfc084886855c9f69e3a5c61196"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/054.response.json",
+    "bytes": 1877,
+    "sha256": "ee685a8094fbc0df81963a9fa7168a23efeeec8d4138a06c510c06b85c2a84a2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/055.request.json",
+    "bytes": 351848,
+    "sha256": "c862513532127391366687ab17fa558cbedebaa4a0cdd28c5836a0786df98e45"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/055.response.json",
+    "bytes": 4525,
+    "sha256": "b0458645c8cda3974c6a7246438a5ee6355e43847ef39e6562299639080ec1a3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/056.request.json",
+    "bytes": 357046,
+    "sha256": "131e28d83d7179bc96d82dc2071a4e3b9bf7f1bc8c7ba4a7c747a42a84209416"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/056.response.json",
+    "bytes": 6657,
+    "sha256": "d84ca7fc10bd36a144633a20b90650ae4c8ffb1f8ff5107cb4632c817668460a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/057.request.json",
+    "bytes": 363119,
+    "sha256": "03e0240f74019d7042f2dc5e9271f4bccb60f70e9101f08f608a1ac390ba0cef"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/057.response.json",
+    "bytes": 7173,
+    "sha256": "cb92aa0b4cbd53613361bc1e410458eaaf482f60a080d7f5b4d8517c02a4dd34"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/058.request.json",
+    "bytes": 369835,
+    "sha256": "59a341caf2b0a7be78c7026ddce31fa4e4e5931d982db2781334a57ebdee9492"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/058.response.json",
+    "bytes": 5054,
+    "sha256": "f6d089ab73d3c00512c95cb9c7e334f161e6359c3f6fb7376d985a61acb8945f"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/059.request.json",
+    "bytes": 374505,
+    "sha256": "9dcf0d1d4dfd09ac2405b42f6bd74f132c22c306cfef8e475168b6ac55e00708"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/059.response.json",
+    "bytes": 4449,
+    "sha256": "db8494a0b3c0c1ca4bc49e30920e385cf64528111731bdb17ad639082f743126"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/060.request.json",
+    "bytes": 391779,
+    "sha256": "291f2d7c8a6a495b8722d4c7ebe9bada39694fa3b4a48fb3c7b5d6073969bba6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/060.response.json",
+    "bytes": 6025,
+    "sha256": "5b4b5f5734726ede6e794afbb5793a7fae2a8930a36ace0de9c9343263b7a8f0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/061.request.json",
+    "bytes": 397929,
+    "sha256": "8e4f7dd979d762bc5b7cb4340dffebba265cc7af7cb0d0dc3fc19f1701ead81d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/061.response.json",
+    "bytes": 2608,
+    "sha256": "40133ecf1ed0145abfe63f146217434067ae4a388c7d51b04945200d997bfba7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/062.request.json",
+    "bytes": 400735,
+    "sha256": "81c1d5fa0b45c7f0f4ecaf387dadd26f5ca5658e9373d79856a5ad16afb38903"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/062.response.json",
+    "bytes": 2098,
+    "sha256": "c142d16de4422ea585fad2ff0dd6536a2301eaf82266be531db7c873b6063b05"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/063.request.json",
+    "bytes": 402955,
+    "sha256": "bfa3d292b479e5871b48ed43ab12b2a4164996ca39da51866a69d3a4deb6ac32"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/063.response.json",
+    "bytes": 4421,
+    "sha256": "a7d2d7875f4ed4d7b640452cbc8ef11c1e51cf124d46583f33d6b4584e443c7e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/064.request.json",
+    "bytes": 407920,
+    "sha256": "4cbd50d5279a3bb8480bec0c3934afa94b260bb2adb067c3927c7ddabd0bbc65"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/064.response.json",
+    "bytes": 3210,
+    "sha256": "eccb6daa73ca5b9f7b5556a2342f8f36093d02abce0ed92dad6b51e311f8695e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/065.request.json",
+    "bytes": 415176,
+    "sha256": "fee59b622bec34ba59832b08382341a1e9e637c0ec6af233da7429190d499955"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/065.response.json",
+    "bytes": 7667,
+    "sha256": "df39ebc7c38c45ea9a0722473ec4c6f063abe553a688e693ef1728a1465333ab"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/066.request.json",
+    "bytes": 423598,
+    "sha256": "405aa31601e38740c6c171ac2364b4c61fd80198d35a6338ca9bf68d3d7a2f73"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/066.response.json",
+    "bytes": 2334,
+    "sha256": "54d259520b5372b3d3c30123440bec1d5498fd3e0a934444341bda7676778e6b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/067.request.json",
+    "bytes": 426494,
+    "sha256": "1fec39bf9da00a21151502c8a58b160a5388065a89030c412da4b1117fe95f7e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/067.response.json",
+    "bytes": 4952,
+    "sha256": "63ecbf0c06e5e75451869ce2e7d1085022c395806deeefbc87d0bb31a065cc80"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/068.request.json",
+    "bytes": 432099,
+    "sha256": "e0d858af3a3a9d159e8cc9594f0d687b75e7340604c77026ef6fa2e64f624a5d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/068.response.json",
+    "bytes": 1370,
+    "sha256": "64a2f382c9f20874e492cc34576d2884869d40365ead0d2489b6d0a1756586e3"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/069.request.json",
+    "bytes": 434588,
+    "sha256": "77e8d9ca4f3a4366a94121dfd135c418ba773c59f1fcd20720a721d27de62652"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/069.response.json",
+    "bytes": 2177,
+    "sha256": "1eebde2148166fbb45b38cf54442283eefb197460d4f6748c3e70c1cde960ebd"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/070.request.json",
+    "bytes": 436895,
+    "sha256": "ce5b4a080d0ed608b5fd224b1536a902962de915493add149671566ae5afa42e"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/070.response.json",
+    "bytes": 8446,
+    "sha256": "98a7eaaf1510489701171f08a029d8f4de1888a0974dc791fb07c09814922df0"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/071.request.json",
+    "bytes": 445588,
+    "sha256": "dce064b6e768d7a20e46c169b63eb85af1b1365d83f396ab329f7c21b367b46d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/071.response.json",
+    "bytes": 1823,
+    "sha256": "5b8ea1a10fd03d9554deff3d0c349db1d9b13f96752b92407fe4b588f4ae5103"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/072.request.json",
+    "bytes": 447843,
+    "sha256": "8fc89922b797793e0e82f2c7782ad74f4fec169e06915afaf8a1ee921ca2cfdd"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/072.response.json",
+    "bytes": 8433,
+    "sha256": "e978c630383ee1782b8029a7c01fc571a450a9e9e71582ad5f56f15da9537203"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/073.request.json",
+    "bytes": 456547,
+    "sha256": "de4d8eb741c8f10e05917f21de06b48cd02295574eaabc3153b9017bc309c92f"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/073.response.json",
+    "bytes": 1859,
+    "sha256": "948db1cd9abd2ada053e3f0c050a9f1ff8068d272f216f324ce8779b85ec1c08"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/074.request.json",
+    "bytes": 458684,
+    "sha256": "1c36f726e2bb7cc1bf8da3e150dc535c0d1966141212ca279bff3d35ae3cac7a"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/074.response.json",
+    "bytes": 3232,
+    "sha256": "9eb15db15f0e3d067e5831833696bb753e9f60a16861bfbf70914b526f8784da"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/075.request.json",
+    "bytes": 461330,
+    "sha256": "7c6c7dd78ca8d4c45979cb9200855ece1228c2b78890149c9c3455c74731cd10"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/075.response.json",
+    "bytes": 7727,
+    "sha256": "17a635d1a974a1e95f471a9df0e80b9366f6a6ba0c298b6680c8916d10253e89"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/076.request.json",
+    "bytes": 469004,
+    "sha256": "04588e6511b8d9c9b01c957a87d976c52b946bc9705de651c15c03e1e0b64a5c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/076.response.json",
+    "bytes": 5502,
+    "sha256": "3d2ec875ac246890d823a66780d58074fa24189ee7952dc2f63af1602da8776c"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/077.request.json",
+    "bytes": 476364,
+    "sha256": "9427ace762c71f0df3b7e659d6e2f3f7273d16f9a1f77e19101c20e0984eb45b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/077.response.json",
+    "bytes": 7115,
+    "sha256": "6418eb162efceea9c153c96b33a5b1bc0390d64fde99653f0cb27c3520baaa44"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/078.request.json",
+    "bytes": 488347,
+    "sha256": "01f851e3d9a2c77ac07cb3f9eabb54b7382e41b5e92b6860842c585d75bc819d"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/078.response.json",
+    "bytes": 5535,
+    "sha256": "f7872f236390d6511eb54c05cae71c192097b32dfafee99d5b2342677c385782"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/079.request.json",
+    "bytes": 500536,
+    "sha256": "24a793f9be6fd4cb3ffe26a5e15533e7d7913568f2d46f6144236b9566d083de"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/079.response.json",
+    "bytes": 6739,
+    "sha256": "ce4f20d246985e84fe28267a3b19eaecf2e0e8c3a7dd2d22794a0a47f040d4ca"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/080.request.json",
+    "bytes": 506871,
+    "sha256": "287d42a6467814461d7fb904889361c7cb797cd188d27a7f4fe517948455b720"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/080.response.json",
+    "bytes": 12824,
+    "sha256": "80f51854562dea3d56c76c2d606af0c2c7c75280fc12089b2dff0f69f5aa9ef2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/081.request.json",
+    "bytes": 519972,
+    "sha256": "e6adce8f210a4740146a73da56727af428234db395f01af131479392c2928051"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/081.response.json",
+    "bytes": 5372,
+    "sha256": "d9eb5c36a03ed8316479c927ed43aefd948b605dba0c7afc0d5a1192ca38a1e6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/082.request.json",
+    "bytes": 524757,
+    "sha256": "b137ea1679851f60fceecfc2ddbeaf1e1374b6de233d350aea383577a57887ff"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/http/082.response.json",
+    "bytes": 1750,
+    "sha256": "bd243dc24b64ec04c942933027178c751c8a636fe04cc39ea1e1d9cc659f12a8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/input_manifest.json",
+    "bytes": 168,
+    "sha256": "7b64314b4b7145db96614e6d42790239ee6c845a8e6b1fc85bcd1ecb4a2df4a6"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/model.patch",
+    "bytes": 9773,
+    "sha256": "9acdcae731d06a9b09ddf4330b827dcef8b54781310b071fd39b45613e794089"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/dataset.json",
+    "bytes": 49584,
+    "sha256": "760b8c91f24b9eeeda66a7e208c6026aa060967fceb3cb8e7b363a486b565f4b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13398/eval.sh",
+    "bytes": 8230,
+    "sha256": "867ae4da0c9abc57dd10e8f07597d6f62729c52a0b6935230a3fa7a6b74d985b"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13398/patch.diff",
+    "bytes": 9773,
+    "sha256": "9acdcae731d06a9b09ddf4330b827dcef8b54781310b071fd39b45613e794089"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13398/report.json",
+    "bytes": 9286,
+    "sha256": "584cf4388f61fa1327ca8650902c895bf0ed11591e425e424d270a85ba44e211"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13398/run_instance.log",
+    "bytes": 18872,
+    "sha256": "a7b0c74c8c9efe1aa0106a813b684c56431482c0e4aef620bc9234e9eb5995f1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13398/test_output.txt",
+    "bytes": 313538,
+    "sha256": "e70137ad3392b72c988d840bf5a08c267faa56d317c626101d066cc20e00c036"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/prediction.json",
+    "bytes": 10130,
+    "sha256": "7b8a9d1d1ab1e21d9aff4f4fc88d5c84bdc16ba2be5b260b8172f1be85b598d2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "7df70f81083c7eec7427a62fe6c14fe73542a7763c8dbbeb5ce93102aaac64a8"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/official_eval/report.json",
+    "bytes": 8174,
+    "sha256": "6a0f14ef5713fc05eb5bd3a584787ea68fdf0d5bf6ccfc71697638106eee23be"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/predictions.json",
+    "bytes": 10131,
+    "sha256": "f28436dfc11dd5b88b9af91dd82b3bd45988b07e2f0d2063136cb12861b616a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/preflight.json",
+    "bytes": 1436,
+    "sha256": "13a067fcfbf88e45efc74f0c466c62ad713f2d621273bc016877db01495953f1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/result.json",
+    "bytes": 8534,
+    "sha256": "0d225ed9c533081863d1ecc4cbdbf129b7dc5da2dab0eb877c92427510134db2"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/started.json",
+    "bytes": 73,
+    "sha256": "56af6d2f7882986389303606efe0ca7417c54b006cfce2e09b8247cb674e5157"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/task.txt",
+    "bytes": 1974,
+    "sha256": "cb0f6dfe9ff9324662a93b44d77475b7b4edfeeb2c8d1378610aada210916976"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/tool_events.json",
+    "bytes": 339538,
+    "sha256": "5e90cb3b4a7a2592aae88a503224aae9c750a159a4db5874dadab1b1f76505e1"
+  },
+  {
+    "path": "runs/astropy__astropy-13398/partial/trajectory.json",
+    "bytes": 1218915,
+    "sha256": "21e1247afa55885a83754e564c4427c7b811086a67d6313b2be5fdcecf4a397e"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/answer_check.json",
+    "bytes": 5487,
+    "sha256": "6ac02feda93754999af30eb605c699333349986c76f3a895345c814d1bfb0e56"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/checkpoint20.json",
+    "bytes": 1088,
+    "sha256": "b3c2b4bdccfa1b92da44d1d3cd23ab96b68044aad5ccf34a602ad8e68550c47c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/dependencies.txt",
+    "bytes": 577,
+    "sha256": "abe879fd7e24972a77de7a095e362a218d8a4f08b9cb7251bd777d69f2619931"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/001.request.json",
+    "bytes": 8122,
+    "sha256": "a4ead6f7d0df8e2c67672ec6126aeadeadd704bff3f81241f66f47560e61c803"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/001.response.json",
+    "bytes": 1558,
+    "sha256": "a93c9005df64cfe09e17a7fb1ea3c0215e025dae6d4dc42df58b63e40e7aa907"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/002.request.json",
+    "bytes": 10120,
+    "sha256": "16a0b87adeb2464cd0b0aaa2ee6b5df40a5e2d696de00d857c2f5b699f5ccf6a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/002.response.json",
+    "bytes": 1370,
+    "sha256": "f964834c584c7d3d69ce839c3435c3cceea4034a8d7c1d0afd7ff6ae6d964f3d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/003.request.json",
+    "bytes": 26924,
+    "sha256": "96133e5a65ddf33b9e9fbd278efbb42dae8a37daf08e24d96ccebdeffdb103d7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/003.response.json",
+    "bytes": 3872,
+    "sha256": "9e3b081c138668d0b68a52192355d29532b41b2dc56b085aa6c4fa6fdb26ead4"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/004.request.json",
+    "bytes": 46756,
+    "sha256": "4563907113351d0d6998847297f98a77afe22f4361dba5ff5b17a4ec218c3fed"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/004.response.json",
+    "bytes": 2910,
+    "sha256": "df0e6d354e300451a97e4d4f25982b7c942ec54fcd943ec335dea9f0fab626c3"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/005.request.json",
+    "bytes": 49414,
+    "sha256": "c240817e10a50210f22834c1b0143829a82e92b852452fe0498abcefe5589868"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/005.response.json",
+    "bytes": 2897,
+    "sha256": "a9e4d36ee3ad6581068eccbfb749f8c141b1ce31ec904e87d68caf4eee97a163"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/006.request.json",
+    "bytes": 52877,
+    "sha256": "507a5d520ea554c0ebdaac54e0e1a4faf09d0b6b8261172f16ab2fa090c191ad"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/006.response.json",
+    "bytes": 2244,
+    "sha256": "eec1e3624970ef77eb01e60c0fe93fa1dd4d9cb38e2264ee879c29503e14d6f7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/007.request.json",
+    "bytes": 71093,
+    "sha256": "8108fcd2e9afc63f43ce503c5dbf53dbb29721e93c9c923ee1301d276a126246"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/007.response.json",
+    "bytes": 1380,
+    "sha256": "3c87c683dce98a8fa57d8b2ff473f8f817f6b6ed06b8dc5ac221e5574a55346a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/008.request.json",
+    "bytes": 79412,
+    "sha256": "91c5e8e4f87819fb1a4a7340daec1e221a18a6c091214c092eddd2ab47a2dbbc"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/008.response.json",
+    "bytes": 2379,
+    "sha256": "733401f24373ab20f194ea952d81c86de859119ef0d39e0160a3449c75e6f7dd"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/009.request.json",
+    "bytes": 81861,
+    "sha256": "f66c7d3fbafc9f06c5517b01f4620124dffd7539d1e76a8dd1c854cfa5da6726"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/009.response.json",
+    "bytes": 5996,
+    "sha256": "aa2635789a4ccea26e3df9b27aa7e7c06e63da30042befbd7e84199b4da405a5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/010.request.json",
+    "bytes": 89570,
+    "sha256": "9e0abf3abdded7f7436a25bbbc8568f61adc926c59e9e6af882895966a1ff1c8"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/010.response.json",
+    "bytes": 1292,
+    "sha256": "7740e2c727e496e5b2443838699d7c184da57d25943ff2de99e89477c4d61fef"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/011.request.json",
+    "bytes": 99532,
+    "sha256": "2ed37b95b4dc970483822261a591ba3a89096107b5366452b34130e0441c195d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/011.response.json",
+    "bytes": 11702,
+    "sha256": "81c2d7ea4cc64d42ab0f48504db00d67872481eb1b380e57d49c035b50a91f8a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/012.request.json",
+    "bytes": 110785,
+    "sha256": "4040a879e50fae51cb23ba4f46796cef40d35d34cb8341d5d27e6c6c22acf756"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/012.response.json",
+    "bytes": 1972,
+    "sha256": "1575aeba5ae72c6095155321846f30b5c4049fa8357b924794a8d3974e75b4bf"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/013.request.json",
+    "bytes": 120504,
+    "sha256": "8c0ae5f0812a4ba4d6208e41186a9b786373fbcd94bcc46b969a3581c9c2ae26"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/013.response.json",
+    "bytes": 7691,
+    "sha256": "8fdbd01f1488cf8282a934fc9713dcd1676ab1a65ed8d371ccdc6a12db2b6d6e"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/014.request.json",
+    "bytes": 129111,
+    "sha256": "31efac0ddf622c06dd20c2ad5c401678dbc5984b0b7196f08c8b37f0529773fd"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/014.response.json",
+    "bytes": 2193,
+    "sha256": "19535acd47fe29f296e556c699a9501a8f17d40d9d160203c57f3e821c5693d6"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/015.request.json",
+    "bytes": 130904,
+    "sha256": "d3456ef0ed04d9333c04a5321857a19b9713819eda74ce86eb63542969d8d0a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/015.response.json",
+    "bytes": 1591,
+    "sha256": "74bf031b21c7b769d6c8464fdcb4a8b510979f182532b72dd3b85d402df7427b"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/016.request.json",
+    "bytes": 141942,
+    "sha256": "d8f64e9d8814882df393841a2d41625d2031dfcc9f78ceae98d96e1eb8235f06"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/016.response.json",
+    "bytes": 1817,
+    "sha256": "5845d57e17489a6c5a70059f27c15fea4d4b88798dea027ad98670638e4f0959"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/017.request.json",
+    "bytes": 143397,
+    "sha256": "c420f7ee8f99e5dd98744276ed7de174cecf9f422d1b87c381d69f44a619d3bd"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/017.response.json",
+    "bytes": 6049,
+    "sha256": "4687908ef3381854a48240d6e9ff61367a14246318929ce4752a76cbe7a46db8"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/018.request.json",
+    "bytes": 149072,
+    "sha256": "973bed0cd78d7beec9a1b092e597c6bae7f1b5362fc1ca30982620142677564c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/018.response.json",
+    "bytes": 5174,
+    "sha256": "18ec1d0ef6398a26b58c172217d4308765c4ed0b14f1aee6ca87192049810acb"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/019.request.json",
+    "bytes": 157368,
+    "sha256": "859d3042b6d2f2ac0104d35f12027e47748b2169ba7bda2e63c1468665b1b075"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/019.response.json",
+    "bytes": 2198,
+    "sha256": "139b6a0fb7978ca3da92892199170622e65f59b8863a63dae1c71b2ff16c82b0"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/020.request.json",
+    "bytes": 159443,
+    "sha256": "cfcb415d806349dfad41ee81d973eaac91452f96e8a3a0e08c0bbbfb894e6305"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/http/020.response.json",
+    "bytes": 4994,
+    "sha256": "ed11c8cfbe4fb5f2c6d92118cc030ba644519ffad08ffb7e9b62e4f2cd212401"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/input_manifest.json",
+    "bytes": 166,
+    "sha256": "04d16cb997149127d4f0114b4f47b94b0d19790bad1e8c1aa392a58579dd092f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/model.patch",
+    "bytes": 1471,
+    "sha256": "91876685a1a2c98d2df2f53cb3e4214a050ce446953d45340c7d6b9ba4e8de57"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/dataset.json",
+    "bytes": 12486,
+    "sha256": "1e8c91b0b982ce834da13648edf061cb556326d9e98dc5096118bf34bd34ef72"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13579/eval.sh",
+    "bytes": 1997,
+    "sha256": "51ccc4eb0e0c7ee8c09936e689e5c5838dbe2d5cf3619ef40c749fd93382d364"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13579/patch.diff",
+    "bytes": 1471,
+    "sha256": "91876685a1a2c98d2df2f53cb3e4214a050ce446953d45340c7d6b9ba4e8de57"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13579/report.json",
+    "bytes": 5289,
+    "sha256": "154706edad18eb235df9d1ea127051a32b2fdc3512fd24e5b7dd34e01c66b7a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13579/run_instance.log",
+    "bytes": 9893,
+    "sha256": "334c84a69a409e3cac4333307052beae8538dc7393985d5c2e5e393bb19f9191"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-ideal/astropy__astropy-13579/test_output.txt",
+    "bytes": 281516,
+    "sha256": "6c64eb56673451fe653e4aa574e09c57e85d106f8b26836fe2b2cf9636e60750"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/prediction.json",
+    "bytes": 1628,
+    "sha256": "b2c64639aba1dbfdfa38c95ce73d4a35606ce31ef2a6bcba51440dab34f3fd7d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "6ca609627665268eb8e63bdd4b5ca8fcf0066c137d23ce9fd7738e0b2466cc93"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/official_eval/report.json",
+    "bytes": 4559,
+    "sha256": "dc5a551b64fdaf038b78cc647517deca32af2abed9ff7884a62c023bdcfd5d67"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/predictions.json",
+    "bytes": 1629,
+    "sha256": "5bb4b9d6872e28d162de8307841c0ff60649b062cfaba8f88fc9647b99fbd683"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/preflight.json",
+    "bytes": 1429,
+    "sha256": "31022a790cb70c5406618aa28f6e9d1b5a004da70a472dadbcc08c7e604718ac"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/result.json",
+    "bytes": 4905,
+    "sha256": "787bf7c85a10244b364997cce9ae18e995d067e16df13250d2139a81befc684c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/started.json",
+    "bytes": 71,
+    "sha256": "51d62901a1f348275b1731f4f96058e2fda9bbcb68c7f1e115f76c8135ca2528"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/task.txt",
+    "bytes": 6275,
+    "sha256": "0ace0f9547c2cec6c2ebf03e5da2a009a36fccb8dd6bb959253ec19e433495ce"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/tool_events.json",
+    "bytes": 126063,
+    "sha256": "184e92c2cab44cfd673a2db2fd4a25b3c5169cd4e55aa86e379ae12b918455c8"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/ideal/trajectory.json",
+    "bytes": 373181,
+    "sha256": "ba8f7dc183c6794c0ee75dd1f00a3fef9eba5835047f933d185526dd89c52312"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/answer_check.json",
+    "bytes": 904,
+    "sha256": "62ff1de34ac4d19015ec6f59e794d0294f17a98f69174c39d3e4d7dd1216cff9"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/checkpoint20.json",
+    "bytes": 1087,
+    "sha256": "35f147450e0d28fec05725aa0d3439965b3be68cc8b65ca5a60ea522dcb00ce3"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/dependencies.txt",
+    "bytes": 577,
+    "sha256": "abe879fd7e24972a77de7a095e362a218d8a4f08b9cb7251bd777d69f2619931"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/grader.console.log",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/001.request.json",
+    "bytes": 3279,
+    "sha256": "412715178120ad4797345ed259057a601472eaa28219bb2e65d76d833facabff"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/001.response.json",
+    "bytes": 1250,
+    "sha256": "8ece68e3382b54744122f5669ddce18eda7ba03dede53519718bebafa0d59048"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/002.request.json",
+    "bytes": 4222,
+    "sha256": "069a0f4b6ea734ea81012c68f01414ce0bae2915c090011603147c9f2a90c53b"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/002.response.json",
+    "bytes": 1226,
+    "sha256": "46a86062af04ef5ff046067ddaf30811b0f3be9851c96dd2b1e14d99d6a55d15"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/003.request.json",
+    "bytes": 4963,
+    "sha256": "a3c56648730022524390c9d49b37c44cfa2fd1766bdad6da3f4c1f14990c2fd1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/003.response.json",
+    "bytes": 1192,
+    "sha256": "61742794ed4d326e875328b2a5f4c7cb19444d10aa4246b5217fa6e58b17cb05"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/004.request.json",
+    "bytes": 17432,
+    "sha256": "d9814614426c7dfedcf0c14dca2226fd8304d79a04ef0cd7e1e4346b16b6113c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/004.response.json",
+    "bytes": 1463,
+    "sha256": "3c0ab081e842bf62a88115e68d5546f35b2db1e5e7c636fc321994a43a90f020"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/005.request.json",
+    "bytes": 19352,
+    "sha256": "a57b5d725053e910192febe2caba38688135c8aaf21b845eb61d26cef255d0c8"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/005.response.json",
+    "bytes": 1245,
+    "sha256": "bc5d77fe1c57c520c2d7c48b804e2ff53cdfed3e44611707a03dfc6deada4f65"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/006.request.json",
+    "bytes": 33086,
+    "sha256": "08723314a01bd8a06dddf275e502cd354525ce01bda6df804adf441492528a38"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/006.response.json",
+    "bytes": 3675,
+    "sha256": "6e85a227172afbd16af8a41e464d7b7256bbda8ab7b88da3b78200852cc1b218"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/007.request.json",
+    "bytes": 37655,
+    "sha256": "a6e7a14c5ad68f7531b9793c91929281487c34120da4034287ddbe9e23aa2d1a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/007.response.json",
+    "bytes": 1274,
+    "sha256": "593b768abb439176a58672270f195884fd463bb3f899806b5fa018ee4b5df298"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/008.request.json",
+    "bytes": 41103,
+    "sha256": "2d7d998da9ae6aa7dff28357a753552c6ee1023487ebf8cf5d2c2401474a1980"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/008.response.json",
+    "bytes": 4538,
+    "sha256": "26a06694c7480fa1438ca556164888dc8448aeba5b13be2aa7895e8661758d51"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/009.request.json",
+    "bytes": 45167,
+    "sha256": "76a6b88387f5a76e8cac2a7bfc080657810cefc54cd55849f197e2ddd1fdca5d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/009.response.json",
+    "bytes": 6753,
+    "sha256": "8f111ef852d759ec830fc9119dbd3cb2fdf477dbba4ffb0f27983b39205de990"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/010.request.json",
+    "bytes": 51388,
+    "sha256": "12947af649d624e5977a4f4211aea590cbef7a4a2582a29aaf6d24b52625e8d0"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/010.response.json",
+    "bytes": 5093,
+    "sha256": "7e9d2b7035ae84fc8a0d0b826b7d49e86a5d1f255348811b4a23258bfbc1479d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/011.request.json",
+    "bytes": 56006,
+    "sha256": "b0c10cb5eaadad9968ec0924f8e87e7b87f84581fa0e9627ec63f61da4e76498"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/011.response.json",
+    "bytes": 1332,
+    "sha256": "bb6700f2a60455f3cfe0b7b0d21739f647b9e99b7fe3c8aae9d5a753a87a70a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/012.request.json",
+    "bytes": 57546,
+    "sha256": "6760e3c8927889b0d000d8a76cbbf951bd434230cd1b1de3ea6800eeeb2a8cca"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/012.response.json",
+    "bytes": 1413,
+    "sha256": "151e202c3a1cb4b7cdd81fb01f71c73e3041a86f2c9533a5c8ba5e08d67faa2f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/013.request.json",
+    "bytes": 72876,
+    "sha256": "2650dd82baa308056afb36d68f0cb7070cc6dd8a64a14ed2a1ea84006bb259ed"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/013.response.json",
+    "bytes": 12253,
+    "sha256": "cae77473eaf6d72bd6f54ab091d3777dfc64a6f43cf373dd3a2dbda17235d341"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/014.request.json",
+    "bytes": 84719,
+    "sha256": "8be7645ab227e58d398aebac4850df68f242cec7cf7f67dd9e864cac9b1cf2b1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/014.response.json",
+    "bytes": 1320,
+    "sha256": "50d7b693bb3b6bc1aeaec33b09cfa4ec1ace57f4eb5431f86ca6a2b419c309d9"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/015.request.json",
+    "bytes": 92677,
+    "sha256": "47d451da09efac6ecbd428312c48018f581886bf0d7a61511c77450f65a3157f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/015.response.json",
+    "bytes": 3054,
+    "sha256": "15c6d77c481848a3a876c294ddaa8f6ab7ed984373c213f848fa71a46bf96b87"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/016.request.json",
+    "bytes": 96264,
+    "sha256": "57e5b105aae411099759cc02dc71ac3e62b1afbc817f5ccfe1bbe6b920d10fe3"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/016.response.json",
+    "bytes": 1425,
+    "sha256": "e1ab26c02e4e29946beaf44d1815f2dd94a95d7a05ef2089f3915c2480d76655"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/017.request.json",
+    "bytes": 105693,
+    "sha256": "3b7861e74eb8e916f937ef255e4b906b2abc9adba2f4e8533fb87ef94898badc"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/017.response.json",
+    "bytes": 1278,
+    "sha256": "fb385f2e45779fd05f407f22d920082bc0e14b706298ccd19bde69a586de68e8"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/018.request.json",
+    "bytes": 112722,
+    "sha256": "a683d2c5a87d723405bac318dcf1a98442353cdad94e53badb4a418e38d882e6"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/018.response.json",
+    "bytes": 1978,
+    "sha256": "ff1b232f3b1ccba70a9759d8e4c15a510f760ad585b4d27a963ddfe1ba291431"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/019.request.json",
+    "bytes": 114737,
+    "sha256": "6cbeca98ef2c33f2010c57ac4c69c2ec0c7670b41b40bb9b4f7ae5eec78297a1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/019.response.json",
+    "bytes": 1187,
+    "sha256": "801c7e93464fbf605ed63ea81b16eb20fb8ef901343da97ebe3466f876c8e770"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/020.request.json",
+    "bytes": 118553,
+    "sha256": "2e8838793d1d72e9ea20fddfad18862ba68cc8485090f5482e1c402ad1936be5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/020.response.json",
+    "bytes": 2360,
+    "sha256": "89ce004df8e825480152046d0af6bc4bfa1339ad5c6445916e7658cca62b1880"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/021.request.json",
+    "bytes": 120575,
+    "sha256": "d55004910ed96d2550ab78da087f7a29fe6653d8097eb833d03ee8ea8e50cb9e"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/021.response.json",
+    "bytes": 1301,
+    "sha256": "7e9add7c0811206afbf835a31c1a144acc50da2d8e58d55dc06c3f5b290a824c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/022.request.json",
+    "bytes": 121470,
+    "sha256": "dd19bf559d2e0b82336d86bd53658b4d7bedc102aedd38237fe3326bb92bed87"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/022.response.json",
+    "bytes": 9592,
+    "sha256": "aa1897d95dc843b356c5ae56828ea4a3183e4e8b75eb6c0068d703ed75838eb1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/023.request.json",
+    "bytes": 130587,
+    "sha256": "ffbea144b9a3282193ea395e6996ec893181fc44ef2a578b3a49968a3a838c07"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/023.response.json",
+    "bytes": 2026,
+    "sha256": "d1ea763518028d91efeca94c8c6454a200d1765ef2b2432c05b8ba91aca5be1a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/024.request.json",
+    "bytes": 132949,
+    "sha256": "414bb9400fd1822c72830dc72d6798059f08a2c284eb3aa98b17e1bfe21b5cd2"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/024.response.json",
+    "bytes": 1188,
+    "sha256": "8e962162f4e447431928b711bb31855c55be036c4cb29e417abc23355543dde0"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/025.request.json",
+    "bytes": 135584,
+    "sha256": "fa3890da93f6989484c7408a4792c1065807b3f9a9d739b445911529ba639eb5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/025.response.json",
+    "bytes": 5574,
+    "sha256": "4ffb3462c65c3bfd8ce185e5dead2a4456c3e719e9a98a1d875db6fee4d78fbc"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/026.request.json",
+    "bytes": 142729,
+    "sha256": "dea65a3bfc082a0ae94e6a60431ea0d3e84c693546bfaecf76d30ca0b219d8dc"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/026.response.json",
+    "bytes": 2221,
+    "sha256": "97ee18762a88a22a5e5de17dee66e0c89b495072d52db98da8188c2de4e4e150"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/027.request.json",
+    "bytes": 152424,
+    "sha256": "9289cd5cbdb158295f74de3338acc4a3199a09764a03887c64d9a47b0223df0f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/027.response.json",
+    "bytes": 1463,
+    "sha256": "d55cf7cb676abb70c4fe582d4f759e0fbe582c4ecb50a28ed78a700a03d939a1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/028.request.json",
+    "bytes": 160562,
+    "sha256": "dbd8cb5add9721c782391aa4cb2120cc81572b3d10051e50a08d29e54382953c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/028.response.json",
+    "bytes": 5266,
+    "sha256": "d38c3a75a38904ea3cbf77de446e6b8004390d34e36868f1404d94444a49a913"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/029.request.json",
+    "bytes": 165371,
+    "sha256": "ca0aef351db377b42a3c299ed9c15a48f1e63f41dfd12d54ad53e6863c11173a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/029.response.json",
+    "bytes": 10371,
+    "sha256": "cf0aaa4c8ff98f1a86f0d97e85642a5ee6c946beb67f5ce06a1fd89acbd1afdb"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/030.request.json",
+    "bytes": 177157,
+    "sha256": "4b2f2ffd992d98d170c35426bb354452143fa518ff305675507512fa6fc5aec6"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/030.response.json",
+    "bytes": 3144,
+    "sha256": "a1097d37b5c978cb3d56a8d5be16f9646b215b0f20f61b62445426bb38add58a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/031.request.json",
+    "bytes": 179889,
+    "sha256": "0d149738bed7cb352da3663ff5ad97cca7e63ac88e4dba3bc46f34a922d4b5d4"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/031.response.json",
+    "bytes": 4935,
+    "sha256": "c216b7893f25bb36641deba997eb8efbadd6c7a1958d806e5e988e226ec34192"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/032.request.json",
+    "bytes": 184549,
+    "sha256": "3609fded8d877ccf703020a5870ea9d005abe787fd27dbb1f36296de4bf00b64"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/032.response.json",
+    "bytes": 6162,
+    "sha256": "ad043ae51d24de83a51fef68cc847a9ddd313ff9c360ffc758a18d4621b2a7e4"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/033.request.json",
+    "bytes": 190138,
+    "sha256": "90ea4f7f1a7e73b7898c3a19e92e662dbd238835321ef99765a1078237078df5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/033.response.json",
+    "bytes": 9025,
+    "sha256": "593718cbfa7ed57a3c45988205625a9ff7f6bb65135e1beaa5f1dbe9650ff95d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/034.request.json",
+    "bytes": 208523,
+    "sha256": "91eb5bdf5dddf1b8e7077a4afe38eeee707fbb405b0e2ddc08ac14bfd94755c9"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/034.response.json",
+    "bytes": 5984,
+    "sha256": "41406f5fea26b711dfb47adc2e41e552830d07be186c4f7c576dfb86fce3046f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/035.request.json",
+    "bytes": 214194,
+    "sha256": "b9fd0294404a01c28b07f64a2f9a4dfe36b3b46c04bdb63ffc29b5127dd85c31"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/035.response.json",
+    "bytes": 2862,
+    "sha256": "4145c411adca2c9890e161ab6f1048be62fc0fd757347582dc83e3e1f1cd56b2"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/036.request.json",
+    "bytes": 217331,
+    "sha256": "31e2d0cb13d2e76a92bf680a26909f58f39a718baf4136c0d1a06a3f44631f77"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/036.response.json",
+    "bytes": 3360,
+    "sha256": "3583ea8cf6ec9e7fefbe51c61306fbe74a28ae08dfc8a78d683691d3f68a5714"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/037.request.json",
+    "bytes": 220832,
+    "sha256": "5baf241d6304fcf187198c03ffaaa8ed414c231c478da39dc65f5b6c6ddd260a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/037.response.json",
+    "bytes": 2625,
+    "sha256": "8601336234cd3b13293f9712e34da1b28b8b4ed02c13a02bca37b87a4c5a7685"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/038.request.json",
+    "bytes": 223849,
+    "sha256": "618615b8dfd1af79c8a8c86e0edf39d51ae8fdf3a4eb94d826364a362e5cee3b"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/038.response.json",
+    "bytes": 2486,
+    "sha256": "6fdfb3e556daa32fb72e69b89105895ba637219937ac4a6bff107b53f4a67e6a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/039.request.json",
+    "bytes": 225769,
+    "sha256": "020007b118a949925cf38e74882ae61cc95f3a573cf58e59e184cd47d5980790"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/039.response.json",
+    "bytes": 1194,
+    "sha256": "fb9ec56332e08d09a0e3857950ad19941fb645fb95a7db8a50c0c2847cfc3d8d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/040.request.json",
+    "bytes": 228408,
+    "sha256": "2c35fbd839bb4287a10bda762356d3fc67e6dad8c8af9b0cd52466e549ea7183"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/040.response.json",
+    "bytes": 1583,
+    "sha256": "91362dbfb7159cd8c2f238d8d9b5571d835b44b35770d30e8b729f22f36ada2d"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/041.request.json",
+    "bytes": 234792,
+    "sha256": "36d6cfea6dac201efa008631ff9d7a1ec34b45ab6108c8514aa3bf2e508142a0"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/041.response.json",
+    "bytes": 4886,
+    "sha256": "363047142c7db90c1ccdfb8de07481b2d8d9e44518c48517a46b9f29ca2a64eb"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/042.request.json",
+    "bytes": 239095,
+    "sha256": "c7498c26279bcb6314233ed01295cfce94623c39ea3bc9a3c3d084142901c524"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/042.response.json",
+    "bytes": 1937,
+    "sha256": "05483e37016c88e82c54808d275b8721d666c1c2daab248290f75cf93b319bae"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/043.request.json",
+    "bytes": 240450,
+    "sha256": "7dc61e2ab840b53648206c72a53ff71f1fc2e59c513d180859e4e106abf7e1f5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/043.response.json",
+    "bytes": 14016,
+    "sha256": "f9c34793546e7ce0011d061e79f37ffd6bbebda22bc4d352c924e22d8c743b2a"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/044.request.json",
+    "bytes": 253940,
+    "sha256": "ceeb34c53ae624e5b6ada0957ea28c32898af6aab375c81cd03b315ef5d8eb0c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/044.response.json",
+    "bytes": 1983,
+    "sha256": "188356e1cd551e0be8257e04539972cd95500aa29c60ecb5f5921391eaaf2297"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/045.request.json",
+    "bytes": 259080,
+    "sha256": "9e34dce8e5d1fd879c347a3d889a98dbf28c38cd400d9ebd178e35ab2cf3efa2"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/045.response.json",
+    "bytes": 5534,
+    "sha256": "f533b83ea58ae01768488386a890e507aecde8cf62ba7926f5ccc2d5e3e1136c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/046.request.json",
+    "bytes": 264304,
+    "sha256": "989c1a96d86189b331b6a47478c0763c70373882d1528bcb965666a2c2d62faf"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/046.response.json",
+    "bytes": 2156,
+    "sha256": "7d622889729b454855c27b661525f2df0a134888d409af977e0779faf4f4f9f5"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/047.request.json",
+    "bytes": 266098,
+    "sha256": "9a5d8bc3121114161d5d9c3b47bafc00594628bb274bf2b05f0cd514f8bdaf4e"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/http/047.response.json",
+    "bytes": 3770,
+    "sha256": "5fc32c100c75dce32a50964e66e9222e54b23c3e1826edd4d16b6986d830266e"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/input_manifest.json",
+    "bytes": 168,
+    "sha256": "20639ecb8d92388a910a15caf4a004b86bde07aa0f1ab75028b21570fc353393"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/model.patch",
+    "bytes": 1645,
+    "sha256": "1b143b028d9c02e877eda4955d2b776963994b1daae11cb72f7349b8161992ca"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/dataset.json",
+    "bytes": 12486,
+    "sha256": "1e8c91b0b982ce834da13648edf061cb556326d9e98dc5096118bf34bd34ef72"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13579/eval.sh",
+    "bytes": 1997,
+    "sha256": "51ccc4eb0e0c7ee8c09936e689e5c5838dbe2d5cf3619ef40c749fd93382d364"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13579/patch.diff",
+    "bytes": 1645,
+    "sha256": "1b143b028d9c02e877eda4955d2b776963994b1daae11cb72f7349b8161992ca"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13579/report.json",
+    "bytes": 5289,
+    "sha256": "154706edad18eb235df9d1ea127051a32b2fdc3512fd24e5b7dd34e01c66b7a7"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13579/run_instance.log",
+    "bytes": 10247,
+    "sha256": "abde88c6ce64c5696a55120e9d85aecf80fda3b1a2fe234c8b3127153dd50d48"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/logs/run_evaluation/cached-screen/mini-deepseek-cached-screen-partial/astropy__astropy-13579/test_output.txt",
+    "bytes": 281692,
+    "sha256": "716624846d1650e234ce05299c0a73a5aceca2419bd9b502dad8678e14afda5b"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/prediction.json",
+    "bytes": 1807,
+    "sha256": "a4028341a8d519e977c518226dcd306b567ce4be3bc540da4fa37beb4db10eab"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/provenance.json",
+    "bytes": 503,
+    "sha256": "6ca609627665268eb8e63bdd4b5ca8fcf0066c137d23ce9fd7738e0b2466cc93"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/official_eval/report.json",
+    "bytes": 4559,
+    "sha256": "dc5a551b64fdaf038b78cc647517deca32af2abed9ff7884a62c023bdcfd5d67"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/predictions.json",
+    "bytes": 1808,
+    "sha256": "4acf58425ec2d8a76ccde9979442f7e63184fb3ba0fb7f11d3f244b8f14b958f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/preflight.json",
+    "bytes": 1429,
+    "sha256": "e775e43623a80f7816cdf04c13f9544f7ccb453e64a3ff6f10a9fea49a20cedf"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/result.json",
+    "bytes": 4186,
+    "sha256": "aeaa0423abc20270e3375a6d448427dedc5879baec085cd10f6661df5f4410e1"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/started.json",
+    "bytes": 73,
+    "sha256": "62a393ef5b191b78fbd60a395aebde7feb6233ba3c5c1436ed6e8006dcac5b6f"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/task.txt",
+    "bytes": 1692,
+    "sha256": "2a832f7e9c0ca2496aeeb1c8d0de206be7f76533e2595627dcad830fa413d968"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/tool_events.json",
+    "bytes": 146680,
+    "sha256": "965c5cb4cbb394e94328ffae2995dc060e84d528fce6a6d71d91d425b3c6d70c"
+  },
+  {
+    "path": "runs/astropy__astropy-13579/partial/trajectory.json",
+    "bytes": 611869,
+    "sha256": "edfe581377c9d24afd7dadb525f7a55b933e2972e0af32f00edb5500c6a51e46"
+  },
+  {
+    "path": "summary.json",
+    "bytes": 203977,
+    "sha256": "633308f5717601c8f145ee8b4bb23661161b7f224deedc68a4e50ba31e06c6e9"
+  },
+  {
+    "path": "summary.tsv",
+    "bytes": 736,
+    "sha256": "f89168d91e81e3c02693d4affc3701efabc4eab1dda6e84a45fefb42f42b68c9"
+  }
+]

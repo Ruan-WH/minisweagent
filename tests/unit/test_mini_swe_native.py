@@ -108,6 +108,37 @@ def native_response(commands=None, content=None):
     )
 
 
+def test_standard_stop_text_final_is_opt_in_and_executes_no_tool(native_model, tmp_path):
+    response = native_response(content='Implemented the change. Focused checks passed.')
+    response.choices[0].finish_reason = 'stop'
+    with pytest.raises(FormatError):
+        native_model._parse_actions(response)
+    native_model.allow_text_final = True
+    assert native_model._parse_actions(response) == []
+    message = response.choices[0].message.model_dump()
+    message['extra'] = {'actions': [], 'response': response.model_dump()}
+    env = LocalEnvironment(cwd=str(tmp_path))
+    agent = AmbigAgent(native_model, env, system_template=NATIVE_SYSTEM, instance_template='{{task}}')
+    with pytest.raises(Submitted) as ended:
+        agent.execute_actions(message)
+    assert agent.n_tool_calls == 0
+    final = ended.value.messages[0]['extra']
+    assert final['exit_status'] == 'FinalResponse'
+    assert final['tests_passed_inferred'] is False
+    assert final['submission'] == response.choices[0].message.content
+
+
+@pytest.mark.parametrize(('content', 'finish'), [('', 'stop'), ('   ', 'stop'),
+                                               ('incomplete result', 'length'),
+                                               ('truncated tools', 'tool_calls')])
+def test_text_final_rejects_empty_or_truncated_response(native_model, content, finish):
+    native_model.allow_text_final = True
+    response = native_response(content=content)
+    response.choices[0].finish_reason = finish
+    with pytest.raises(FormatError):
+        native_model._parse_actions(response)
+
+
 @pytest.fixture
 def native_model(tmp_path):
     model = NativeBenchmarkModel(

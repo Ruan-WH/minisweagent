@@ -1,0 +1,1 @@
+There is an issue with the `TimeSeries` object where the exception message is unclear when a required column is removed. The error message does not accurately reflect the problem, leading to confusion about missing required columns.

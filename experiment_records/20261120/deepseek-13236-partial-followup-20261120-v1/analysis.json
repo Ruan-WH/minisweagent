@@ -1,0 +1,49 @@
+{
+  "instance_id": "astropy__astropy-13236",
+  "selected_by": "Explicit user-selected diagnostic; did not pass original candidate gate",
+  "model": "deepseek-flash",
+  "protocol": "native-v3-standard-stop-text-final",
+  "followups_used": 1,
+  "question": "What reproduction details or concrete example demonstrate adding a structured NumPy array to a table, and what behavior was expected?",
+  "answer": "The supplied source does not include a concrete reproduction example or steps showing a structured NumPy array being added to a table. It states only that currently “if you add a structured `np.array` to a Table, it gets turned into an `NdarrayMixin`,” and includes the relevant condition that structured arrays are viewed as a mixin unless already a valid mixin class or a `Column`.\n\nThe expected behavior is given only as a proposal: add a `FutureWarning` telling the user to wrap `data` in `Column`, and in the future (5.2) add the structured array as a `Column`. The source does not record a reproduced failing result or a separately stated expected outcome.",
+  "information_used": {
+    "evidence": "Tool10 adds FutureWarning and Column wording from public clarification; tools11/12 test and refine it",
+    "first_production_tool": 10,
+    "first_production_seconds": 31.97180184200988
+  },
+  "official_resolved": false,
+  "target_tests": {
+    "passed": 0,
+    "total": 2
+  },
+  "regression_tests": {
+    "passed": 644,
+    "total": 644
+  },
+  "solver_model_calls": 14,
+  "clarification_model_calls": 5,
+  "all_model_calls": 19,
+  "tool_calls": 14,
+  "tokens": {
+    "solver_wire": {
+      "prompt_tokens": 140494,
+      "completion_tokens": 7610,
+      "total_tokens": 148104,
+      "reasoning_tokens": 5615
+    },
+    "clarification_wire": {
+      "prompt_tokens": 4677,
+      "completion_tokens": 2399,
+      "total_tokens": 7076,
+      "reasoning_tokens": 1539
+    }
+  },
+  "total_tokens": 155180,
+  "solver_seconds": 59.231596426994656,
+  "worker_total_seconds": 79.80705232798937,
+  "source_scope": "Original issue only; no hints, full patch, gold or evaluation feedback",
+  "proxy_validation": "First candidate failed exact source-quote matching; second candidate passed local validation and grounding review",
+  "interpretation": "Recovered and implemented the original staged FutureWarning proposal. Later hints agree on immediate behavior change; proxy could not access that later decision. This trial cannot assess clarification with the full information source.",
+  "no_new_repair_after_grading": true,
+  "tool_protocol_fault": false
+}

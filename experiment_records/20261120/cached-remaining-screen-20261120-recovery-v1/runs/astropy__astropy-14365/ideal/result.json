@@ -1,0 +1,65 @@
+{
+  "instance_id": "astropy__astropy-14365",
+  "condition": "ideal",
+  "exit_status": "FinalResponse",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 8,
+  "agent_query_count": 8,
+  "clarification_model_calls": 0,
+  "all_model_calls": 8,
+  "tool_calls": 7,
+  "patch_bytes": 471,
+  "solver_elapsed_seconds": 19.52478772601171,
+  "total_elapsed_seconds": 23.623208500997862,
+  "first_production_change": {
+    "tool_call": 5,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/io/ascii/qdp.py')\ns = p.read_text()\ns = s.replace('    _line_type_re = re.compile(_type_re)\\n', '    _line_type_re = re.compile(_type_re, re.IGNORECASE)\\n')\np.write_text(s)\nPY\npython - <<'PY'\nfrom astropy.table import Table\nimport tempfile, os, warnings\np = tempfile.mktemp(suffix='.qdp')\nopen(p, 'w').write('read serr 1 2 \\n1 0.5 1 0.5\\n')\nt = Table.read(p, format='ascii.qdp')\nprint(t)\nprint(t.colnames)\nos.remove(p)\nPY\npytest -q astropy/io/ascii/tests/test_qdp.py",
+    "elapsed_start_seconds": 10.239025041009882,
+    "result": {
+      "output": "WARNING: table_id not specified. Reading the first available table [astropy.io.ascii.qdp]\ncol1 col1_err col2 col2_err\n---- -------- ---- --------\n   1      0.5    1      0.5\n['col1', 'col1_err', 'col2', 'col2_err']\n<frozen importlib._bootstrap>:228: RuntimeWarning: numpy.ndarray size changed, may indicate binary incompatibility. Expected 80 from C header, got 96 from PyObject\nInternet access disabled\n\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m.\u001b[0m\u001b[32m                                                                 [100%]\u001b[0m\n\u001b[32m\u001b[32m\u001b[1m8 passed\u001b[0m\u001b[32m in 0.03s\u001b[0m\u001b[0m\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 1.1637236829992617,
+    "tracked_changes": [
+      "astropy/io/ascii/qdp.py"
+    ]
+  },
+  "finished_at": "2026-11-20T07:56:37.701294+00:00",
+  "solver_wire": {
+    "http_requests": 8,
+    "http_responses": 8,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 41019,
+      "completion_tokens": 1545,
+      "total_tokens": 42564,
+      "reasoning_tokens": 465
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

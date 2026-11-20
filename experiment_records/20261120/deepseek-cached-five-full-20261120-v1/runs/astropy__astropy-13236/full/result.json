@@ -1,0 +1,76 @@
+{
+  "instance_id": "astropy__astropy-13236",
+  "condition": "full",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 19,
+  "agent_query_count": 19,
+  "clarification_model_calls": 0,
+  "all_model_calls": 19,
+  "tool_calls": 19,
+  "patch_bytes": 815,
+  "solver_elapsed_seconds": 71.50036662099592,
+  "total_elapsed_seconds": 76.97864659200422,
+  "first_production_change": {
+    "tool_call": 3,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/table/table.py')\ns = p.read_text()\nold = '''        # Structured ndarray gets viewed as a mixin unless already a valid\n        # mixin class\n        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n\n'''\nassert old in s\np.write_text(s.replace(old, ''))\nPY\npython - <<'PY'\nimport numpy as np\nfrom astropy.table import Table, Column, NdarrayMixin\na = np.array([(1, 'a'), (2, 'b')], dtype='<i4,U1')\nt = Table([a], names=['a'])\nprint(type(t['a']), type(t['a']) is Column)\nprint(t)\nprint(t['a'][1]['f0'], t['a'][1]['f1'])\nt['b'] = np.array([(10, 'aa'), (20, 'bb')], dtype=[('x','i4'),('y','U2')])\nprint(type(t['b']))\nprint(t.pformat(show_dtype=True))\nPY",
+    "elapsed_start_seconds": 7.6788376640033675,
+    "result": {
+      "output": "<class 'astropy.table.column.Column'> True\na [f0, f1]\n----------\n  (1, 'a')\n  (2, 'b')\n2 b\n<class 'astropy.table.column.Column'>\n['  a [f0, f1]     b [x, y]  ', '(int32, str1) (int32, str2)', '------------- -------------', \"     (1, 'a')    (10, 'aa')\", \"     (2, 'b')    (20, 'bb')\"]\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.5570676990028005,
+    "tracked_changes": [
+      "astropy/table/table.py"
+    ]
+  },
+  "finished_at": "2026-11-20T10:54:59.177097+00:00",
+  "solver_wire": {
+    "http_requests": 19,
+    "http_responses": 19,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 324274,
+      "completion_tokens": 9290,
+      "total_tokens": 333564,
+      "reasoning_tokens": 3620
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 0,
+    "http_responses": 0,
+    "http_statuses": [],
+    "returned_models": [],
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "reasoning_tokens": 0
+    }
+  }
+}

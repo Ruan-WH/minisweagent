@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "model_calls": 0,
+  "version": "2.0.13",
+  "cases": [
+    {
+      "instance_id": "astropy__astropy-13236",
+      "instance_image": "sweb.eval.x86_64.astropy__astropy-13236:latest",
+      "env_image": "sweb.env.x86_64.428468730904ff6b4232aa:latest",
+      "target_tests": 2,
+      "regression_tests": 644,
+      "eval_script_sha256": "7fdce61172e844f9fca8c73f96ece796c51da3f0ead04d423c4b0b590f04b10f"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "instance_id": "astropy__astropy-13236",
+  "condition": "followup",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 17,
+  "agent_query_count": 17,
+  "clarification_model_calls": 4,
+  "all_model_calls": 21,
+  "tool_calls": 17,
+  "patch_bytes": 815,
+  "solver_elapsed_seconds": 65.98405931099842,
+  "total_elapsed_seconds": 87.31390978800482,
+  "first_production_change": {
+    "tool_call": 8,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\np = Path('astropy/table/table.py')\ns = p.read_text()\ns = s.replace('from .ndarray_mixin import NdarrayMixin\\n', '')\nold = '''        # Structured ndarray gets viewed as a mixin unless already a valid\n        # mixin class\n        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n\n'''\nassert old in s\ns = s.replace(old, '')\np.write_text(s)\nPY\npython - <<'PY'\nimport numpy as np\nfrom astropy.table import Table, Column, NdarrayMixin\narr = np.array([(1, 'a'), (2, 'b')], dtype=[('x', 'i4'), ('y', 'U1')])\nt = Table()\nt['a'] = arr\nprint(type(t['a']), t['a'].dtype, t['a']['x'])\nt2 = Table([arr], names=['a'])\nprint(type(t2['a']), t2['a'].dtype)\n# Explicit NdarrayMixin remains supported\nt['b'] = arr.view(NdarrayMixin)\nprint(type(t['b']), t['b'].dtype)\nPY\ngit diff -- astropy/table/table.py",
+    "elapsed_start_seconds": 20.370557201007614,
+    "result": {
+      "output": "Traceback (most recent call last):\n  File \"<stdin>\", line 2, in <module>\n  File \"/testbed/astropy/table/__init__.py\", line 51, in <module>\n    from .table import (Table, QTable, TableColumns, Row, TableFormatter,\nImportError: cannot import name 'NdarrayMixin' from 'astropy.table.table' (/testbed/astropy/table/table.py)\ndiff --git a/astropy/table/table.py b/astropy/table/table.py\nindex 5afe212..13073f7 100644\n--- a/astropy/table/table.py\n+++ b/astropy/table/table.py\n@@ -32,7 +32,6 @@ from .row import Row\n from .info import TableInfo\n from .index import Index, _IndexModeContext, get_index\n from .connect import TableRead, TableWrite\n-from .ndarray_mixin import NdarrayMixin\n from .mixins.registry import get_mixin_handler\n from . import conf\n \n@@ -1239,13 +1238,6 @@ class Table:\n                                 f'{fully_qualified_name} '\n                                 'did not return a valid mixin column')\n \n-        # Structured ndarray gets viewed as a mixin unless already a valid\n-        # mixin class\n-        if (not isinstance(data, Column) and not data_is_mixin\n-                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n-            data = data.view(NdarrayMixin)\n-            data_is_mixin = True\n-\n         # Get the final column name using precedence.  Some objects may not\n         # have an info attribute. Also avoid creating info as a side effect.\n         if not name:\n",
+      "returncode": 0,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.4263454460015055,
+    "tracked_changes": [
+      "astropy/table/table.py"
+    ]
+  },
+  "finished_at": "2026-11-20T11:27:37.696279+00:00",
+  "solver_wire": {
+    "http_requests": 17,
+    "http_responses": 17,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 289539,
+      "completion_tokens": 7926,
+      "total_tokens": 297465,
+      "reasoning_tokens": 3873
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 4,
+    "http_responses": 4,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 3760,
+      "completion_tokens": 2456,
+      "total_tokens": 6216,
+      "reasoning_tokens": 2170
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "instance_id": "astropy__astropy-13236",
+  "condition": "followup",
+  "exit_status": "Submitted",
+  "errors": [],
+  "execution_fault": false,
+  "model_calls": 14,
+  "agent_query_count": 14,
+  "clarification_model_calls": 5,
+  "all_model_calls": 19,
+  "tool_calls": 14,
+  "patch_bytes": 800,
+  "solver_elapsed_seconds": 59.231596426994656,
+  "total_elapsed_seconds": 79.80705232798937,
+  "first_production_change": {
+    "tool_call": 10,
+    "command": "cd /testbed && python - <<'PY'\nfrom pathlib import Path\npath = Path('astropy/table/table.py')\ntext = path.read_text()\nold = '''        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n'''\nnew = '''        if (not isinstance(data, Column) and not data_is_mixin\n                and isinstance(data, np.ndarray) and len(data.dtype) > 1):\n            warnings.warn(\n                \"Structured array is being converted to a NdarrayMixin column. \"\n                \"This behavior is deprecated and will change in a future \"\n                \"version of astropy. To avoid this warning, wrap the data in a \"\n                \"Column or use `Table(data)` instead.\",\n                FutureWarning,\n                stacklevel=2,\n            )\n            data = data.view(NdarrayMixin)\n            data_is_mixin = True\n'''\nassert old in text\npath.write_text(text.replace(old, new))\nPY\npython - <<'PY'\nimport warnings\nimport numpy as np\nfrom astropy.table import Table, Column, NdarrayMixin\n\na = np.array([(1, 'a'), (2, 'b')], dtype=[('x', 'i4'), ('y', 'U1')])\nfor action in (lambda: Table([a]), lambda: Table()):\n    with warnings.catch_warnings(record=True) as w:\n        warnings.simplefilter('always')\n        t = action()\n        if not t.colnames:\n            t['a'] = a\n    print([(str(x.message), x.category.__name__) for x in w])\n    print(type(t['a']))\n\nwith warnings.catch_warnings(record=True) as w:\n    warnings.simplefilter('always')\n    t = Table([Column(a, name='a')])\nprint('explicit col warnings:', w, type(t['a']))\n\nwith warnings.catch_warnings(record=True) as w:\n    warnings.simplefilter('always')\n    t = Table([a.view(NdarrayMixin)], names=['a'])\nprint('mixin warnings:', w, type(t['a']))\nPY",
+    "elapsed_start_seconds": 31.457170312001836,
+    "result": {
+      "output": "[('Structured array is being converted to a NdarrayMixin column. This behavior is deprecated and will change in a future version of astropy. To avoid this warning, wrap the data in a Column or use `Table(data)` instead.', 'FutureWarning')]\nTraceback (most recent call last):\n  File \"<stdin>\", line 13, in <module>\n  File \"/testbed/astropy/table/table.py\", line 1887, in __getitem__\n    return self.columns[item]\n  File \"/testbed/astropy/table/table.py\", line 246, in __getitem__\n    return OrderedDict.__getitem__(self, item)\nKeyError: 'a'\n",
+      "returncode": 1,
+      "exception_info": ""
+    },
+    "duration_seconds": 0.514631530008046,
+    "tracked_changes": [
+      "astropy/table/table.py"
+    ]
+  },
+  "finished_at": "2026-11-20T11:13:29.047647+00:00",
+  "solver_wire": {
+    "http_requests": 14,
+    "http_responses": 14,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 140494,
+      "completion_tokens": 7610,
+      "total_tokens": 148104,
+      "reasoning_tokens": 5615
+    }
+  },
+  "clarification_wire": {
+    "http_requests": 5,
+    "http_responses": 5,
+    "http_statuses": [
+      200,
+      200,
+      200,
+      200,
+      200
+    ],
+    "returned_models": [
+      "deepseek-flash"
+    ],
+    "usage": {
+      "prompt_tokens": 4677,
+      "completion_tokens": 2399,
+      "total_tokens": 7076,
+      "reasoning_tokens": 1539
+    }
+  }
+}
