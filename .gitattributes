@@ -1,1 +1,4 @@
 *.ipynb linguist-vendored
+
+# Preserve archived experimental inputs/patches byte-for-byte, including CRLF.
+experiment_records/** -text -whitespace
