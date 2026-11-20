@@ -1,0 +1,13 @@
+# Python 3.11+; versions used by the validated adapter environment
+-e ./vendor/mini-swe-agent
+docker==7.1.0
+openai==3.55.1
+httpx==0.28.1
+litellm==1.110.1
+pandas==2.2.3
+openpyxl==3.1.5
+pydantic==2.14.3
+jinja2==3.1.6
+tenacity==9.0.0
+rich==15.0.0
+pytest==8.3.4

@@ -1,0 +1,29 @@
+# Copy to config.toml and fill credentials locally; config.toml is ignored.
+
+[llm.hidden_deepseek_flash]
+model = "openai/deepseek-flash"
+base_url = "https://api.deepseek.com/v1"
+api_key = "YOUR_DEEPSEEK_API_KEY"
+temperature = 0.0
+top_p = 1.0
+max_input_tokens = 1000000
+max_output_tokens = 16384
+native_tool_calling = false
+disable_vision = true
+num_retries = 2
+timeout = 180
+
+[llm.hidden_qwen_coder]
+model = "openai/qwen3-coder-flash"
+base_url = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+api_key = "YOUR_DASHSCOPE_API_KEY"
+native_tool_calling = true
+disable_vision = true
+caching_prompt = false
+modify_params = false
+temperature = 0.0
+top_p = 1.0
+max_input_tokens = 131072
+max_output_tokens = 8192
+timeout = 180
+num_retries = 3

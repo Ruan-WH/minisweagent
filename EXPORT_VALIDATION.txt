@@ -1,0 +1,5 @@
+Export validation: 2026-11-20 Asia/Shanghai
+11 adapter unit tests passed using vendored mini source.
+Staged files scanned for configured API credentials: no hits.
+config.toml, experiment outputs, virtual environments and original Git metadata excluded.
+Remote was empty before first push.
